@@ -247,6 +247,7 @@ def ics_erzeugen(termine, stand):
     benutzt = {}
     for t in sorted(termine, key=lambda t: (t["von"], t["bis"], " ".join(t["titel"]))):
         titel = " – ".join(t["titel"]) or "Termin"
+        anzeige = f"{t['ausrichter']}: {titel}" if t["ausrichter"] and not t["ausrichter"].startswith("Meldung") else titel  # Schema: <Ausrichter>: <Turniername>
         schluessel = f"{t['von']}|{titel}|{t['ort']}"
         n = benutzt.get(schluessel, 0)
         benutzt[schluessel] = n + 1
@@ -269,7 +270,7 @@ def ics_erzeugen(termine, stand):
             f"DTSTAMP:{stempel}",
             f"DTSTART;VALUE=DATE:{t['von']:%Y%m%d}",
             f"DTEND;VALUE=DATE:{t['bis'] + timedelta(days=1):%Y%m%d}",
-            f"SUMMARY:{ics_text(titel)}",
+            f"SUMMARY:{ics_text(anzeige)}",
         ]
         if t["ort"]:
             zeilen.append(f"LOCATION:{ics_text(t['ort'])}")

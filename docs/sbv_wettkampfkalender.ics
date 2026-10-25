@@ -15,7 +15,7 @@ UID:f92d10088226088c3378@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20260214
 DTEND;VALUE=DATE:20260215
-SUMMARY:3D Linienturnier
+SUMMARY:Radeberger SV: 3D Linienturnier
 LOCATION:Radeberg
 DESCRIPTION:Ort: Radeberg\nAusrichter: Radeberger SV\nQuelle: Wettkampfkale
  nder des SBV (Stand 31.03.2026)
@@ -26,7 +26,7 @@ UID:2a564b699ae797b832b2@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20260315
 DTEND;VALUE=DATE:20260316
-SUMMARY:Meldeschluß für die Landesligen Rc + BOV
+SUMMARY:SBV: Meldeschluß für die Landesligen Rc + BOV
 DESCRIPTION:Klassen/Hinweis: Mldg.an Ligaverantwortlichen\nAusrichter: SBV\
  nQuelle: Wettkampfkalender des SBV (Stand 31.03.2026)
 TRANSP:TRANSPARENT
@@ -36,7 +36,7 @@ UID:81a705ead88ffb1263ba@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20260327
 DTEND;VALUE=DATE:20260330
-SUMMARY:Familienbogenfreizeit
+SUMMARY:SBV: Familienbogenfreizeit
 LOCATION:Papstdorf
 DESCRIPTION:Ort: Papstdorf\nKlassen/Hinweis: Meldung bis 28.02.2026\nAusric
  hter: SBV\nQuelle: Wettkampfkalender des SBV (Stand 31.03.2026)
@@ -47,7 +47,7 @@ UID:69626cf4d6f507fa4547@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20260328
 DTEND;VALUE=DATE:20260330
-SUMMARY:Traineraus- und Weiterbildung Teil 1
+SUMMARY:SBV: Traineraus- und Weiterbildung Teil 1
 LOCATION:Papstdorf
 DESCRIPTION:Ort: Papstdorf\nKlassen/Hinweis: Meldung bis 28.02.2026\nAusric
  hter: SBV\nQuelle: Wettkampfkalender des SBV (Stand 31.03.2026)
@@ -58,7 +58,7 @@ UID:b14e30d9f51556a3746d@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20260410
 DTEND;VALUE=DATE:20260413
-SUMMARY:Familienbogenfreizeit
+SUMMARY:SBV: Familienbogenfreizeit
 LOCATION:Papstdorf
 DESCRIPTION:Ort: Papstdorf\nKlassen/Hinweis: Meldung bis 28.02.2026\nAusric
  hter: SBV\nQuelle: Wettkampfkalender des SBV (Stand 31.03.2026)
@@ -69,7 +69,7 @@ UID:9193dde221f817e766c4@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20260411
 DTEND;VALUE=DATE:20260413
-SUMMARY:Traineraus- und Weiterbildung Teil 2
+SUMMARY:SBV: Traineraus- und Weiterbildung Teil 2
 LOCATION:Papstdorf
 DESCRIPTION:Ort: Papstdorf\nKlassen/Hinweis: Meldung bis 28.02.2026\nAusric
  hter: SBV\nQuelle: Wettkampfkalender des SBV (Stand 31.03.2026)
@@ -80,7 +80,8 @@ UID:29fe270a769e721e3175@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20260425
 DTEND;VALUE=DATE:20260426
-SUMMARY:Sachsenmeisterschaft offen Feld/Wald – FeWa - 2 x 12 Scheiben
+SUMMARY:SBV: Sachsenmeisterschaft offen Feld/Wald – FeWa - 2 x 12 Scheibe
+ n
 LOCATION:Glauchau
 DESCRIPTION:Ort: Glauchau\nKlassen/Hinweis: alle Klassen\nAusrichter: SBV\n
  Sterne berechtigt\nQuelle: Wettkampfkalender des SBV (Stand 31.03.2026)
@@ -100,7 +101,7 @@ UID:e043017bfd30dd5ee77c@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20260501
 DTEND;VALUE=DATE:20260502
-SUMMARY:Maipokal 2 x 70 m
+SUMMARY:Döbelner BS 72: Maipokal 2 x 70 m
 LOCATION:Döbeln
 DESCRIPTION:Ort: Döbeln\nKlassen/Hinweis: alle Klassen\nAusrichter: Döbel
  ner BS 72\nQuelle: Wettkampfkalender des SBV (Stand 31.03.2026)
@@ -111,7 +112,7 @@ UID:f8c21e45f9f8fca4208f@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20260502
 DTEND;VALUE=DATE:20260504
-SUMMARY:Sachsenmeisterschaft offen – 3-D Wald- + Jagdrunde
+SUMMARY:SBV: Sachsenmeisterschaft offen – 3-D Wald- + Jagdrunde
 LOCATION:Bischheim
 DESCRIPTION:Ort: Bischheim\nKlassen/Hinweis: alle Klassen\nAusrichter: SBV\
  nSterne berechtigt\nQuelle: Wettkampfkalender des SBV (Stand 31.03.2026)
@@ -133,7 +134,7 @@ UID:e6461b6c24c1e6647f77@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20260510
 DTEND;VALUE=DATE:20260511
-SUMMARY:1. Runde Landesliga\, 30m BoV
+SUMMARY:SBV: 1. Runde Landesliga\, 30m BoV
 LOCATION:Döbeln
 DESCRIPTION:Ort: Döbeln\nKlassen/Hinweis: Mannsch. gem Meldung\nAusrichter
  : SBV\nQuelle: Wettkampfkalender des SBV (Stand 31.03.2026)
@@ -165,7 +166,8 @@ UID:383593dca3c1caf28b1d@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20260530
 DTEND;VALUE=DATE:20260531
-SUMMARY:35. Pokal - Wettkampf – Dresdner Bogenschütze FITA Runde
+SUMMARY:Dresdner BV: 35. Pokal - Wettkampf – Dresdner Bogenschütze FITA 
+ Runde
 LOCATION:Dresden
 DESCRIPTION:Ort: Dresden\nKlassen/Hinweis: alle Klassen\nAusrichter: Dresdn
  er BV\nRanglistenturnier\nSterne berechtigt\nQuelle: Wettkampfkalender des
@@ -177,7 +179,7 @@ UID:41b95997e57d0c017292@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20260530
 DTEND;VALUE=DATE:20260601
-SUMMARY:Rabensteiner Bogenjagd
+SUMMARY:BSC Chemnitz-Rabenstein: Rabensteiner Bogenjagd
 LOCATION:Chemnitz
 DESCRIPTION:Ort: Chemnitz\nKlassen/Hinweis: alle Klassen\nAusrichter: BSC C
  hemnitz-Rabenstein\nSterne berechtigt\nQuelle: Wettkampfkalender des SBV (
@@ -189,7 +191,7 @@ UID:1051097836ab6724d648@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20260531
 DTEND;VALUE=DATE:20260601
-SUMMARY:1. Runde Landesliga\, 50m Rc
+SUMMARY:SBV: 1. Runde Landesliga\, 50m Rc
 LOCATION:Dresden
 DESCRIPTION:Ort: Dresden\nKlassen/Hinweis: Mannsch. gem Meldung\nAusrichter
  : SBV\nQuelle: Wettkampfkalender des SBV (Stand 31.03.2026)
@@ -200,7 +202,7 @@ UID:c54fcea1a3bbd7587fb8@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20260605
 DTEND;VALUE=DATE:20260608
-SUMMARY:Verbandspokal der Jugend
+SUMMARY:DBSV: Verbandspokal der Jugend
 LOCATION:Lindach (BY)
 DESCRIPTION:Ort: Lindach (BY)\nKlassen/Hinweis: Nominierung durch SBV\nAusr
  ichter: DBSV\nRanglistenturnier\nSterne berechtigt\nQuelle: Wettkampfkalen
@@ -212,8 +214,8 @@ UID:311e9f4b6120a8398ab2@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20260606
 DTEND;VALUE=DATE:20260607
-SUMMARY:30. Leipziger Preisgeldturnier – 144er- Runde + Olympische Runde 
- 2x36
+SUMMARY:SG MoGoNo Leipzig: 30. Leipziger Preisgeldturnier – 144er- Runde 
+ + Olympische Runde 2x36
 LOCATION:Leipzig
 DESCRIPTION:Ort: Leipzig\nKlassen/Hinweis: alle Klassen\nAusrichter: SG MoG
  oNo Leipzig\nRanglistenturnier\nSterne berechtigt\nQuelle: Wettkampfkalend
@@ -225,7 +227,7 @@ UID:df4c776a60860c51e6f9@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20260606
 DTEND;VALUE=DATE:20260607
-SUMMARY:Dreiländereck- Pokalwettkampf 144er- Runde
+SUMMARY:OSV Zittau: Dreiländereck- Pokalwettkampf 144er- Runde
 LOCATION:Zittau
 DESCRIPTION:Ort: Zittau\nKlassen/Hinweis: alle Klassen\nAusrichter: OSV Zit
  tau\nRanglistenturnier\nSterne berechtigt\nQuelle: Wettkampfkalender des S
@@ -237,7 +239,7 @@ UID:800cf8f12a55eb2d98cc@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20260606
 DTEND;VALUE=DATE:20260607
-SUMMARY:offene Vereinsmeisterschaft/ Zwickiade
+SUMMARY:BSC Glauchau: offene Vereinsmeisterschaft/ Zwickiade
 LOCATION:Glauchau
 DESCRIPTION:Ort: Glauchau\nKlassen/Hinweis: alle Klassen\nAusrichter: BSC G
  lauchau\nRanglistenturnier\nSterne berechtigt\nQuelle: Wettkampfkalender d
@@ -249,7 +251,7 @@ UID:6cb1356fcde884c2eb70@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20260607
 DTEND;VALUE=DATE:20260608
-SUMMARY:2. Runde Landesliga BoV
+SUMMARY:SBV: 2. Runde Landesliga BoV
 LOCATION:Glauchau
 DESCRIPTION:Ort: Glauchau\nKlassen/Hinweis: Mannsch. gem Meldung\nAusrichte
  r: SBV\nQuelle: Wettkampfkalender des SBV (Stand 31.03.2026)
@@ -271,7 +273,7 @@ UID:8ae4e8f09b5bdda23f01@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20260613
 DTEND;VALUE=DATE:20260614
-SUMMARY:Bogenjagd im Steegenwald
+SUMMARY:BSV Seifersdorf: Bogenjagd im Steegenwald
 LOCATION:Seifersdorf
 DESCRIPTION:Ort: Seifersdorf\nKlassen/Hinweis: alle Klassen\nAusrichter: BS
  V Seifersdorf\nQuelle: Wettkampfkalender des SBV (Stand 31.03.2026)
@@ -282,7 +284,7 @@ UID:407e4d56befafd5d2280@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20260613
 DTEND;VALUE=DATE:20260614
-SUMMARY:Bogenlauf Cup
+SUMMARY:BSC Chemnitz-Rabenstein: Bogenlauf Cup
 LOCATION:Chemnitz-Rabenstein
 DESCRIPTION:Ort: Chemnitz-Rabenstein\nAusrichter: BSC Chemnitz-Rabenstein\n
  Quelle: Wettkampfkalender des SBV (Stand 31.03.2026)
@@ -293,7 +295,7 @@ UID:6a909d903e147b39047a@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20260613
 DTEND;VALUE=DATE:20260614
-SUMMARY:Kinder und Jugendspiele
+SUMMARY:Dresdner BV: Kinder und Jugendspiele
 LOCATION:Dresden
 DESCRIPTION:Ort: Dresden\nKlassen/Hinweis: Kinder und Jugend\nAusrichter: D
  resdner BV\nQuelle: Wettkampfkalender des SBV (Stand 31.03.2026)
@@ -304,7 +306,7 @@ UID:eac074390cf9500a26a6@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20260613
 DTEND;VALUE=DATE:20260614
-SUMMARY:Schlossturnier 3D freies Turnier
+SUMMARY:SV Koweg Görlitzz: Schlossturnier 3D freies Turnier
 LOCATION:Krobnitz
 DESCRIPTION:Ort: Krobnitz\nKlassen/Hinweis: alle Bogenklassen\nAusrichter: 
  SV Koweg Görlitzz\nQuelle: Wettkampfkalender des SBV (Stand 31.03.2026)
@@ -326,7 +328,7 @@ UID:42763e6286b1aa698b3f@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20260614
 DTEND;VALUE=DATE:20260615
-SUMMARY:Chemnitz Masters
+SUMMARY:BSC Chemnitz-Rabenstein: Chemnitz Masters
 LOCATION:Chemnitz-Rabenstein
 DESCRIPTION:Ort: Chemnitz-Rabenstein\nKlassen/Hinweis: alle Klassen\nAusric
  hter: BSC Chemnitz-Rabenstein\nRanglistenturnier\nSterne berechtigt\nQuell
@@ -347,7 +349,7 @@ UID:6754267c0acbfe3a72ab@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20260620
 DTEND;VALUE=DATE:20260621
-SUMMARY:Sachsenmeisterschaft – FITA - Runde
+SUMMARY:SBV: Sachsenmeisterschaft – FITA - Runde
 LOCATION:Leipzig
 DESCRIPTION:Ort: Leipzig\nKlassen/Hinweis: alle AK\, alle Bogenklassen\nAus
  richter: SBV\nRanglistenturnier\nSterne berechtigt\nQuelle: Wettkampfkalen
@@ -359,7 +361,7 @@ UID:1166cae0d6f4c51a1d0d@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20260627
 DTEND;VALUE=DATE:20260628
-SUMMARY:Windbergturnier lt. Ausschreibung
+SUMMARY:SC Freital: Windbergturnier lt. Ausschreibung
 LOCATION:Freital
 DESCRIPTION:Ort: Freital\nKlassen/Hinweis: alle Klassen\nAusrichter: SC Fre
  ital\nQuelle: Wettkampfkalender des SBV (Stand 31.03.2026)
@@ -370,7 +372,7 @@ UID:7eb9a423b1fbbed0253c@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20260628
 DTEND;VALUE=DATE:20260629
-SUMMARY:2. Runde Landesliga\, Rc
+SUMMARY:SBV: 2. Runde Landesliga\, Rc
 LOCATION:Freital
 DESCRIPTION:Ort: Freital\nKlassen/Hinweis: Mannsch. gem Meldung\nAusrichter
  : SBV\nQuelle: Wettkampfkalender des SBV (Stand 31.03.2026)
@@ -381,7 +383,7 @@ UID:881c2631817e5a4ec048@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20260703
 DTEND;VALUE=DATE:20260706
-SUMMARY:Traineraus- und -fortbildung
+SUMMARY:SBV: Traineraus- und -fortbildung
 LOCATION:Papstdorf
 DESCRIPTION:Ort: Papstdorf\nKlassen/Hinweis: Meldung bis 01.05.2026\nAusric
  hter: SBV\nQuelle: Wettkampfkalender des SBV (Stand 31.03.2026)
@@ -392,7 +394,7 @@ UID:c65a8348c462ef2470fe@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20260703
 DTEND;VALUE=DATE:20260707
-SUMMARY:Trainingslager des SBV U12-U18
+SUMMARY:SBV: Trainingslager des SBV U12-U18
 LOCATION:Papstdorf
 DESCRIPTION:Ort: Papstdorf\nKlassen/Hinweis: Meldung bis 01.05.2026\nAusric
  hter: SBV\nQuelle: Wettkampfkalender des SBV (Stand 31.03.2026)
@@ -403,7 +405,7 @@ UID:0f8ecd34e5619c436303@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20260718
 DTEND;VALUE=DATE:20260719
-SUMMARY:22. Kurbadpokal
+SUMMARY:FCE Aue: 22. Kurbadpokal
 LOCATION:Schlema
 DESCRIPTION:Ort: Schlema\nKlassen/Hinweis: alle Klassen\nAusrichter: FCE Au
  e\nRanglistenturnier\nSterne berechtigt\nQuelle: Wettkampfkalender des SBV
@@ -415,7 +417,7 @@ UID:3ed5473f604f90f25b02@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20260808
 DTEND;VALUE=DATE:20260809
-SUMMARY:15. Plauener 900er Runde
+SUMMARY:BSV Plauen: 15. Plauener 900er Runde
 LOCATION:Plauen
 DESCRIPTION:Ort: Plauen\nKlassen/Hinweis: alle Klassen\nAusrichter: BSV Pla
  uen\nQuelle: Wettkampfkalender des SBV (Stand 31.03.2026)
@@ -426,7 +428,7 @@ UID:7f8b2f74ba1fe5f6538d@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20260815
 DTEND;VALUE=DATE:20260817
-SUMMARY:Deutsche Meisterschaft 3-D
+SUMMARY:DBSV: Deutsche Meisterschaft 3-D
 LOCATION:Eichenzell (HE) ?
 DESCRIPTION:Ort: Eichenzell (HE) ?\nKlassen/Hinweis: alle Klassen\, nach No
  minierung\nAusrichter: DBSV\nSterne berechtigt\nQuelle: Wettkampfkalender 
@@ -438,7 +440,7 @@ UID:a3dd4fa2004bd4356a7c@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20260822
 DTEND;VALUE=DATE:20260824
-SUMMARY:Deutsche Meisterschaft D+H+AK
+SUMMARY:DBSV: Deutsche Meisterschaft D+H+AK
 LOCATION:Schwedt (BB)
 DESCRIPTION:Ort: Schwedt (BB)\nKlassen/Hinweis: AK\, Rc+ Cu\, nach Nominier
  ung\nAusrichter: DBSV\nRanglistenturnier\nSterne berechtigt\nQuelle: Wettk
@@ -450,7 +452,7 @@ UID:0c2b9a8d4968650259db@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20260829
 DTEND;VALUE=DATE:20260831
-SUMMARY:Deutsche Meisterschaft Bögen ohne Visier
+SUMMARY:DBSV: Deutsche Meisterschaft Bögen ohne Visier
 LOCATION:Rostock
 DESCRIPTION:Ort: Rostock\nKlassen/Hinweis: ohne Visier\nAusrichter: DBSV\nR
  anglistenturnier\nSterne berechtigt\nQuelle: Wettkampfkalender des SBV (St
@@ -462,7 +464,7 @@ UID:24a8c7c4917484e51825@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20260905
 DTEND;VALUE=DATE:20260907
-SUMMARY:Deutsche Feld- und Waldmeisterschaft
+SUMMARY:DBSV: Deutsche Feld- und Waldmeisterschaft
 LOCATION:Schwarzenborn (HE)
 DESCRIPTION:Ort: Schwarzenborn (HE)\nKlassen/Hinweis: alle Klassen\, nach N
  ominierung\nAusrichter: DBSV\nSterne berechtigt\nQuelle: Wettkampfkalender
@@ -474,7 +476,7 @@ UID:ff7e621f727a05cf3307@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260914
-SUMMARY:Deutsche Jugendmeisterschaft
+SUMMARY:DBSV: Deutsche Jugendmeisterschaft
 LOCATION:Weißensee (TH)
 DESCRIPTION:Ort: Weißensee (TH)\nKlassen/Hinweis: U12 - U18\, nach Nominie
  rung\nAusrichter: DBSV\nRanglistenturnier\nSterne berechtigt\nQuelle: Wett
@@ -486,7 +488,7 @@ UID:89bb56d531707a1df78e@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20260921
-SUMMARY:Familienbogenfreizeit
+SUMMARY:SBV: Familienbogenfreizeit
 LOCATION:Papstdorf
 DESCRIPTION:Ort: Papstdorf\nKlassen/Hinweis: Meldung bis 31.07.2026\nAusric
  hter: SBV\nQuelle: Wettkampfkalender des SBV (Stand 31.03.2026)
@@ -497,7 +499,7 @@ UID:4902ae8c40a6f11d4977@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20260919
 DTEND;VALUE=DATE:20260920
-SUMMARY:Radeberger Nachtpokal
+SUMMARY:Radeberger SV: Radeberger Nachtpokal
 LOCATION:Radeberg
 DESCRIPTION:Ort: Radeberg\nKlassen/Hinweis: alle Klassen\nAusrichter: Radeb
  erger SV\nQuelle: Wettkampfkalender des SBV (Stand 31.03.2026)
@@ -508,7 +510,7 @@ UID:4788237b3dd0ca115fbf@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20260919
 DTEND;VALUE=DATE:20260921
-SUMMARY:Deutsche Meisterschaft im Bogenlaufen
+SUMMARY:DBSV: Deutsche Meisterschaft im Bogenlaufen
 LOCATION:Bürstadt (HE)
 DESCRIPTION:Ort: Bürstadt (HE)\nKlassen/Hinweis: gem. Ausschreibung\nAusri
  chter: DBSV\nQuelle: Wettkampfkalender des SBV (Stand 31.03.2026)
@@ -519,7 +521,7 @@ UID:eb9422bdee9a1ede477d@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20260919
 DTEND;VALUE=DATE:20260921
-SUMMARY:Traineraus- und Weiterbildung Teil 3 mit Prüfung
+SUMMARY:SBV: Traineraus- und Weiterbildung Teil 3 mit Prüfung
 LOCATION:Papstdorf
 DESCRIPTION:Ort: Papstdorf\nKlassen/Hinweis: Meldung bis 31.07.2026\nAusric
  hter: SBV\nQuelle: Wettkampfkalender des SBV (Stand 31.03.2026)
@@ -530,7 +532,7 @@ UID:39930d141edeb83a0713@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20260920
 DTEND;VALUE=DATE:20260921
-SUMMARY:Aufstiegsturnier zur Bundesliga
+SUMMARY:DBSV: Aufstiegsturnier zur Bundesliga
 LOCATION:Glauchau
 DESCRIPTION:Ort: Glauchau\nAusrichter: DBSV\nQuelle: Wettkampfkalender des 
  SBV (Stand 31.03.2026)
@@ -541,7 +543,7 @@ UID:b7800a0f1bcc78fea7b1@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20260920
 DTEND;VALUE=DATE:20260921
-SUMMARY:Glauchauer 900er Runde
+SUMMARY:BSC Glauchau: Glauchauer 900er Runde
 LOCATION:Glauchau
 DESCRIPTION:Ort: Glauchau\nAusrichter: BSC Glauchau\nQuelle: Wettkampfkalen
  der des SBV (Stand 31.03.2026)
@@ -552,7 +554,7 @@ UID:a2c48a4f07efb328f317@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20260927
 DTEND;VALUE=DATE:20260928
-SUMMARY:Meldeschluß Landesliga Rc + BoV
+SUMMARY:SBV: Meldeschluß Landesliga Rc + BoV
 DESCRIPTION:Klassen/Hinweis: Meldung an Ligaverantwortliche\nAusrichter: SB
  V\nQuelle: Wettkampfkalender des SBV (Stand 31.03.2026)
 TRANSP:TRANSPARENT
@@ -562,7 +564,7 @@ UID:e69a695597e4a4676322@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20261017
 DTEND;VALUE=DATE:20261018
-SUMMARY:Geschäftsbereichssitzung des DBSV
+SUMMARY:DBSV: Geschäftsbereichssitzung des DBSV
 LOCATION:Oberaula (HE)
 DESCRIPTION:Ort: Oberaula (HE)\nAusrichter: DBSV\nQuelle: Wettkampfkalender
   des SBV (Stand 31.03.2026)
@@ -582,7 +584,7 @@ UID:92b695c3f1d1e578d3bb@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20261018
 DTEND;VALUE=DATE:20261019
-SUMMARY:Präsidiumssitzung
+SUMMARY:SBV: Präsidiumssitzung
 LOCATION:Oberaula
 DESCRIPTION:Ort: Oberaula\nAusrichter: SBV\nQuelle: Wettkampfkalender des S
  BV (Stand 31.03.2026)
@@ -593,7 +595,7 @@ UID:3ce2b135ef87aa756939@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261025
-SUMMARY:Kampfrichteraus- und Weiterbildung
+SUMMARY:SBV: Kampfrichteraus- und Weiterbildung
 LOCATION:Chemnitz
 DESCRIPTION:Ort: Chemnitz\nKlassen/Hinweis: Meldung bis 20.09.2026\nAusrich
  ter: SBV\nQuelle: Wettkampfkalender des SBV (Stand 31.03.2026)
@@ -604,7 +606,7 @@ UID:a6e7efda9079d9870593@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261026
-SUMMARY:Hallenwettkampf 2 x 18 m "Ins Gold Turnier"
+SUMMARY:SC Freital: Hallenwettkampf 2 x 18 m "Ins Gold Turnier"
 LOCATION:Freital
 DESCRIPTION:Ort: Freital\nKlassen/Hinweis: alle Klassen\nAusrichter: SC Fre
  ital\nRanglistenturnier\nSterne berechtigt\nQuelle: Wettkampfkalender des 
@@ -616,7 +618,7 @@ UID:aa090b856c46c8633122@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20261025
 DTEND;VALUE=DATE:20261026
-SUMMARY:Kalenderkonferenz
+SUMMARY:SBV: Kalenderkonferenz
 LOCATION:Chemnitz
 DESCRIPTION:Ort: Chemnitz\nAusrichter: SBV\nQuelle: Wettkampfkalender des S
  BV (Stand 31.03.2026)
@@ -627,7 +629,7 @@ UID:1a5ddc72956d337f87c1@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261102
-SUMMARY:11. Torgauer Hallenturnier
+SUMMARY:SSV 1952 Torgau: 11. Torgauer Hallenturnier
 LOCATION:Torgau
 DESCRIPTION:Ort: Torgau\nKlassen/Hinweis: alle Klassen\nAusrichter: SSV 195
  2 Torgau\nRanglistenturnier\nSterne berechtigt\nQuelle: Wettkampfkalender 
@@ -639,7 +641,7 @@ UID:18da2f23109ff4f8881a@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
-SUMMARY:Hallenwettkampf 2 x 18 m
+SUMMARY:SV Koweg Görlitzz: Hallenwettkampf 2 x 18 m
 LOCATION:Görlitz
 DESCRIPTION:Ort: Görlitz\nKlassen/Hinweis: alle Klassen\nAusrichter: SV Ko
  weg Görlitzz\nRanglistenturnier\nSterne berechtigt\nQuelle: Wettkampfkale
@@ -671,7 +673,7 @@ UID:86eaaf8ed3782e1af481@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
-SUMMARY:Stiefelpokal Hallenwettkampf 2 x 18 m
+SUMMARY:Döbelner BS 72: Stiefelpokal Hallenwettkampf 2 x 18 m
 LOCATION:Döbeln
 DESCRIPTION:Ort: Döbeln\nKlassen/Hinweis: alle Klassen\nAusrichter: Döbel
  ner BS 72\nRanglistenturnier\nSterne berechtigt\nQuelle: Wettkampfkalender
@@ -683,7 +685,7 @@ UID:cb1ff7ace2b8ce98d139@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
-SUMMARY:32. Leipziger Hallenturnier 2 x 18 m
+SUMMARY:MoGoNo Leipzig: 32. Leipziger Hallenturnier 2 x 18 m
 LOCATION:Leipzig
 DESCRIPTION:Ort: Leipzig\nKlassen/Hinweis: alle Klassen\nAusrichter: MoGoNo
   Leipzig\nRanglistenturnier\nSterne berechtigt\nQuelle: Wettkampfkalender 
@@ -695,7 +697,7 @@ UID:5d567e331ccef6491911@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261130
-SUMMARY:Hallenwettkampf 2 x 18 m anschließend Finale
+SUMMARY:SV Niederau: Hallenwettkampf 2 x 18 m anschließend Finale
 LOCATION:Niederau
 DESCRIPTION:Ort: Niederau\nKlassen/Hinweis: alle Klassen\nAusrichter: SV Ni
  ederau\nRanglistenturnier\nSterne berechtigt\nQuelle: Wettkampfkalender de
@@ -707,7 +709,7 @@ UID:3219897a82c86cf5d8b9@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261206
-SUMMARY:30. Adventswettkampf 2 x 18 m
+SUMMARY:Dresdner BV: 30. Adventswettkampf 2 x 18 m
 LOCATION:Dresden
 DESCRIPTION:Ort: Dresden\nKlassen/Hinweis: alle Klassen\nAusrichter: Dresdn
  er BV\nRanglistenturnier\nSterne berechtigt\nQuelle: Wettkampfkalender des
@@ -730,7 +732,7 @@ UID:477ed8128017f26f5cdb@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
-SUMMARY:Hallenwettkampf 2 x 18 m
+SUMMARY:SV Koweg Görlitzz: Hallenwettkampf 2 x 18 m
 LOCATION:Görlitz
 DESCRIPTION:Ort: Görlitz\nKlassen/Hinweis: alle Klassen\nAusrichter: SV Ko
  weg Görlitzz\nRanglistenturnier\nSterne berechtigt\nQuelle: Wettkampfkale
@@ -742,7 +744,7 @@ UID:ad2aa127636bb7743be1@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261214
-SUMMARY:32. Weihnachtspokal 2 x 18 m
+SUMMARY:FCE Aue: 32. Weihnachtspokal 2 x 18 m
 LOCATION:Schneeberg
 DESCRIPTION:Ort: Schneeberg\nKlassen/Hinweis: alle Klassen\nAusrichter: FCE
   Aue\nRanglistenturnier\nSterne berechtigt\nQuelle: Wettkampfkalender des 
@@ -754,7 +756,7 @@ UID:6ebd70cb5019c11e4198@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20270108
 DTEND;VALUE=DATE:20270110
-SUMMARY:offene Vereinsmeisterschaft 2 x 18 m
+SUMMARY:BSC Glauchau: offene Vereinsmeisterschaft 2 x 18 m
 LOCATION:Glauchau
 DESCRIPTION:Ort: Glauchau\nKlassen/Hinweis: alle Klassen\nAusrichter: BSC G
  lauchau\nRanglistenturnier\nSterne berechtigt\nQuelle: Wettkampfkalender d
@@ -766,7 +768,7 @@ UID:08c06e0e5fdf016d089f@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
-SUMMARY:Winterpokal 2 x 18 m + Finale
+SUMMARY:BSC Friedewald: Winterpokal 2 x 18 m + Finale
 LOCATION:Boxdorf
 DESCRIPTION:Ort: Boxdorf\nKlassen/Hinweis: alle Klassen\nAusrichter: BSC Fr
  iedewald\nRanglistenturnier\nSterne berechtigt\nQuelle: Wettkampfkalender 
@@ -778,7 +780,7 @@ UID:8c1ede9b3713e28e8147@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20270123
 DTEND;VALUE=DATE:20270124
-SUMMARY:Sachsenmeisterschaft Halle Erw.+Kinder – 2 x 18 m
+SUMMARY:SBV: Sachsenmeisterschaft Halle Erw.+Kinder – 2 x 18 m
 LOCATION:Döbeln
 DESCRIPTION:Ort: Döbeln\nKlassen/Hinweis: alle Klassen\nAusrichter: SBV\nR
  anglistenturnier\nSterne berechtigt\nQuelle: Wettkampfkalender des SBV (St
@@ -823,7 +825,7 @@ UID:4d7b44404eb47065941e@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20270130
 DTEND;VALUE=DATE:20270131
-SUMMARY:Hallenwettkampf  900er Runde (1x18m\,2x25m)
+SUMMARY:SV Koweg Görlitzz: Hallenwettkampf  900er Runde (1x18m\,2x25m)
 LOCATION:Görlitz
 DESCRIPTION:Ort: Görlitz\nKlassen/Hinweis: alle Klassen\nAusrichter: SV Ko
  weg Görlitzz\nSterne berechtigt\nQuelle: Wettkampfkalender des SBV (Stand
@@ -835,7 +837,7 @@ UID:e209cef181d02953590c@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20270221
 DTEND;VALUE=DATE:20270222
-SUMMARY:SBV-Verbandstag
+SUMMARY:SBV-Präsidium: SBV-Verbandstag
 LOCATION:Chemnitz
 DESCRIPTION:Ort: Chemnitz\nAusrichter: SBV-Präsidium\nQuelle: Wettkampfkal
  ender des SBV (Stand 31.03.2026)
@@ -857,7 +859,7 @@ UID:e70ec6dae060f425d9da@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20270307
 DTEND;VALUE=DATE:20270308
-SUMMARY:Jugendpokal 2 x 18 m
+SUMMARY:SC Hoyerswerda: Jugendpokal 2 x 18 m
 LOCATION:Hoyerswerda
 DESCRIPTION:Ort: Hoyerswerda\nKlassen/Hinweis: Pokal für U10-U17\, alle BK
  \, Erw. wenn Platz\nAusrichter: SC Hoyerswerda\nRanglistenturnier\nSterne 
