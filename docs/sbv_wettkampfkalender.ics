@@ -606,11 +606,16 @@ UID:a6e7efda9079d9870593@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261026
-SUMMARY:SC Freital: Hallenwettkampf 2 x 18 m "Ins Gold Turnier"
+SUMMARY:🏆 SC Freital: Hallenwettkampf 2 x 18 m "Ins Gold Turnier"
 LOCATION:Freital
-DESCRIPTION:Ort: Freital\nKlassen/Hinweis: alle Klassen\nAusrichter: SC Fre
- ital\nRanglistenturnier\nSterne berechtigt\nQuelle: Wettkampfkalender des 
- SBV (Stand 31.03.2026)
+URL:https://www.sachsenbogen.de/dbdata/wettkampf/C86a43b5089dee3ba7a4381e41
+ ca7f66e.pdf
+ATTACH;FMTTYPE=application/pdf:https://www.sachsenbogen.de/dbdata/wettkampf
+ /C86a43b5089dee3ba7a4381e41ca7f66e.pdf
+DESCRIPTION:Ausschreibung: https://www.sachsenbogen.de/dbdata/wettkampf/C86
+ a43b5089dee3ba7a4381e41ca7f66e.pdf\nBeginn: 09:30 Uhr\nOrt: Freital\nKlass
+ en/Hinweis: alle Klassen\nAusrichter: SC Freital\nRanglistenturnier\nStern
+ e berechtigt\nQuelle: Wettkampfkalender des SBV (Stand 31.03.2026)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -629,11 +634,20 @@ UID:1a5ddc72956d337f87c1@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261102
-SUMMARY:SSV 1952 Torgau: 11. Torgauer Hallenturnier
+SUMMARY:🏆 SSV 1952 Torgau: 11. Torgauer Hallenturnier
 LOCATION:Torgau
-DESCRIPTION:Ort: Torgau\nKlassen/Hinweis: alle Klassen\nAusrichter: SSV 195
- 2 Torgau\nRanglistenturnier\nSterne berechtigt\nQuelle: Wettkampfkalender 
- des SBV (Stand 31.03.2026)
+URL:https://www.sachsenbogen.de/dbdata/wettkampf/Ce8a8d8de541a3e746caf57fb2
+ b71ff0b.pdf
+ATTACH;FMTTYPE=application/pdf:https://www.sachsenbogen.de/dbdata/wettkampf
+ /Ce8a8d8de541a3e746caf57fb2b71ff0b.pdf
+ATTACH;FMTTYPE=application/pdf:https://www.sachsenbogen.de/dbdata/wettkampf
+ /C5e56b07a7807209c9e67d4b30f7fc78f.pdf
+DESCRIPTION:Ausschreibung 31.10.2026: https://www.sachsenbogen.de/dbdata/we
+ ttkampf/Ce8a8d8de541a3e746caf57fb2b71ff0b.pdf\nAusschreibung 01.11.2026: h
+ ttps://www.sachsenbogen.de/dbdata/wettkampf/C5e56b07a7807209c9e67d4b30f7fc
+ 78f.pdf\nOrt: Torgau\nKlassen/Hinweis: alle Klassen\nAusrichter: SSV 1952 
+ Torgau\nRanglistenturnier\nSterne berechtigt\nQuelle: Wettkampfkalender de
+ s SBV (Stand 31.03.2026)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -641,11 +655,17 @@ UID:18da2f23109ff4f8881a@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
-SUMMARY:SV Koweg Görlitzz: Hallenwettkampf 2 x 18 m
+SUMMARY:🏆 SV Koweg Görlitzz: Hallenwettkampf 2 x 18 m
 LOCATION:Görlitz
-DESCRIPTION:Ort: Görlitz\nKlassen/Hinweis: alle Klassen\nAusrichter: SV Ko
- weg Görlitzz\nRanglistenturnier\nSterne berechtigt\nQuelle: Wettkampfkale
- nder des SBV (Stand 31.03.2026)
+URL:https://www.sachsenbogen.de/dbdata/wettkampf/Ce03d42a65940f8cdf679cd60e
+ 72801df.pdf
+ATTACH;FMTTYPE=application/pdf:https://www.sachsenbogen.de/dbdata/wettkampf
+ /Ce03d42a65940f8cdf679cd60e72801df.pdf
+DESCRIPTION:Ausschreibung: https://www.sachsenbogen.de/dbdata/wettkampf/Ce0
+ 3d42a65940f8cdf679cd60e72801df.pdf\nBeginn: 09:00 Uhr\nOrt: Görlitz\nKlas
+ sen/Hinweis: alle Klassen\nAusrichter: SV Koweg Görlitzz\nRanglistenturni
+ er\nSterne berechtigt\nQuelle: Wettkampfkalender des SBV (Stand 31.03.2026
+ )
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -653,9 +673,15 @@ UID:4a3bcb570ef8fb8d6474@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
-SUMMARY:1. Runde 1. Landesliga Halle 18m BoV
-DESCRIPTION:Klassen/Hinweis: gemeldete Vereinsmannschaften\nQuelle: Wettkam
- pfkalender des SBV (Stand 31.03.2026)
+SUMMARY:🏆 1. Runde 1. Landesliga Halle 18m BoV
+URL:https://www.sachsenbogen.de/dbdata/wettkampf/Cdd78052f96a921ab5e62f2ded
+ e65a5b7.pdf
+ATTACH;FMTTYPE=application/pdf:https://www.sachsenbogen.de/dbdata/wettkampf
+ /Cdd78052f96a921ab5e62f2dede65a5b7.pdf
+DESCRIPTION:Ausschreibung: https://www.sachsenbogen.de/dbdata/wettkampf/Cdd
+ 78052f96a921ab5e62f2dede65a5b7.pdf\nBeginn: 10:00 Uhr\nKlassen/Hinweis: ge
+ meldete Vereinsmannschaften\nQuelle: Wettkampfkalender des SBV (Stand 31.0
+ 3.2026)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -663,9 +689,15 @@ UID:1076462e908861450e25@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
-SUMMARY:1. Runde 2. Landesliga Halle 18m BoV
-DESCRIPTION:Klassen/Hinweis: gemeldete Vereinsmannschaften\nQuelle: Wettkam
- pfkalender des SBV (Stand 31.03.2026)
+SUMMARY:🏆 1. Runde 2. Landesliga Halle 18m BoV
+URL:https://www.sachsenbogen.de/dbdata/wettkampf/C37ec699c035df228f0ba2a12e
+ f472c32.pdf
+ATTACH;FMTTYPE=application/pdf:https://www.sachsenbogen.de/dbdata/wettkampf
+ /C37ec699c035df228f0ba2a12ef472c32.pdf
+DESCRIPTION:Ausschreibung: https://www.sachsenbogen.de/dbdata/wettkampf/C37
+ ec699c035df228f0ba2a12ef472c32.pdf\nBeginn: 10:00 Uhr\nKlassen/Hinweis: ge
+ meldete Vereinsmannschaften\nQuelle: Wettkampfkalender des SBV (Stand 31.0
+ 3.2026)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -673,11 +705,16 @@ UID:86eaaf8ed3782e1af481@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
-SUMMARY:Döbelner BS 72: Stiefelpokal Hallenwettkampf 2 x 18 m
+SUMMARY:🏆 Döbelner BS 72: Stiefelpokal Hallenwettkampf 2 x 18 m
 LOCATION:Döbeln
-DESCRIPTION:Ort: Döbeln\nKlassen/Hinweis: alle Klassen\nAusrichter: Döbel
- ner BS 72\nRanglistenturnier\nSterne berechtigt\nQuelle: Wettkampfkalender
-  des SBV (Stand 31.03.2026)
+URL:https://www.sachsenbogen.de/dbdata/wettkampf/C83eb448a4cdeb3b54828cb3a6
+ 3f37a84.pdf
+ATTACH;FMTTYPE=application/pdf:https://www.sachsenbogen.de/dbdata/wettkampf
+ /C83eb448a4cdeb3b54828cb3a63f37a84.pdf
+DESCRIPTION:Ausschreibung: https://www.sachsenbogen.de/dbdata/wettkampf/C83
+ eb448a4cdeb3b54828cb3a63f37a84.pdf\nOrt: Döbeln\nKlassen/Hinweis: alle Kl
+ assen\nAusrichter: Döbelner BS 72\nRanglistenturnier\nSterne berechtigt\n
+ Quelle: Wettkampfkalender des SBV (Stand 31.03.2026)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -685,11 +722,16 @@ UID:cb1ff7ace2b8ce98d139@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
-SUMMARY:MoGoNo Leipzig: 32. Leipziger Hallenturnier 2 x 18 m
+SUMMARY:🏆 MoGoNo Leipzig: 32. Leipziger Hallenturnier 2 x 18 m
 LOCATION:Leipzig
-DESCRIPTION:Ort: Leipzig\nKlassen/Hinweis: alle Klassen\nAusrichter: MoGoNo
-  Leipzig\nRanglistenturnier\nSterne berechtigt\nQuelle: Wettkampfkalender 
- des SBV (Stand 31.03.2026)
+URL:https://www.sachsenbogen.de/dbdata/wettkampf/C0fe9614046b3e362aec3d94a9
+ dc23f96.pdf
+ATTACH;FMTTYPE=application/pdf:https://www.sachsenbogen.de/dbdata/wettkampf
+ /C0fe9614046b3e362aec3d94a9dc23f96.pdf
+DESCRIPTION:Ausschreibung: https://www.sachsenbogen.de/dbdata/wettkampf/C0f
+ e9614046b3e362aec3d94a9dc23f96.pdf\nBeginn: 10:00 Uhr\nOrt: Leipzig\nKlass
+ en/Hinweis: alle Klassen\nAusrichter: MoGoNo Leipzig\nRanglistenturnier\nS
+ terne berechtigt\nQuelle: Wettkampfkalender des SBV (Stand 31.03.2026)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -709,11 +751,16 @@ UID:3219897a82c86cf5d8b9@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261206
-SUMMARY:Dresdner BV: 30. Adventswettkampf 2 x 18 m
+SUMMARY:🏆 Dresdner BV: 30. Adventswettkampf 2 x 18 m
 LOCATION:Dresden
-DESCRIPTION:Ort: Dresden\nKlassen/Hinweis: alle Klassen\nAusrichter: Dresdn
- er BV\nRanglistenturnier\nSterne berechtigt\nQuelle: Wettkampfkalender des
-  SBV (Stand 31.03.2026)
+URL:https://www.sachsenbogen.de/dbdata/wettkampf/C3b2f3501d3769d1bb9a40f1ac
+ 470844c.pdf
+ATTACH;FMTTYPE=application/pdf:https://www.sachsenbogen.de/dbdata/wettkampf
+ /C3b2f3501d3769d1bb9a40f1ac470844c.pdf
+DESCRIPTION:Ausschreibung: https://www.sachsenbogen.de/dbdata/wettkampf/C3b
+ 2f3501d3769d1bb9a40f1ac470844c.pdf\nBeginn: 18:30 Uhr\nOrt: Dresden\nKlass
+ en/Hinweis: alle Klassen\nAusrichter: Dresdner BV\nRanglistenturnier\nSter
+ ne berechtigt\nQuelle: Wettkampfkalender des SBV (Stand 31.03.2026)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -721,10 +768,16 @@ UID:4a14c4a239447b103839@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
-SUMMARY:Dresden: 1. Runde Landesliga Halle 18m Rc
+SUMMARY:🏆 Dresden: 1. Runde Landesliga Halle 18m Rc
 LOCATION:Dresden
-DESCRIPTION:Ort: Dresden\nKlassen/Hinweis: gemeldete Vereinsmannschaften\nQ
- uelle: Wettkampfkalender des SBV (Stand 31.03.2026)
+URL:https://www.sachsenbogen.de/dbdata/wettkampf/C5b1ce3f82ebc428e6a096a0e6
+ bf0c004.pdf
+ATTACH;FMTTYPE=application/pdf:https://www.sachsenbogen.de/dbdata/wettkampf
+ /C5b1ce3f82ebc428e6a096a0e6bf0c004.pdf
+DESCRIPTION:Ausschreibung: https://www.sachsenbogen.de/dbdata/wettkampf/C5b
+ 1ce3f82ebc428e6a096a0e6bf0c004.pdf\nBeginn: 10:00 Uhr\nOrt: Dresden\nKlass
+ en/Hinweis: gemeldete Vereinsmannschaften\nQuelle: Wettkampfkalender des S
+ BV (Stand 31.03.2026)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -744,11 +797,16 @@ UID:ad2aa127636bb7743be1@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261214
-SUMMARY:FCE Aue: 32. Weihnachtspokal 2 x 18 m
+SUMMARY:🏆 FCE Aue: 32. Weihnachtspokal 2 x 18 m
 LOCATION:Schneeberg
-DESCRIPTION:Ort: Schneeberg\nKlassen/Hinweis: alle Klassen\nAusrichter: FCE
-  Aue\nRanglistenturnier\nSterne berechtigt\nQuelle: Wettkampfkalender des 
- SBV (Stand 31.03.2026)
+URL:https://www.sachsenbogen.de/dbdata/wettkampf/C28bb46615b1494254dbc20d47
+ 2dfb9a3.pdf
+ATTACH;FMTTYPE=application/pdf:https://www.sachsenbogen.de/dbdata/wettkampf
+ /C28bb46615b1494254dbc20d472dfb9a3.pdf
+DESCRIPTION:Ausschreibung: https://www.sachsenbogen.de/dbdata/wettkampf/C28
+ bb46615b1494254dbc20d472dfb9a3.pdf\nBeginn: 08:30 Uhr\nOrt: Schneeberg\nKl
+ assen/Hinweis: alle Klassen\nAusrichter: FCE Aue\nRanglistenturnier\nStern
+ e berechtigt\nQuelle: Wettkampfkalender des SBV (Stand 31.03.2026)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -768,11 +826,16 @@ UID:08c06e0e5fdf016d089f@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
-SUMMARY:BSC Friedewald: Winterpokal 2 x 18 m + Finale
+SUMMARY:🏆 BSC Friedewald: Winterpokal 2 x 18 m + Finale
 LOCATION:Boxdorf
-DESCRIPTION:Ort: Boxdorf\nKlassen/Hinweis: alle Klassen\nAusrichter: BSC Fr
- iedewald\nRanglistenturnier\nSterne berechtigt\nQuelle: Wettkampfkalender 
- des SBV (Stand 31.03.2026)
+URL:https://www.sachsenbogen.de/dbdata/wettkampf/Cd26c8cd0487a282c289c511c4
+ 54ab00e.pdf
+ATTACH;FMTTYPE=application/pdf:https://www.sachsenbogen.de/dbdata/wettkampf
+ /Cd26c8cd0487a282c289c511c454ab00e.pdf
+DESCRIPTION:Ausschreibung: https://www.sachsenbogen.de/dbdata/wettkampf/Cd2
+ 6c8cd0487a282c289c511c454ab00e.pdf\nBeginn: 09:00 Uhr\nOrt: Boxdorf\nKlass
+ en/Hinweis: alle Klassen\nAusrichter: BSC Friedewald\nRanglistenturnier\nS
+ terne berechtigt\nQuelle: Wettkampfkalender des SBV (Stand 31.03.2026)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

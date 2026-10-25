@@ -30,6 +30,15 @@ gh api -X POST repos/:owner/sbv-wettkampfkalender/pages -f "source[branch]=main"
 
 Feed-URL danach: `https://<github-nutzer>.github.io/sbv-wettkampfkalender/sbv_wettkampfkalender.ics`
 
+## Ausschreibungen
+
+Zusätzlich liest das Skript die Seite „Ausschreibungen“ (Menü Aktuelles → Wettkämpfe → Ausschreibungen; die Adresse wird über
+die Startseite gefunden, die Seiten-ID ist nur Fallback). Gibt es zu einem Termin eine Ausschreibung als PDF, steht vor dem
+Titel ein Pokal (🏆), die Beschreibung enthält den Link zum PDF und den Beginn; zusätzlich setzt das Skript `URL` und `ATTACH`
+(wird von Google Kalender bei abonnierten Feeds nicht als Anhang gezeigt, der Link in der Beschreibung genügt).
+Zuordnung: Datum überlappt und Titel/Verein stimmen in Worten überein (bei mehreren Terminen am selben Tag entscheidet die
+größte Übereinstimmung). Ausschreibungen, die zu keinem Termin im PDF-Kalender passen, werden beim Lauf als „Hinweis“ ausgegeben.
+
 ## In Google Kalender abonnieren
 
 calendar.google.com (am PC) → links „Weitere Kalender“ → **+** → **Per URL** → Feed-URL einfügen.

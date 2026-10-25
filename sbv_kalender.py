@@ -11,6 +11,8 @@ wenn sich das PDF inhaltlich ändert.
 """
 import argparse
 import hashlib
+import html
+import os
 import re
 import sys
 import urllib.request
@@ -19,6 +21,10 @@ from datetime import date, datetime, timedelta
 import pymupdf
 
 PDF_URL = "https://www.sachsenbogen.de/dbdata/wettkampf/sbv_wettkampfkalender.pdf"
+BASIS_URL = "https://www.sachsenbogen.de/"
+# Fallback, falls der Menüpunkt "Ausschreibungen" auf der Startseite nicht gefunden wird
+AUSSCHREIBUNGEN_URL = BASIS_URL + "index.php?page=0bd50be6ad79c15b3c08daaac3c24329"
+SYMBOL_AUSSCHREIBUNG = "🏆"  # Pokal vor dem Titel, wenn eine Ausschreibung vorliegt
 KALENDER_NAME = "SBV Wettkampfkalender"
 MIN_TERMINE = 20  # darunter ist das Layout vermutlich ein anderes -> nichts veröffentlichen
 
@@ -210,6 +216,89 @@ def neuer_termin(datum, z):
     }
 
 
+# ---------------------------------------------------------------- Ausschreibungen
+
+STOPPWOERTER = {"und", "in", "der", "die", "das", "bei", "am", "im", "mit", "zur", "zum", "von", "dem", "des", "bei", "e", "v"}
+
+
+def woerter(text):
+    t = text.lower().replace("ä", "ae").replace("ö", "oe").replace("ü", "ue").replace("ß", "ss")
+    # "2. Landesliga" (Kalender) und "Liga 2" (Ausschreibung) sollen dasselbe Wort ergeben
+    t = re.sub(r"(\d+)\.\s*landesliga", r"landesliga\1", t)
+    t = re.sub(r"\bliga\s*(\d+)", r"landesliga\1", t)
+    return {w for w in re.findall(r"[a-z0-9]+", t) if w not in STOPPWOERTER}
+
+
+def text_von_html(fragment):
+    return re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", fragment))).strip()
+
+
+def seite_laden(url):
+    req = urllib.request.Request(url, headers={"User-Agent": "turniertools-sbv-kalender"})
+    return urllib.request.urlopen(req, timeout=60).read().decode("utf-8", errors="replace")
+
+
+def ausschreibungen_url(warnungen):
+    """Folgt dem Menüpunkt 'Ausschreibungen' der Startseite (die Seiten-ID kann sich ändern)."""
+    try:
+        m = re.search(r'href="(index\.php\?page=[0-9a-f]+)"[^>]*>\s*Ausschreibungen\s*<', seite_laden(BASIS_URL))
+    except OSError as e:
+        warnungen.append(f"Startseite nicht lesbar ({e}), nehme die bekannte Adresse der Ausschreibungen")
+        return AUSSCHREIBUNGEN_URL
+    if not m:
+        warnungen.append("Menüpunkt 'Ausschreibungen' auf der Startseite nicht gefunden, nehme die bekannte Adresse")
+        return AUSSCHREIBUNGEN_URL
+    return BASIS_URL + m.group(1)
+
+
+def ausschreibungen_lesen(seite, kontext_jahr, warnungen):
+    """Liest die SBV-Seite 'Ausschreibungen': Liste von dict(von, bis, datum, beginn, titel, verein, pdf)."""
+    if "Contest_Table" not in seite:
+        raise ValueError("Tabelle der Ausschreibungen nicht gefunden – Seitenaufbau geändert?")
+    ergebnis = []
+    for zeile in re.findall(r"<tr>\s*(<td.*?)</tr>", seite, re.S):
+        def feld(klasse):
+            m = re.search(rf'class="{klasse}">(.*?)</p>', zeile, re.S)
+            return text_von_html(m.group(1)) if m else ""
+        datum_text = feld("Contest_VonBis")
+        if not datum_text:
+            continue  # Kopfzeile o. Ä.
+        datum = parse_datum(datum_text, kontext_jahr, warnungen) if datum_text else None
+        if datum is None:
+            warnungen.append(f"Ausschreibung ohne lesbares Datum: '{datum_text}'")
+            continue
+        pdf = re.search(r'href="(dbdata/[^"]+\.pdf)"', zeile)
+        ergebnis.append({
+            "von": datum[0], "bis": datum[1], "datum": datum_text,
+            "beginn": feld("Contest_Zeit").replace(" ", " "),
+            "titel": feld("Contest_Headline"), "verein": feld("Contest_Autor"),
+            "pdf": BASIS_URL + pdf.group(1) if pdf else None,
+        })
+    return ergebnis
+
+
+def ausschreibungen_zuordnen(termine, ausschreibungen, warnungen):
+    """Hängt Ausschreibungen mit PDF an den passenden Termin (Datum überlappt, bei mehreren Terminen entscheidet
+    die Wortübereinstimmung von Titel/Verein). Gibt die nicht zuordenbaren Ausschreibungen zurück."""
+    for t in termine:
+        t["ausschreibungen"] = []
+    offen = []
+    for a in ausschreibungen:
+        kandidaten = [t for t in termine if t["von"] <= a["bis"] and a["von"] <= t["bis"]]
+        a_woerter = woerter(a["titel"] + " " + a["verein"])
+        bewertet = sorted(
+            ((len(a_woerter & woerter(" ".join(t["titel"]) + " " + t["ausrichter"] + " " + t["ort"])), i)
+             for i, t in enumerate(kandidaten)), reverse=True)
+        if not bewertet or bewertet[0][0] == 0 or (len(bewertet) > 1 and bewertet[0][0] == bewertet[1][0]):
+            offen.append(a)
+            continue
+        if a["pdf"]:
+            kandidaten[bewertet[0][1]]["ausschreibungen"].append(a)
+    for t in termine:
+        t["ausschreibungen"].sort(key=lambda a: a["von"])
+    return offen
+
+
 # ---------------------------------------------------------------- iCalendar
 
 def ics_text(s):
@@ -250,11 +339,19 @@ def ics_erzeugen(termine, stand):
         ausrichter = t["ausrichter"] if not t["ausrichter"].startswith("Meldung") else ""
         praefix = ausrichter or t["ort"]  # Schema: <Ausrichter>: <Turniername>, ohne Ausrichter der Ort
         anzeige = f"{praefix}: {titel}" if praefix else titel
+        ausschreibungen = t.get("ausschreibungen", [])
+        if ausschreibungen:
+            anzeige = f"{SYMBOL_AUSSCHREIBUNG} {anzeige}"
         schluessel = f"{t['von']}|{titel}|{t['ort']}"
         n = benutzt.get(schluessel, 0)
         benutzt[schluessel] = n + 1
         uid = hashlib.sha1((schluessel + f"|{n}").encode("utf-8")).hexdigest()[:20] + "@turniertools.sbv"
         beschreibung = []
+        mehrere = len(ausschreibungen) > 1
+        for a in ausschreibungen:
+            beschreibung.append(f"Ausschreibung{' ' + a['datum'] if mehrere else ''}: {a['pdf']}")
+        if ausschreibungen and ausschreibungen[0]["beginn"]:
+            beschreibung.append(f"Beginn: {ausschreibungen[0]['beginn']}")
         if t["ort"]:
             beschreibung.append(f"Ort: {t['ort']}")
         if t["ak"]:
@@ -276,6 +373,9 @@ def ics_erzeugen(termine, stand):
         ]
         if t["ort"]:
             zeilen.append(f"LOCATION:{ics_text(t['ort'])}")
+        if ausschreibungen:
+            zeilen.append(f"URL:{ausschreibungen[0]['pdf']}")
+            zeilen += [f"ATTACH;FMTTYPE=application/pdf:{a['pdf']}" for a in ausschreibungen]
         zeilen += [
             f"DESCRIPTION:{ics_text(chr(10).join(beschreibung))}",
             "TRANSP:TRANSPARENT",
@@ -289,6 +389,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--pdf", help="lokale PDF-Datei statt Download")
     ap.add_argument("--out", default="docs/sbv_wettkampfkalender.ics")
+    ap.add_argument("--ausschreibungen", help="lokale HTML-Datei der Ausschreibungsseite statt Download")
     ap.add_argument("--liste", action="store_true", help="Termine als Tabelle ausgeben")
     args = ap.parse_args()
 
@@ -299,21 +400,30 @@ def main():
         daten = urllib.request.urlopen(req, timeout=60).read()
 
     termine, stand, warnungen = termine_lesen(daten)
+
+    if args.ausschreibungen:
+        seite = open(args.ausschreibungen, "rb").read().decode("utf-8", errors="replace")
+    else:
+        seite = seite_laden(ausschreibungen_url(warnungen))
+    ausschreibungen = ausschreibungen_lesen(seite, date.today().year, warnungen)
+    offen = ausschreibungen_zuordnen(termine, ausschreibungen, warnungen)
+    for a in offen:
+        print(f"Hinweis: Ausschreibung ohne Termin im PDF-Kalender: {a['datum']} {a['titel']} ({a['verein']})"
+              f"{'' if a['pdf'] else ' [ohne PDF]'}", file=sys.stderr)
     for w in warnungen:
         print("Hinweis:", w, file=sys.stderr)
     if args.liste:
         for t in termine:
             print(t["von"], t["bis"], "|", t["ort"], "|", " / ".join(t["titel"]), "|", ", ".join(t["ak"]), "|", t["ausrichter"],
-                  "|", "R" if t["rang"] else "-", "S" if t["sterne"] else "-")
+                  "|", "R" if t["rang"] else "-", "S" if t["sterne"] else "-", "|", len(t["ausschreibungen"]), "Ausschreibung(en)")
     if len(termine) < MIN_TERMINE:
         sys.exit(f"Nur {len(termine)} Termine gefunden (erwartet mindestens {MIN_TERMINE}) – Layout geändert? Nichts geschrieben.")
 
     inhalt = ics_erzeugen(termine, stand)
-    import os
     os.makedirs(os.path.dirname(os.path.abspath(args.out)), exist_ok=True)
     with open(args.out, "w", encoding="utf-8", newline="") as f:
         f.write(inhalt)
-    print(f"{len(termine)} Termine (Stand {stand}) nach {args.out} geschrieben")
+    print(f"{len(termine)} Termine (Stand {stand}), davon {sum(1 for t in termine if t['ausschreibungen'])} mit Ausschreibung, nach {args.out} geschrieben")
 
 
 if __name__ == "__main__":
