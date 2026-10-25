@@ -247,7 +247,9 @@ def ics_erzeugen(termine, stand):
     benutzt = {}
     for t in sorted(termine, key=lambda t: (t["von"], t["bis"], " ".join(t["titel"]))):
         titel = " – ".join(t["titel"]) or "Termin"
-        anzeige = f"{t['ausrichter']}: {titel}" if t["ausrichter"] and not t["ausrichter"].startswith("Meldung") else titel  # Schema: <Ausrichter>: <Turniername>
+        ausrichter = t["ausrichter"] if not t["ausrichter"].startswith("Meldung") else ""
+        praefix = ausrichter or t["ort"]  # Schema: <Ausrichter>: <Turniername>, ohne Ausrichter der Ort
+        anzeige = f"{praefix}: {titel}" if praefix else titel
         schluessel = f"{t['von']}|{titel}|{t['ort']}"
         n = benutzt.get(schluessel, 0)
         benutzt[schluessel] = n + 1

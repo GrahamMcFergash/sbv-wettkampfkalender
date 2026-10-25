@@ -123,7 +123,7 @@ UID:757326eecc82b3306479@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20260509
 DTEND;VALUE=DATE:20260511
-SUMMARY:1. + 2. Spieltag Bundesliga  70m
+SUMMARY:Jena (TH): 1. + 2. Spieltag Bundesliga  70m
 LOCATION:Jena (TH)
 DESCRIPTION:Ort: Jena (TH)\nKlassen/Hinweis: Mannschaften\nQuelle: Wettkamp
  fkalender des SBV (Stand 31.03.2026)
@@ -155,7 +155,7 @@ UID:1b958f63ab8f899aa9bf@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20260516
 DTEND;VALUE=DATE:20260517
-SUMMARY:LM 3D des SSB
+SUMMARY:Bischheim: LM 3D des SSB
 LOCATION:Bischheim
 DESCRIPTION:Ort: Bischheim\nQuelle: Wettkampfkalender des SBV (Stand 31.03.
  2026)
@@ -262,7 +262,7 @@ UID:b5ca158f74d637de947e@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20260607
 DTEND;VALUE=DATE:20260608
-SUMMARY:Kinder und Jugenspiele Osterzgebirge Sächsische Schweiz
+SUMMARY:Freital: Kinder und Jugenspiele Osterzgebirge Sächsische Schweiz
 LOCATION:Freital
 DESCRIPTION:Ort: Freital\nQuelle: Wettkampfkalender des SBV (Stand 31.03.20
  26)
@@ -317,7 +317,7 @@ UID:b4f981ace3f1688be588@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20260613
 DTEND;VALUE=DATE:20260615
-SUMMARY:3. + 4. Spieltag Bundesliga  70 m
+SUMMARY:Soest (NW): 3. + 4. Spieltag Bundesliga  70 m
 LOCATION:Soest (NW)
 DESCRIPTION:Ort: Soest (NW)\nKlassen/Hinweis: Mannschaften\nQuelle: Wettkam
  pfkalender des SBV (Stand 31.03.2026)
@@ -721,7 +721,7 @@ UID:4a14c4a239447b103839@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
-SUMMARY:1. Runde Landesliga Halle 18m Rc
+SUMMARY:Dresden: 1. Runde Landesliga Halle 18m Rc
 LOCATION:Dresden
 DESCRIPTION:Ort: Dresden\nKlassen/Hinweis: gemeldete Vereinsmannschaften\nQ
  uelle: Wettkampfkalender des SBV (Stand 31.03.2026)
@@ -792,7 +792,7 @@ UID:aa3d8188d15fc2601ebf@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
-SUMMARY:2. Runde 1. Landesliga Halle 18m BoV
+SUMMARY:Döbeln: 2. Runde 1. Landesliga Halle 18m BoV
 LOCATION:Döbeln
 DESCRIPTION:Ort: Döbeln\nKlassen/Hinweis: gemeldete Vereinsmannschaften\nQ
  uelle: Wettkampfkalender des SBV (Stand 31.03.2026)
@@ -803,7 +803,7 @@ UID:82b85d41c7be245744c8@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
-SUMMARY:2. Runde 2. Landesliga Halle 18m BoV
+SUMMARY:Döbeln: 2. Runde 2. Landesliga Halle 18m BoV
 LOCATION:Döbeln
 DESCRIPTION:Ort: Döbeln\nKlassen/Hinweis: gemeldete Vereinsmannschaften\nQ
  uelle: Wettkampfkalender des SBV (Stand 31.03.2026)
@@ -814,7 +814,7 @@ UID:d2889d0e2d6d143322b0@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
-SUMMARY:2. Runde Landesliga Halle 18m Rc
+SUMMARY:Döbeln: 2. Runde Landesliga Halle 18m Rc
 LOCATION:Döbeln
 DESCRIPTION:Ort: Döbeln\nKlassen/Hinweis: gemeldete Vereinsmannschaften\nQ
  uelle: Wettkampfkalender des SBV (Stand 31.03.2026)
@@ -848,7 +848,7 @@ UID:47b9bc96c784e88014bb@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20270227
 DTEND;VALUE=DATE:20270301
-SUMMARY:Prozentepokal Hallenwettkampf 2x18m
+SUMMARY:Freital: Prozentepokal Hallenwettkampf 2x18m
 LOCATION:Freital
 DESCRIPTION:Ort: Freital\nKlassen/Hinweis: alle Klassen\nRanglistenturnier\
  nSterne berechtigt\nQuelle: Wettkampfkalender des SBV (Stand 31.03.2026)
