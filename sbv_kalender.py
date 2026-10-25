@@ -233,6 +233,34 @@ def text_von_html(fragment):
     return re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", fragment))).strip()
 
 
+VEREIN_KUERZEL = {"Bogensportclub": "BSC", "Sportverein": "SV", "Sportclub": "SC", "Sportgemeinschaft": "SG"}
+
+
+def verein_kurz(name):
+    """'Bogensportclub Chemnitz-Rabenstein e.V.' -> 'BSC Chemnitz-Rabenstein' (Schreibweise wie im PDF-Kalender)."""
+    name = re.sub(r"\s+e\.\s*V\.$", "", name.strip())
+    for lang, kurz in VEREIN_KUERZEL.items():
+        if name.startswith(lang + " "):
+            return kurz + name[len(lang):]
+    return name
+
+
+def termine_aus_ausschreibungen(offen):
+    """Ausschreibungen, die im PDF-Kalender fehlen, als eigene Termine aufnehmen."""
+    termine = []
+    for a in offen:
+        termine.append({
+            "von": a["von"], "bis": a["bis"], "ort": "",
+            "titel": [a["titel"]], "ak": [],
+            "ausrichter": verein_kurz(a["verein"]),
+            "rang": False, "sterne": False,
+            "ausschreibungen": [a] if a["pdf"] else [],
+            "beginn": a["beginn"],
+            "quelle": "Quelle: Seite Ausschreibungen des SBV (nicht im PDF-Wettkampfkalender)",
+        })
+    return termine
+
+
 def seite_laden(url):
     req = urllib.request.Request(url, headers={"User-Agent": "turniertools-sbv-kalender"})
     return urllib.request.urlopen(req, timeout=60).read().decode("utf-8", errors="replace")
@@ -350,8 +378,9 @@ def ics_erzeugen(termine, stand):
         mehrere = len(ausschreibungen) > 1
         for a in ausschreibungen:
             beschreibung.append(f"Ausschreibung{' ' + a['datum'] if mehrere else ''}: {a['pdf']}")
-        if ausschreibungen and ausschreibungen[0]["beginn"]:
-            beschreibung.append(f"Beginn: {ausschreibungen[0]['beginn']}")
+        beginn = t.get("beginn") or (ausschreibungen[0]["beginn"] if ausschreibungen else "")
+        if beginn:
+            beschreibung.append(f"Beginn: {beginn}")
         if t["ort"]:
             beschreibung.append(f"Ort: {t['ort']}")
         if t["ak"]:
@@ -362,7 +391,7 @@ def ics_erzeugen(termine, stand):
             beschreibung.append("Ranglistenturnier")
         if t["sterne"]:
             beschreibung.append("Sterne berechtigt")
-        beschreibung.append("Quelle: Wettkampfkalender des SBV (Stand " + (stand.strftime("%d.%m.%Y") if stand else "unbekannt") + ")")
+        beschreibung.append(t.get("quelle") or "Quelle: Wettkampfkalender des SBV (Stand " + (stand.strftime("%d.%m.%Y") if stand else "unbekannt") + ")")
         zeilen += [
             "BEGIN:VEVENT",
             f"UID:{uid}",
@@ -408,16 +437,17 @@ def main():
     ausschreibungen = ausschreibungen_lesen(seite, date.today().year, warnungen)
     offen = ausschreibungen_zuordnen(termine, ausschreibungen, warnungen)
     for a in offen:
-        print(f"Hinweis: Ausschreibung ohne Termin im PDF-Kalender: {a['datum']} {a['titel']} ({a['verein']})"
-              f"{'' if a['pdf'] else ' [ohne PDF]'}", file=sys.stderr)
+        print(f"Hinweis: Ausschreibung ohne Termin im PDF-Kalender, als eigener Termin aufgenommen: "
+              f"{a['datum']} {a['titel']} ({a['verein']}){'' if a['pdf'] else ' [ohne PDF]'}", file=sys.stderr)
+    if len(termine) < MIN_TERMINE:
+        sys.exit(f"Nur {len(termine)} Termine gefunden (erwartet mindestens {MIN_TERMINE}) – Layout geändert? Nichts geschrieben.")
+    termine += termine_aus_ausschreibungen(offen)
     for w in warnungen:
         print("Hinweis:", w, file=sys.stderr)
     if args.liste:
         for t in termine:
             print(t["von"], t["bis"], "|", t["ort"], "|", " / ".join(t["titel"]), "|", ", ".join(t["ak"]), "|", t["ausrichter"],
                   "|", "R" if t["rang"] else "-", "S" if t["sterne"] else "-", "|", len(t["ausschreibungen"]), "Ausschreibung(en)")
-    if len(termine) < MIN_TERMINE:
-        sys.exit(f"Nur {len(termine)} Termine gefunden (erwartet mindestens {MIN_TERMINE}) – Layout geändert? Nichts geschrieben.")
 
     inhalt = ics_erzeugen(termine, stand)
     os.makedirs(os.path.dirname(os.path.abspath(args.out)), exist_ok=True)

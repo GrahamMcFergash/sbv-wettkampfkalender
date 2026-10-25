@@ -37,7 +37,9 @@ die Startseite gefunden, die Seiten-ID ist nur Fallback). Gibt es zu einem Termi
 Titel ein Pokal (🏆), die Beschreibung enthält den Link zum PDF und den Beginn; zusätzlich setzt das Skript `URL` und `ATTACH`
 (wird von Google Kalender bei abonnierten Feeds nicht als Anhang gezeigt, der Link in der Beschreibung genügt).
 Zuordnung: Datum überlappt und Titel/Verein stimmen in Worten überein (bei mehreren Terminen am selben Tag entscheidet die
-größte Übereinstimmung). Ausschreibungen, die zu keinem Termin im PDF-Kalender passen, werden beim Lauf als „Hinweis“ ausgegeben.
+größte Übereinstimmung). Ausschreibungen, die zu keinem Termin im PDF-Kalender passen, werden als eigene Termine aufgenommen
+(Titel `<Verein>: <Titel der Ausschreibung>`, Quelle in der Beschreibung vermerkt) und beim Lauf als „Hinweis“ ausgegeben. Wird ein Termin
+später ins PDF übernommen, ordnet das Skript die Ausschreibung ihm zu und der eigene Termin verschwindet.
 
 ## In Google Kalender abonnieren
 

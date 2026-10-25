@@ -651,6 +651,52 @@ DESCRIPTION:Ausschreibung 31.10.2026: https://www.sachsenbogen.de/dbdata/we
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:764580ac519a5cf8d2ca@turniertools.sbv
+DTSTAMP:20260331T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:🏆 SBV: Hallenturnier
+URL:https://www.sachsenbogen.de/dbdata/wettkampf/C211e16978fa629b9f54ef4097
+ f5a7a3e.pdf
+ATTACH;FMTTYPE=application/pdf:https://www.sachsenbogen.de/dbdata/wettkampf
+ /C211e16978fa629b9f54ef4097f5a7a3e.pdf
+DESCRIPTION:Ausschreibung: https://www.sachsenbogen.de/dbdata/wettkampf/C21
+ 1e16978fa629b9f54ef4097f5a7a3e.pdf\nBeginn: 8:00 Uhr\nAusrichter: SBV\nQue
+ lle: Seite Ausschreibungen des SBV (nicht im PDF-Wettkampfkalender)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a5b59a48fd27c31e4a9b@turniertools.sbv
+DTSTAMP:20260331T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:🏆 BSC Chemnitz-Rabenstein: Rabensteiner Hallenturnier 2026 - DSB
+ -Runde
+URL:https://www.sachsenbogen.de/dbdata/wettkampf/Ca4b6db36874e40af700cbba56
+ 10768a2.pdf
+ATTACH;FMTTYPE=application/pdf:https://www.sachsenbogen.de/dbdata/wettkampf
+ /Ca4b6db36874e40af700cbba5610768a2.pdf
+DESCRIPTION:Ausschreibung: https://www.sachsenbogen.de/dbdata/wettkampf/Ca4
+ b6db36874e40af700cbba5610768a2.pdf\nAusrichter: BSC Chemnitz-Rabenstein\nQ
+ uelle: Seite Ausschreibungen des SBV (nicht im PDF-Wettkampfkalender)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:6e16b317ee66feab833c@turniertools.sbv
+DTSTAMP:20260331T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261109
+SUMMARY:🏆 BSC Chemnitz-Rabenstein: 4. offene Vereinsmeisterschaft
+URL:https://www.sachsenbogen.de/dbdata/wettkampf/C6c5fb9eba2b40d7c74dc61a2a
+ a369bb6.pdf
+ATTACH;FMTTYPE=application/pdf:https://www.sachsenbogen.de/dbdata/wettkampf
+ /C6c5fb9eba2b40d7c74dc61a2aa369bb6.pdf
+DESCRIPTION:Ausschreibung: https://www.sachsenbogen.de/dbdata/wettkampf/C6c
+ 5fb9eba2b40d7c74dc61a2aa369bb6.pdf\nAusrichter: BSC Chemnitz-Rabenstein\nQ
+ uelle: Seite Ausschreibungen des SBV (nicht im PDF-Wettkampfkalender)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:18da2f23109ff4f8881a@turniertools.sbv
 DTSTAMP:20260331T000000Z
 DTSTART;VALUE=DATE:20261114
@@ -893,6 +939,33 @@ LOCATION:Görlitz
 DESCRIPTION:Ort: Görlitz\nKlassen/Hinweis: alle Klassen\nAusrichter: SV Ko
  weg Görlitzz\nSterne berechtigt\nQuelle: Wettkampfkalender des SBV (Stand
   31.03.2026)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2987ba23709b310651ef@turniertools.sbv
+DTSTAMP:20260331T000000Z
+DTSTART;VALUE=DATE:20270206
+DTEND;VALUE=DATE:20270207
+SUMMARY:SV KOWEG Görlitz: 13. Görlitzer 900er-Turnier
+DESCRIPTION:Ausrichter: SV KOWEG Görlitz\nQuelle: Seite Ausschreibungen de
+ s SBV (nicht im PDF-Wettkampfkalender)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:185e97502aa0332c4bbe@turniertools.sbv
+DTSTAMP:20260331T000000Z
+DTSTART;VALUE=DATE:20270213
+DTEND;VALUE=DATE:20270215
+SUMMARY:🏆 BSC Chemnitz-Rabenstein: Flint-Runden-Turniere in Chemnitz-Rab
+ enstein
+URL:https://www.sachsenbogen.de/dbdata/wettkampf/Cde13678aa5c55a7dd0f38c999
+ 78e054a.pdf
+ATTACH;FMTTYPE=application/pdf:https://www.sachsenbogen.de/dbdata/wettkampf
+ /Cde13678aa5c55a7dd0f38c99978e054a.pdf
+DESCRIPTION:Ausschreibung: https://www.sachsenbogen.de/dbdata/wettkampf/Cde
+ 13678aa5c55a7dd0f38c99978e054a.pdf\nBeginn: 09:00 Uhr\nAusrichter: BSC Che
+ mnitz-Rabenstein\nQuelle: Seite Ausschreibungen des SBV (nicht im PDF-Wett
+ kampfkalender)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
