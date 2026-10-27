@@ -41,6 +41,13 @@ größte Übereinstimmung). Ausschreibungen, die zu keinem Termin im PDF-Kalende
 (Titel `<Verein>: <Titel der Ausschreibung>`, Quelle in der Beschreibung vermerkt) und beim Lauf als „Hinweis“ ausgegeben. Wird ein Termin
 später ins PDF übernommen, ordnet das Skript die Ausschreibung ihm zu und der eigene Termin verschwindet.
 
+## Versionierung der Termine
+
+Jeder Termin trägt `DTSTAMP`/`LAST-MODIFIED` und `SEQUENCE`. Das Skript liest dazu die bisherige `.ics` und vergleicht den Inhalt je UID:
+unveränderte Termine behalten Stempel und Nummer (die Datei bleibt byte-gleich, es gibt keinen Commit), geänderte bekommen das
+heutige Datum und `SEQUENCE + 1`. Nur so übernehmen Kalenderprogramme eine Änderung an einem bereits abonnierten Termin zuverlässig.
+Die Läufe der Action stehen im Reiter „Actions“; ein Commit entsteht nur bei geänderten Terminen (sonst nach 45 Tagen ein Keepalive).
+
 ## In Google Kalender abonnieren
 
 calendar.google.com (am PC) → links „Weitere Kalender“ → **+** → **Per URL** → Feed-URL einfügen.

@@ -350,8 +350,31 @@ def falten(zeile):
     return "\r\n ".join(t.decode("utf-8") for t in teile)
 
 
-def ics_erzeugen(termine, stand):
-    stempel = (stand or date.today()).strftime("%Y%m%dT000000Z")
+def ics_vorher_lesen(pfad):
+    """Liest die bisherige .ics: UID -> (Hash des Inhalts, DTSTAMP, SEQUENCE), um geänderte Termine zu erkennen."""
+    try:
+        text = open(pfad, encoding="utf-8", newline="").read()
+    except OSError:
+        return {}
+    text = re.sub(r"\r?\n ", "", text).replace("\r\n", "\n")
+    vorher = {}
+    for block in re.findall(r"BEGIN:VEVENT\n(.*?)\nEND:VEVENT", text, re.S):
+        zeilen = block.split("\n")
+        feld = {z.split(":", 1)[0]: z.split(":", 1)[1] for z in zeilen if ":" in z}
+        inhalt = [z for z in zeilen if z.split(":", 1)[0] not in ("UID", "DTSTAMP", "LAST-MODIFIED", "SEQUENCE")]
+        if "UID" in feld:
+            # SEQUENCE -1 = Datei ohne Versionsangaben
+            vorher[feld["UID"]] = (inhalt_hash(inhalt), feld.get("DTSTAMP", ""), int(feld.get("SEQUENCE", "-1")))
+    return vorher
+
+
+def inhalt_hash(zeilen):
+    return hashlib.sha1("\n".join(zeilen).encode("utf-8")).hexdigest()
+
+
+def ics_erzeugen(termine, stand, vorher=None):
+    vorher = vorher or {}
+    heute = date.today().strftime("%Y%m%dT000000Z")
     zeilen = [
         "BEGIN:VCALENDAR", "VERSION:2.0",
         "PRODID:-//turniertools//SBV Wettkampfkalender//DE",
@@ -392,24 +415,31 @@ def ics_erzeugen(termine, stand):
         if t["sterne"]:
             beschreibung.append("Sterne berechtigt")
         beschreibung.append(t.get("quelle") or "Quelle: Wettkampfkalender des SBV (Stand " + (stand.strftime("%d.%m.%Y") if stand else "unbekannt") + ")")
-        zeilen += [
-            "BEGIN:VEVENT",
-            f"UID:{uid}",
-            f"DTSTAMP:{stempel}",
+        ev = [
             f"DTSTART;VALUE=DATE:{t['von']:%Y%m%d}",
             f"DTEND;VALUE=DATE:{t['bis'] + timedelta(days=1):%Y%m%d}",
             f"SUMMARY:{ics_text(anzeige)}",
         ]
         if t["ort"]:
-            zeilen.append(f"LOCATION:{ics_text(t['ort'])}")
+            ev.append(f"LOCATION:{ics_text(t['ort'])}")
         if ausschreibungen:
-            zeilen.append(f"URL:{ausschreibungen[0]['pdf']}")
-            zeilen += [f"ATTACH;FMTTYPE=application/pdf:{a['pdf']}" for a in ausschreibungen]
-        zeilen += [
+            ev.append(f"URL:{ausschreibungen[0]['pdf']}")
+            ev += [f"ATTACH;FMTTYPE=application/pdf:{a['pdf']}" for a in ausschreibungen]
+        ev += [
             f"DESCRIPTION:{ics_text(chr(10).join(beschreibung))}",
             "TRANSP:TRANSPARENT",
-            "END:VEVENT",
         ]
+        # Version: unveränderte Termine behalten Stempel und Nummer, geänderte bekommen heute und SEQUENCE+1,
+        # damit Kalenderprogramme die Änderung übernehmen
+        hash_neu = inhalt_hash(ev)
+        alt = vorher.get(uid)
+        if alt and alt[2] >= 0 and alt[0] == hash_neu:
+            stempel, folge = alt[1], alt[2]
+        elif alt:
+            stempel, folge = heute, max(alt[2], 0) + 1
+        else:
+            stempel, folge = heute, 0
+        zeilen += ["BEGIN:VEVENT", f"UID:{uid}", f"DTSTAMP:{stempel}", f"LAST-MODIFIED:{stempel}", f"SEQUENCE:{folge}"] + ev + ["END:VEVENT"]
     zeilen.append("END:VCALENDAR")
     return "\r\n".join(falten(z) for z in zeilen) + "\r\n"
 
@@ -449,7 +479,7 @@ def main():
             print(t["von"], t["bis"], "|", t["ort"], "|", " / ".join(t["titel"]), "|", ", ".join(t["ak"]), "|", t["ausrichter"],
                   "|", "R" if t["rang"] else "-", "S" if t["sterne"] else "-", "|", len(t["ausschreibungen"]), "Ausschreibung(en)")
 
-    inhalt = ics_erzeugen(termine, stand)
+    inhalt = ics_erzeugen(termine, stand, ics_vorher_lesen(args.out))
     os.makedirs(os.path.dirname(os.path.abspath(args.out)), exist_ok=True)
     with open(args.out, "w", encoding="utf-8", newline="") as f:
         f.write(inhalt)
