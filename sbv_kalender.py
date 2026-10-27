@@ -414,7 +414,7 @@ def ics_erzeugen(termine, stand, vorher=None):
             beschreibung.append("Ranglistenturnier")
         if t["sterne"]:
             beschreibung.append("Sterne berechtigt")
-        beschreibung.append(t.get("quelle") or "Quelle: Wettkampfkalender des SBV (Stand " + (stand.strftime("%d.%m.%Y") if stand else "unbekannt") + ")")
+        beschreibung.append(t.get("quelle") or "Quelle: Wettkampfkalender des SBV (PDF auf sachsenbogen.de)")
         ev = [
             f"DTSTART;VALUE=DATE:{t['von']:%Y%m%d}",
             f"DTEND;VALUE=DATE:{t['bis'] + timedelta(days=1):%Y%m%d}",
@@ -483,7 +483,7 @@ def main():
     os.makedirs(os.path.dirname(os.path.abspath(args.out)), exist_ok=True)
     with open(args.out, "w", encoding="utf-8", newline="") as f:
         f.write(inhalt)
-    print(f"{len(termine)} Termine (Stand {stand}), davon {sum(1 for t in termine if t['ausschreibungen'])} mit Ausschreibung, nach {args.out} geschrieben")
+    print(f"{len(termine)} Termine (Stand laut PDF {stand}, nur zur Info), davon {sum(1 for t in termine if t['ausschreibungen'])} mit Ausschreibung, nach {args.out} geschrieben")
 
 
 if __name__ == "__main__":

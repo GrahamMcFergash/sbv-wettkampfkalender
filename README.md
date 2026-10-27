@@ -43,6 +43,9 @@ später ins PDF übernommen, ordnet das Skript die Ausschreibung ihm zu und der 
 
 ## Versionierung der Termine
 
+Maßgeblich ist immer der tatsächliche Inhalt, nie das Datum „Stand“ im PDF (das steht seit März unverändert). Das Skript lädt das PDF und die
+Ausschreibungsseite bei jedem Lauf neu, liest alle Termine und vergleicht sie Feld für Feld mit der bisherigen `.ics`.
+
 Jeder Termin trägt `DTSTAMP`/`LAST-MODIFIED` und `SEQUENCE`. Das Skript liest dazu die bisherige `.ics` und vergleicht den Inhalt je UID:
 unveränderte Termine behalten Stempel und Nummer (die Datei bleibt byte-gleich, es gibt keinen Commit), geänderte bekommen das
 heutige Datum und `SEQUENCE + 1`. Nur so übernehmen Kalenderprogramme eine Änderung an einem bereits abonnierten Termin zuverlässig.
