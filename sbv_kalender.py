@@ -20,6 +20,8 @@ from datetime import date, datetime, timedelta
 
 import pymupdf
 
+import dbsv_quellen
+
 PDF_URL = "https://www.sachsenbogen.de/dbdata/wettkampf/sbv_wettkampfkalender.pdf"
 BASIS_URL = "https://www.sachsenbogen.de/"
 # Fallback, falls der Menüpunkt "Ausschreibungen" auf der Startseite nicht gefunden wird
@@ -261,6 +263,48 @@ def termine_aus_ausschreibungen(offen):
     return termine
 
 
+DBSV_NAH = re.compile(r"bundesliga|deutsche[nr]?\s+\w*meisterschaft|verbandspokal|dbsv", re.I)
+
+
+def ist_dbsv_nah(t):
+    return t["ausrichter"] == "DBSV" or bool(DBSV_NAH.search(" ".join(t["titel"])))
+
+
+def dbsv_einbinden(termine, dbsv, warnungen):
+    """DBSV-Termine aus den DBSV-Quellen ersetzen die entsprechenden Einträge aus dem SBV-PDF (der DBSV gilt bei Datum, Titel
+    und Ort, das SBV-PDF ist dort teils veraltet); übrige DBSV-Termine werden ergänzt."""
+    frei = list(dbsv)
+    ergebnis = []
+    for t in termine:
+        if not ist_dbsv_nah(t):
+            ergebnis.append(t)
+            continue
+        wt = woerter(" ".join(t["titel"]) + " " + t["ort"])
+        treffer = sorted(((len(wt & woerter(" ".join(d["titel"]) + " " + d["ort"])), i) for i, d in enumerate(frei)
+                          if t["von"] <= d["bis"] and d["von"] <= t["bis"]), reverse=True)
+        treffer = [x for x in treffer if x[0] > 0]
+        gewaehlt = frei[treffer[0][1]] if treffer and (len(treffer) == 1 or treffer[0][0] > treffer[1][0]) else None
+        if gewaehlt is None and t["ausrichter"] == "DBSV" and not treffer:
+            # gleiche Veranstaltung mit verschobenem Datum: gleicher Ort, ein gemeinsames Wort im Titel, höchstens 90 Tage Abstand
+            ort_t = {w for w in woerter(t["ort"]) if len(w) > 2}
+            titel_t = woerter(" ".join(t["titel"]))
+            spaeter = [d for d in frei if abs((d["von"] - t["von"]).days) <= 90 and ort_t & {w for w in woerter(d["ort"]) if len(w) > 2}
+                       and titel_t & woerter(" ".join(d["titel"]))]
+            gewaehlt = spaeter[0] if len(spaeter) == 1 else None
+        if gewaehlt is None:
+            warnungen.append(f"DBSV-nah im SBV-PDF, aber ohne Gegenstück bei den DBSV-Quellen (bleibt unverändert): "
+                             f"{t['von']:%d.%m.%Y} {' '.join(t['titel'])}")
+            ergebnis.append(t)
+            continue
+        frei.remove(gewaehlt)
+        if gewaehlt["von"] != t["von"]:
+            warnungen.append(f"Datum laut DBSV gilt: {' '.join(gewaehlt['titel'])} {gewaehlt['von']:%d.%m.%Y} (SBV-PDF: {t['von']:%d.%m.%Y})")
+        if not gewaehlt["ausschreibungen"]:
+            gewaehlt["ausschreibungen"] = t.get("ausschreibungen", [])
+        ergebnis.append(gewaehlt)
+    return ergebnis + frei
+
+
 def seite_laden(url):
     req = urllib.request.Request(url, headers={"User-Agent": "turniertools-sbv-kalender"})
     return urllib.request.urlopen(req, timeout=60).read().decode("utf-8", errors="replace")
@@ -380,7 +424,7 @@ def ics_erzeugen(termine, stand, vorher=None):
         "PRODID:-//turniertools//SBV Wettkampfkalender//DE",
         "CALSCALE:GREGORIAN", "METHOD:PUBLISH",
         f"X-WR-CALNAME:{ics_text(KALENDER_NAME)}",
-        "X-WR-CALDESC:" + ics_text("Termine aus dem Wettkampfkalender des Sächsischen Bogensportverbands (PDF auf sachsenbogen.de). Ob ein Wettkampf stattfindet, steht in der Ausschreibung."),
+        "X-WR-CALDESC:" + ics_text("Termine aus dem Wettkampfkalender des Sächsischen Bogensportverbands (sachsenbogen.de) und des Deutschen Bogensportverbands (dbsv1959.de). Ob ein Wettkampf stattfindet, steht in der Ausschreibung."),
         "X-WR-TIMEZONE:Europe/Berlin",
         "REFRESH-INTERVAL;VALUE=DURATION:PT12H", "X-PUBLISHED-TTL:PT12H",
     ]
@@ -406,10 +450,14 @@ def ics_erzeugen(termine, stand, vorher=None):
             beschreibung.append(f"Beginn: {beginn}")
         if t["ort"]:
             beschreibung.append(f"Ort: {t['ort']}")
+        if t.get("disziplin"):
+            beschreibung.append(f"Disziplin: {t['disziplin']}")
         if t["ak"]:
             beschreibung.append("Klassen/Hinweis: " + ", ".join(t["ak"]))
         if t["ausrichter"]:
             beschreibung.append(f"Ausrichter: {t['ausrichter']}")
+        if t.get("vor_ort"):
+            beschreibung.append(f"Ausrichter vor Ort: {t['vor_ort']}")
         if t["rang"]:
             beschreibung.append("Ranglistenturnier")
         if t["sterne"]:
@@ -449,6 +497,8 @@ def main():
     ap.add_argument("--pdf", help="lokale PDF-Datei statt Download")
     ap.add_argument("--out", default="docs/sbv_wettkampfkalender.ics")
     ap.add_argument("--ausschreibungen", help="lokale HTML-Datei der Ausschreibungsseite statt Download")
+    ap.add_argument("--dbsv-seite", help="lokale HTML-Datei der DBSV-Wettbewerbe-Seite statt Download")
+    ap.add_argument("--dbsv-pdf", help="lokale Datei des DBSV-Turnierkalenders (PDF) statt Download")
     ap.add_argument("--liste", action="store_true", help="Termine als Tabelle ausgeben")
     args = ap.parse_args()
 
@@ -472,6 +522,21 @@ def main():
     if len(termine) < MIN_TERMINE:
         sys.exit(f"Nur {len(termine)} Termine gefunden (erwartet mindestens {MIN_TERMINE}) – Layout geändert? Nichts geschrieben.")
     termine += termine_aus_ausschreibungen(offen)
+
+    try:
+        if args.dbsv_seite:
+            dbsv_seite = open(args.dbsv_seite, "rb").read().decode("utf-8", errors="replace")
+        else:
+            dbsv_seite = dbsv_quellen.laden(dbsv_quellen.WETTBEWERBE_URL).decode("utf-8", errors="replace")
+        if args.dbsv_pdf:
+            dbsv_pdf = open(args.dbsv_pdf, "rb").read()
+        else:
+            kalender_seite = dbsv_quellen.laden(dbsv_quellen.KALENDER_SEITE_URL).decode("utf-8", errors="replace")
+            dbsv_pdf = dbsv_quellen.laden(dbsv_quellen.kalender_pdf_url(kalender_seite))
+        dbsv = dbsv_quellen.dbsv_termine(dbsv_seite, dbsv_pdf, warnungen)
+    except (ValueError, OSError) as e:
+        sys.exit(f"DBSV-Quellen nicht lesbar: {e} – nichts geschrieben.")
+    termine = dbsv_einbinden(termine, dbsv, warnungen)
     for w in warnungen:
         print("Hinweis:", w, file=sys.stderr)
     if args.liste:

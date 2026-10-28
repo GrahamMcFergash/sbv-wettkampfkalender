@@ -4,7 +4,7 @@ Liest täglich das PDF <https://www.sachsenbogen.de/dbdata/wettkampf/sbv_wettkam
 extrahiert die Termine und stellt sie als iCalendar-Feed (`docs/sbv_wettkampfkalender.ics`) bereit,
 den Google Kalender (und jeder andere Kalender) abonnieren kann.
 
-- `sbv_kalender.py` – PDF laden, Tabelle über Textkoordinaten lesen (PyMuPDF), `.ics` schreiben.
+- `sbv_kalender.py` – SBV-PDF laden, Tabelle über Textkoordinaten lesen (PyMuPDF), `.ics` schreiben.
   Die Ausgabe ist deterministisch (kein Erzeugungszeitpunkt, DTSTAMP = Stand des PDFs), die Datei ändert sich also nur,
   wenn sich das PDF inhaltlich ändert. Stabile UIDs je Datum+Titel+Ort.
 - `.github/workflows/update.yml` – GitHub Action, täglich 04:17 UTC; committet die `.ics` nur bei Änderung.
@@ -40,6 +40,21 @@ Zuordnung: Datum überlappt und Titel/Verein stimmen in Worten überein (bei meh
 größte Übereinstimmung). Ausschreibungen, die zu keinem Termin im PDF-Kalender passen, werden als eigene Termine aufgenommen
 (Titel `<Verein>: <Titel der Ausschreibung>`, Quelle in der Beschreibung vermerkt) und beim Lauf als „Hinweis“ ausgegeben. Wird ein Termin
 später ins PDF übernommen, ordnet das Skript die Ausschreibung ihm zu und der eigene Termin verschwindet.
+
+## DBSV-Termine (dbsv1959.de)
+
+Zusätzlich fließen die **DBSV-eigenen** Termine in denselben Feed (`dbsv_quellen.py`):
+
+- Seite „Sport → Wettbewerbe“: Deutsche Meisterschaften, Verbandspokale, Bundesliga, Aufstiegsturnier mit Datum, Ort und den Links
+  zu den Ausschreibungen. Sie ist für Datum, Titel und Ausschreibungen maßgeblich.
+- Turnierkalender-PDF (der Link wird über „Termine → Wettbewerbe 2026“ gefunden, der Dateiname ändert sich): nur die farbig
+  gesetzten Zeilen des DBSV (Meldeschlüsse, Sitzungen, Schulungen, Wettbewerbe), zusätzlich der Ausrichter vor Ort. Zeilen von Vereinen und
+  anderen Landesverbänden (schwarz) werden ignoriert. Das Jahr ergibt sich aus der Reihenfolge der Monate (das PDF hat keine Jahreszahlen).
+- Titel `DBSV: <Titel>`, 🏆 und PDF-Link wenn eine Ausschreibung vorliegt, Disziplin und „Ausrichter vor Ort“ in der Beschreibung.
+- Zusammenführen mit dem SBV-PDF: DBSV-nahe Einträge dort (Deutsche Meisterschaften, Bundesliga, Verbandspokal, Ausrichter „DBSV“)
+  werden durch die DBSV-Termine ersetzt, wenn Datum und Titel/Ort zusammenpassen; bei verschobenem Datum (gleicher Ort, ähnlicher
+  Titel, höchstens 90 Tage) gilt das Datum des DBSV und der Lauf gibt einen Hinweis aus. Einträge ohne Gegenstück bleiben unverändert.
+- Sind die DBSV-Seiten nicht lesbar oder sieht das Layout anders aus, bricht der Lauf ab und die bisherige `.ics` bleibt online.
 
 ## Versionierung der Termine
 

@@ -5,11 +5,29 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:SBV Wettkampfkalender
 X-WR-CALDESC:Termine aus dem Wettkampfkalender des Sächsischen Bogensportv
- erbands (PDF auf sachsenbogen.de). Ob ein Wettkampf stattfindet\, steht in
-  der Ausschreibung.
+ erbands (sachsenbogen.de) und des Deutschen Bogensportverbands (dbsv1959.d
+ e). Ob ein Wettkampf stattfindet\, steht in der Ausschreibung.
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:c2b072126fb7f6fd85cc@turniertools.sbv
+DTSTAMP:20261028T000000Z
+LAST-MODIFIED:20261028T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260207
+DTEND;VALUE=DATE:20260208
+SUMMARY:🏆 DBSV: Verbandspokal Erwachsene
+LOCATION:Heiligenstadt (TH)
+URL:https://www.dbsv1959.de/images/Dokumente/2026-Daten/Ausschreibungen/EVP
+ _2026.pdf
+ATTACH;FMTTYPE=application/pdf:https://www.dbsv1959.de/images/Dokumente/202
+ 6-Daten/Ausschreibungen/EVP_2026.pdf
+DESCRIPTION:Ausschreibung: https://www.dbsv1959.de/images/Dokumente/2026-Da
+ ten/Ausschreibungen/EVP_2026.pdf\nOrt: Heiligenstadt (TH)\nDisziplin: Sche
+ ibe\nAusrichter: DBSV\nQuelle: DBSV (dbsv1959.de)
+TRANSP:TRANSPARENT
+END:VEVENT
 BEGIN:VEVENT
 UID:f92d10088226088c3378@turniertools.sbv
 DTSTAMP:20261027T000000Z
@@ -21,6 +39,24 @@ SUMMARY:Radeberger SV: 3D Linienturnier
 LOCATION:Radeberg
 DESCRIPTION:Ort: Radeberg\nAusrichter: Radeberger SV\nQuelle: Wettkampfkale
  nder des SBV (PDF auf sachsenbogen.de)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:03e361a2cf4b842870fb@turniertools.sbv
+DTSTAMP:20261028T000000Z
+LAST-MODIFIED:20261028T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260314
+DTEND;VALUE=DATE:20260316
+SUMMARY:🏆 DBSV: Deutsche Meisterschaft Halle BoV
+LOCATION:Döbeln
+URL:https://www.dbsv1959.de/images/Dokumente/2026-Daten/Ausschreibungen/DM_
+ Halle_BoV_2026.pdf
+ATTACH;FMTTYPE=application/pdf:https://www.dbsv1959.de/images/Dokumente/202
+ 6-Daten/Ausschreibungen/DM_Halle_BoV_2026.pdf
+DESCRIPTION:Ausschreibung: https://www.dbsv1959.de/images/Dokumente/2026-Da
+ ten/Ausschreibungen/DM_Halle_BoV_2026.pdf\nOrt: Döbeln\nDisziplin: Scheib
+ e\nAusrichter: DBSV\nQuelle: DBSV (dbsv1959.de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -46,6 +82,24 @@ SUMMARY:SBV: Familienbogenfreizeit
 LOCATION:Papstdorf
 DESCRIPTION:Ort: Papstdorf\nKlassen/Hinweis: Meldung bis 28.02.2026\nAusric
  hter: SBV\nQuelle: Wettkampfkalender des SBV (PDF auf sachsenbogen.de)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c0a3164c4b6c84c4cdda@turniertools.sbv
+DTSTAMP:20261028T000000Z
+LAST-MODIFIED:20261028T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260328
+DTEND;VALUE=DATE:20260330
+SUMMARY:🏆 DBSV: Deutsche Meisterschaft Halle Rec und CU
+LOCATION:Salzwedel (ST)
+URL:https://www.dbsv1959.de/images/Dokumente/2026-Daten/Ausschreibungen/DM_
+ Halle_BmV_2026.pdf
+ATTACH;FMTTYPE=application/pdf:https://www.dbsv1959.de/images/Dokumente/202
+ 6-Daten/Ausschreibungen/DM_Halle_BmV_2026.pdf
+DESCRIPTION:Ausschreibung: https://www.dbsv1959.de/images/Dokumente/2026-Da
+ ten/Ausschreibungen/DM_Halle_BmV_2026.pdf\nOrt: Salzwedel (ST)\nDisziplin:
+  Scheibe\nAusrichter: DBSV\nQuelle: DBSV (dbsv1959.de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -141,16 +195,21 @@ DESCRIPTION:Ort: Bischheim\nKlassen/Hinweis: alle Klassen\nAusrichter: SBV\
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:757326eecc82b3306479@turniertools.sbv
-DTSTAMP:20261027T000000Z
-LAST-MODIFIED:20261027T000000Z
-SEQUENCE:2
+UID:484992c84b1064438496@turniertools.sbv
+DTSTAMP:20261028T000000Z
+LAST-MODIFIED:20261028T000000Z
+SEQUENCE:0
 DTSTART;VALUE=DATE:20260509
 DTEND;VALUE=DATE:20260511
-SUMMARY:Jena (TH): 1. + 2. Spieltag Bundesliga  70m
+SUMMARY:🏆 DBSV: 1. und 2. Spieltag Bundesliga
 LOCATION:Jena (TH)
-DESCRIPTION:Ort: Jena (TH)\nKlassen/Hinweis: Mannschaften\nQuelle: Wettkamp
- fkalender des SBV (PDF auf sachsenbogen.de)
+URL:https://www.dbsv1959.de/images/Dokumente/2026-Daten/Ausschreibungen/Bun
+ desliga.pdf
+ATTACH;FMTTYPE=application/pdf:https://www.dbsv1959.de/images/Dokumente/202
+ 6-Daten/Ausschreibungen/Bundesliga.pdf
+DESCRIPTION:Ausschreibung: https://www.dbsv1959.de/images/Dokumente/2026-Da
+ ten/Ausschreibungen/Bundesliga.pdf\nOrt: Jena (TH)\nDisziplin: Bundesliga\
+ nAusrichter: DBSV\nQuelle: DBSV (dbsv1959.de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -234,17 +293,23 @@ DESCRIPTION:Ort: Dresden\nKlassen/Hinweis: Mannsch. gem Meldung\nAusrichter
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:c54fcea1a3bbd7587fb8@turniertools.sbv
-DTSTAMP:20261027T000000Z
-LAST-MODIFIED:20261027T000000Z
-SEQUENCE:2
+UID:255ba7ff83017204d96e@turniertools.sbv
+DTSTAMP:20261028T000000Z
+LAST-MODIFIED:20261028T000000Z
+SEQUENCE:0
 DTSTART;VALUE=DATE:20260605
 DTEND;VALUE=DATE:20260608
-SUMMARY:DBSV: Verbandspokal der Jugend
+SUMMARY:🏆 DBSV: Verbandspokal Jugend U12 - U21
 LOCATION:Lindach (BY)
-DESCRIPTION:Ort: Lindach (BY)\nKlassen/Hinweis: Nominierung durch SBV\nAusr
- ichter: DBSV\nRanglistenturnier\nSterne berechtigt\nQuelle: Wettkampfkalen
- der des SBV (PDF auf sachsenbogen.de)
+URL:https://www.dbsv1959.de/images/Dokumente/2026-Daten/Ausschreibungen/Aus
+ schreibung_JVP_2026_endg%C3%BCltige_Version_vom_11.03.26.pdf
+ATTACH;FMTTYPE=application/pdf:https://www.dbsv1959.de/images/Dokumente/202
+ 6-Daten/Ausschreibungen/Ausschreibung_JVP_2026_endg%C3%BCltige_Version_vom
+ _11.03.26.pdf
+DESCRIPTION:Ausschreibung: https://www.dbsv1959.de/images/Dokumente/2026-Da
+ ten/Ausschreibungen/Ausschreibung_JVP_2026_endg%C3%BCltige_Version_vom_11.
+ 03.26.pdf\nOrt: Lindach (BY)\nDisziplin: Scheibe\nAusrichter: DBSV\nQuelle
+ : DBSV (dbsv1959.de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -370,16 +435,21 @@ DESCRIPTION:Ort: Krobnitz\nKlassen/Hinweis: alle Bogenklassen\nAusrichter:
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:b4f981ace3f1688be588@turniertools.sbv
-DTSTAMP:20261027T000000Z
-LAST-MODIFIED:20261027T000000Z
-SEQUENCE:2
+UID:d0001090d8c418f1c3ef@turniertools.sbv
+DTSTAMP:20261028T000000Z
+LAST-MODIFIED:20261028T000000Z
+SEQUENCE:0
 DTSTART;VALUE=DATE:20260613
 DTEND;VALUE=DATE:20260615
-SUMMARY:Soest (NW): 3. + 4. Spieltag Bundesliga  70 m
+SUMMARY:🏆 DBSV: 3. und 4. Spieltag Bundesliga
 LOCATION:Soest (NW)
-DESCRIPTION:Ort: Soest (NW)\nKlassen/Hinweis: Mannschaften\nQuelle: Wettkam
- pfkalender des SBV (PDF auf sachsenbogen.de)
+URL:https://www.dbsv1959.de/images/Dokumente/2026-Daten/Ausschreibungen/Bun
+ desliga.pdf
+ATTACH;FMTTYPE=application/pdf:https://www.dbsv1959.de/images/Dokumente/202
+ 6-Daten/Ausschreibungen/Bundesliga.pdf
+DESCRIPTION:Ausschreibung: https://www.dbsv1959.de/images/Dokumente/2026-Da
+ ten/Ausschreibungen/Bundesliga.pdf\nOrt: Soest (NW)\nDisziplin: Scheibe\nA
+ usrichter: DBSV\nQuelle: DBSV (dbsv1959.de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -501,73 +571,79 @@ DESCRIPTION:Ort: Plauen\nKlassen/Hinweis: alle Klassen\nAusrichter: BSV Pla
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:7f8b2f74ba1fe5f6538d@turniertools.sbv
-DTSTAMP:20261027T000000Z
-LAST-MODIFIED:20261027T000000Z
-SEQUENCE:2
+UID:0bd8562a58fbf17c965a@turniertools.sbv
+DTSTAMP:20261028T000000Z
+LAST-MODIFIED:20261028T000000Z
+SEQUENCE:0
 DTSTART;VALUE=DATE:20260815
 DTEND;VALUE=DATE:20260817
-SUMMARY:DBSV: Deutsche Meisterschaft 3-D
-LOCATION:Eichenzell (HE) ?
-DESCRIPTION:Ort: Eichenzell (HE) ?\nKlassen/Hinweis: alle Klassen\, nach No
- minierung\nAusrichter: DBSV\nSterne berechtigt\nQuelle: Wettkampfkalender 
- des SBV (PDF auf sachsenbogen.de)
+SUMMARY:🏆 DBSV: Deutsche Meisterschaft 3D
+LOCATION:Eichenzell (HE)
+URL:https://www.dbsv1959.de/images/Dokumente/2026-Daten/Ausschreibungen/3D.
+ pdf
+ATTACH;FMTTYPE=application/pdf:https://www.dbsv1959.de/images/Dokumente/202
+ 6-Daten/Ausschreibungen/3D.pdf
+DESCRIPTION:Ausschreibung: https://www.dbsv1959.de/images/Dokumente/2026-Da
+ ten/Ausschreibungen/3D.pdf\nOrt: Eichenzell (HE)\nDisziplin: 3D\nAusrichte
+ r: DBSV\nQuelle: DBSV (dbsv1959.de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:a3dd4fa2004bd4356a7c@turniertools.sbv
-DTSTAMP:20261027T000000Z
-LAST-MODIFIED:20261027T000000Z
-SEQUENCE:2
+UID:044c999ebe84d2519dbf@turniertools.sbv
+DTSTAMP:20261028T000000Z
+LAST-MODIFIED:20261028T000000Z
+SEQUENCE:0
 DTSTART;VALUE=DATE:20260822
 DTEND;VALUE=DATE:20260824
-SUMMARY:DBSV: Deutsche Meisterschaft D+H+AK
+SUMMARY:🏆 DBSV: Deutsche Meisterschaft Damen\, Herren\, Altersklassen
 LOCATION:Schwedt (BB)
-DESCRIPTION:Ort: Schwedt (BB)\nKlassen/Hinweis: AK\, Rc+ Cu\, nach Nominier
- ung\nAusrichter: DBSV\nRanglistenturnier\nSterne berechtigt\nQuelle: Wettk
- ampfkalender des SBV (PDF auf sachsenbogen.de)
+URL:https://www.dbsv1959.de/images/Dokumente/2026-Daten/Ausschreibungen/144
+ _Erwachsene_BmV.pdf
+ATTACH;FMTTYPE=application/pdf:https://www.dbsv1959.de/images/Dokumente/202
+ 6-Daten/Ausschreibungen/144_Erwachsene_BmV.pdf
+DESCRIPTION:Ausschreibung: https://www.dbsv1959.de/images/Dokumente/2026-Da
+ ten/Ausschreibungen/144_Erwachsene_BmV.pdf\nOrt: Schwedt (BB)\nDisziplin: 
+ Scheibe\nAusrichter: DBSV\nQuelle: DBSV (dbsv1959.de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:0c2b9a8d4968650259db@turniertools.sbv
-DTSTAMP:20261027T000000Z
-LAST-MODIFIED:20261027T000000Z
-SEQUENCE:2
+UID:52f8853182720b5bdf8e@turniertools.sbv
+DTSTAMP:20261028T000000Z
+LAST-MODIFIED:20261028T000000Z
+SEQUENCE:0
 DTSTART;VALUE=DATE:20260829
 DTEND;VALUE=DATE:20260831
-SUMMARY:DBSV: Deutsche Meisterschaft Bögen ohne Visier
-LOCATION:Rostock
-DESCRIPTION:Ort: Rostock\nKlassen/Hinweis: ohne Visier\nAusrichter: DBSV\nR
- anglistenturnier\nSterne berechtigt\nQuelle: Wettkampfkalender des SBV (PD
- F auf sachsenbogen.de)
+SUMMARY:🏆 DBSV: Deutsche Meisterschaft BoV
+LOCATION:Rostock (MV)
+URL:https://www.dbsv1959.de/images/Dokumente/2026-Daten/Ausschreibungen/BoV
+ .pdf
+ATTACH;FMTTYPE=application/pdf:https://www.dbsv1959.de/images/Dokumente/202
+ 6-Daten/Ausschreibungen/BoV.pdf
+DESCRIPTION:Ausschreibung: https://www.dbsv1959.de/images/Dokumente/2026-Da
+ ten/Ausschreibungen/BoV.pdf\nOrt: Rostock (MV)\nDisziplin: Scheibe\nAusric
+ hter: DBSV\nQuelle: DBSV (dbsv1959.de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:24a8c7c4917484e51825@turniertools.sbv
-DTSTAMP:20261027T000000Z
-LAST-MODIFIED:20261027T000000Z
-SEQUENCE:2
+UID:65537288cd0f442425c6@turniertools.sbv
+DTSTAMP:20261028T000000Z
+LAST-MODIFIED:20261028T000000Z
+SEQUENCE:0
 DTSTART;VALUE=DATE:20260905
 DTEND;VALUE=DATE:20260907
-SUMMARY:DBSV: Deutsche Feld- und Waldmeisterschaft
+SUMMARY:🏆 DBSV: Deutsche Meisterschaft Feld / Wald
 LOCATION:Schwarzenborn (HE)
-DESCRIPTION:Ort: Schwarzenborn (HE)\nKlassen/Hinweis: alle Klassen\, nach N
- ominierung\nAusrichter: DBSV\nSterne berechtigt\nQuelle: Wettkampfkalender
-  des SBV (PDF auf sachsenbogen.de)
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ff7e621f727a05cf3307@turniertools.sbv
-DTSTAMP:20261027T000000Z
-LAST-MODIFIED:20261027T000000Z
-SEQUENCE:2
-DTSTART;VALUE=DATE:20260912
-DTEND;VALUE=DATE:20260914
-SUMMARY:DBSV: Deutsche Jugendmeisterschaft
-LOCATION:Weißensee (TH)
-DESCRIPTION:Ort: Weißensee (TH)\nKlassen/Hinweis: U12 - U18\, nach Nominie
- rung\nAusrichter: DBSV\nRanglistenturnier\nSterne berechtigt\nQuelle: Wett
- kampfkalender des SBV (PDF auf sachsenbogen.de)
+URL:https://www.dbsv1959.de/images/Dokumente/2026-Daten/Ausschreibungen/Fel
+ d.pdf
+ATTACH;FMTTYPE=application/pdf:https://www.dbsv1959.de/images/Dokumente/202
+ 6-Daten/Ausschreibungen/Feld.pdf
+ATTACH;FMTTYPE=application/pdf:https://www.dbsv1959.de/images/Dokumente/202
+ 6-Daten/Ausschreibungen/Wald.pdf
+DESCRIPTION:Ausschreibung Feld: https://www.dbsv1959.de/images/Dokumente/20
+ 26-Daten/Ausschreibungen/Feld.pdf\nAusschreibung Wald: https://www.dbsv195
+ 9.de/images/Dokumente/2026-Daten/Ausschreibungen/Wald.pdf\nOrt: Schwarzenb
+ orn (HE)\nDisziplin: Feld/Wald\nAusrichter: DBSV\nQuelle: DBSV (dbsv1959.d
+ e)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -597,16 +673,21 @@ DESCRIPTION:Ort: Radeberg\nKlassen/Hinweis: alle Klassen\nAusrichter: Radeb
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:4788237b3dd0ca115fbf@turniertools.sbv
-DTSTAMP:20261027T000000Z
-LAST-MODIFIED:20261027T000000Z
-SEQUENCE:2
+UID:c6789a1eeabc78aacb85@turniertools.sbv
+DTSTAMP:20261028T000000Z
+LAST-MODIFIED:20261028T000000Z
+SEQUENCE:0
 DTSTART;VALUE=DATE:20260919
 DTEND;VALUE=DATE:20260921
-SUMMARY:DBSV: Deutsche Meisterschaft im Bogenlaufen
+SUMMARY:🏆 DBSV: Deutsche Meisterschaft Bogenlaufen
 LOCATION:Bürstadt (HE)
-DESCRIPTION:Ort: Bürstadt (HE)\nKlassen/Hinweis: gem. Ausschreibung\nAusri
- chter: DBSV\nQuelle: Wettkampfkalender des SBV (PDF auf sachsenbogen.de)
+URL:https://www.dbsv1959.de/images/Dokumente/2026-Daten/Ausschreibungen/DM_
+ Bogenlaufen_Ausschreibung_2026.pdf
+ATTACH;FMTTYPE=application/pdf:https://www.dbsv1959.de/images/Dokumente/202
+ 6-Daten/Ausschreibungen/DM_Bogenlaufen_Ausschreibung_2026.pdf
+DESCRIPTION:Ausschreibung: https://www.dbsv1959.de/images/Dokumente/2026-Da
+ ten/Ausschreibungen/DM_Bogenlaufen_Ausschreibung_2026.pdf\nOrt: Bürstadt 
+ (HE)\nDisziplin: Bogenlauf\nAusrichter: DBSV\nQuelle: DBSV (dbsv1959.de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -649,6 +730,24 @@ DESCRIPTION:Ort: Glauchau\nAusrichter: BSC Glauchau\nQuelle: Wettkampfkalen
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:d7a4fbcba002b211adb0@turniertools.sbv
+DTSTAMP:20261028T000000Z
+LAST-MODIFIED:20261028T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260928
+SUMMARY:🏆 DBSV: Deutsche Meisterschaft Jugend
+LOCATION:Weißensee (TH)
+URL:https://www.dbsv1959.de/images/Dokumente/2026-Daten/Ausschreibungen/Jug
+ end2026.pdf
+ATTACH;FMTTYPE=application/pdf:https://www.dbsv1959.de/images/Dokumente/202
+ 6-Daten/Ausschreibungen/Jugend2026.pdf
+DESCRIPTION:Ausschreibung: https://www.dbsv1959.de/images/Dokumente/2026-Da
+ ten/Ausschreibungen/Jugend2026.pdf\nOrt: Weißensee (TH)\nDisziplin: Schei
+ be\nAusrichter: DBSV\nQuelle: DBSV (dbsv1959.de)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:a2c48a4f07efb328f317@turniertools.sbv
 DTSTAMP:20261027T000000Z
 LAST-MODIFIED:20261027T000000Z
@@ -661,19 +760,6 @@ DESCRIPTION:Klassen/Hinweis: Meldung an Ligaverantwortliche\nAusrichter: SB
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:e69a695597e4a4676322@turniertools.sbv
-DTSTAMP:20261027T000000Z
-LAST-MODIFIED:20261027T000000Z
-SEQUENCE:2
-DTSTART;VALUE=DATE:20261017
-DTEND;VALUE=DATE:20261018
-SUMMARY:DBSV: Geschäftsbereichssitzung des DBSV
-LOCATION:Oberaula (HE)
-DESCRIPTION:Ort: Oberaula (HE)\nAusrichter: DBSV\nQuelle: Wettkampfkalender
-  des SBV (PDF auf sachsenbogen.de)
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:7b4a34a75b477399bdd1@turniertools.sbv
 DTSTAMP:20261027T000000Z
 LAST-MODIFIED:20261027T000000Z
@@ -682,6 +768,32 @@ DTSTART;VALUE=DATE:20261017
 DTEND;VALUE=DATE:20261018
 SUMMARY:Relegation Lali BoV
 DESCRIPTION:Quelle: Wettkampfkalender des SBV (PDF auf sachsenbogen.de)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:1e31c0b62f6857a4acbc@turniertools.sbv
+DTSTAMP:20261028T000000Z
+LAST-MODIFIED:20261028T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261019
+SUMMARY:DBSV: Klausurtagung Präsidium und Landesverbände
+LOCATION:Oberaula (HE)
+DESCRIPTION:Ort: Oberaula (HE)\nAusrichter: DBSV\nQuelle: DBSV (dbsv1959.de
+ )
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:3e6bd55ceec02db00c0f@turniertools.sbv
+DTSTAMP:20261028T000000Z
+LAST-MODIFIED:20261028T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:DBSV: Kampfrichterschulung
+LOCATION:Oberaula (HE)
+DESCRIPTION:Ort: Oberaula (HE)\nAusrichter: DBSV\nQuelle: DBSV (dbsv1959.de
+ )
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1085,6 +1197,17 @@ DESCRIPTION:Ort: Döbeln\nKlassen/Hinweis: gemeldete Vereinsmannschaften\nQ
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ee869bbcb8153b9368b8@turniertools.sbv
+DTSTAMP:20261028T000000Z
+LAST-MODIFIED:20261028T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270125
+DTEND;VALUE=DATE:20270126
+SUMMARY:DBSV: Meldeschluss für Verbandspokal der Erwachsenen
+DESCRIPTION:Ausrichter: DBSV\nQuelle: DBSV (dbsv1959.de)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:4d7b44404eb47065941e@turniertools.sbv
 DTSTAMP:20261027T000000Z
 LAST-MODIFIED:20261027T000000Z
@@ -1099,6 +1222,17 @@ DESCRIPTION:Ort: Görlitz\nKlassen/Hinweis: alle Klassen\nAusrichter: SV Ko
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:385b25e045aa78922635@turniertools.sbv
+DTSTAMP:20261028T000000Z
+LAST-MODIFIED:20261028T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270202
+DTEND;VALUE=DATE:20270203
+SUMMARY:DBSV: Meldeschluss Deutsche Hallenmeisterschaften
+DESCRIPTION:Ausrichter: DBSV\nQuelle: DBSV (dbsv1959.de)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:2987ba23709b310651ef@turniertools.sbv
 DTSTAMP:20261027T000000Z
 LAST-MODIFIED:20261027T000000Z
@@ -1108,6 +1242,19 @@ DTEND;VALUE=DATE:20270207
 SUMMARY:SV KOWEG Görlitz: 13. Görlitzer 900er-Turnier
 DESCRIPTION:Ausrichter: SV KOWEG Görlitz\nQuelle: Seite Ausschreibungen de
  s SBV (nicht im PDF-Wettkampfkalender)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2b1312dea54cb1b0c0ec@turniertools.sbv
+DTSTAMP:20261028T000000Z
+LAST-MODIFIED:20261028T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270206
+DTEND;VALUE=DATE:20270207
+SUMMARY:DBSV: Verbandspokal Erwachsene
+LOCATION:Heiligenstadt (TH)
+DESCRIPTION:Ort: Heiligenstadt (TH)\nDisziplin: Scheibe\nAusrichter: DBSV\n
+ Ausrichter vor Ort: Eichsfelder Bogengilde\nQuelle: DBSV (dbsv1959.de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1127,6 +1274,19 @@ DESCRIPTION:Ausschreibung: https://www.sachsenbogen.de/dbdata/wettkampf/Cde
  13678aa5c55a7dd0f38c99978e054a.pdf\nBeginn: 09:00 Uhr\nAusrichter: BSC Che
  mnitz-Rabenstein\nQuelle: Seite Ausschreibungen des SBV (nicht im PDF-Wett
  kampfkalender)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ca9cf9742e6856d162d5@turniertools.sbv
+DTSTAMP:20261028T000000Z
+LAST-MODIFIED:20261028T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270220
+DTEND;VALUE=DATE:20270222
+SUMMARY:DBSV: Deutsche Meisterschaft Halle Rec und CU
+LOCATION:Messkirch (BW)
+DESCRIPTION:Ort: Messkirch (BW)\nDisziplin: Scheibe\nAusrichter: DBSV\nAusr
+ ichter vor Ort: SV Altheim-Thalheim\nQuelle: DBSV (dbsv1959.de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1168,6 +1328,210 @@ LOCATION:Hoyerswerda
 DESCRIPTION:Ort: Hoyerswerda\nKlassen/Hinweis: Pokal für U10-U17\, alle BK
  \, Erw. wenn Platz\nAusrichter: SC Hoyerswerda\nRanglistenturnier\nSterne 
  berechtigt\nQuelle: Wettkampfkalender des SBV (PDF auf sachsenbogen.de)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:5d7e8676fe0c05199411@turniertools.sbv
+DTSTAMP:20261028T000000Z
+LAST-MODIFIED:20261028T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270314
+DTEND;VALUE=DATE:20270315
+SUMMARY:DBSV: Mitgliederversammlung des DBSV
+LOCATION:Oberaula (HE)
+DESCRIPTION:Ort: Oberaula (HE)\nAusrichter: DBSV\nQuelle: DBSV (dbsv1959.de
+ )
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e3b900b9ae01d565fec4@turniertools.sbv
+DTSTAMP:20261028T000000Z
+LAST-MODIFIED:20261028T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270320
+DTEND;VALUE=DATE:20270322
+SUMMARY:DBSV: Deutsche Meisterschaft Halle BoV
+LOCATION:Messkirch (BW)
+DESCRIPTION:Ort: Messkirch (BW)\nDisziplin: Scheibe\nAusrichter: DBSV\nAusr
+ ichter vor Ort: SV Altheim-Thalheim\nQuelle: DBSV (dbsv1959.de)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ddff1bb86542ce82d784@turniertools.sbv
+DTSTAMP:20261028T000000Z
+LAST-MODIFIED:20261028T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270501
+DTEND;VALUE=DATE:20270502
+SUMMARY:DBSV: Meldeschluss für Verbandspokal der Jugend U 12 bis U 21
+DESCRIPTION:Ausrichter: DBSV\nQuelle: DBSV (dbsv1959.de)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:0a36ac2bba87e8099683@turniertools.sbv
+DTSTAMP:20261028T000000Z
+LAST-MODIFIED:20261028T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270501
+DTEND;VALUE=DATE:20270503
+SUMMARY:DBSV: 1. und 2. Spieltag Bundesliga
+LOCATION:Hamburg
+DESCRIPTION:Ort: Hamburg\nDisziplin: Bundesliga\nAusrichter: DBSV\nAusricht
+ er vor Ort: Hamburger Bogenschützengilde\nQuelle: DBSV (dbsv1959.de)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ba663f497ed740253790@turniertools.sbv
+DTSTAMP:20261028T000000Z
+LAST-MODIFIED:20261028T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270529
+DTEND;VALUE=DATE:20270531
+SUMMARY:DBSV: Verbandspokal Jugend U12 - U21
+LOCATION:Obermöllrich (HE)
+DESCRIPTION:Ort: Obermöllrich (HE)\nDisziplin: Scheibe\nAusrichter: DBSV\n
+ Ausrichter vor Ort: TSV Obermöllrich-Cappel\nQuelle: DBSV (dbsv1959.de)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:8d7fe4dea3b8a6d6848d@turniertools.sbv
+DTSTAMP:20261028T000000Z
+LAST-MODIFIED:20261028T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270612
+DTEND;VALUE=DATE:20270614
+SUMMARY:DBSV: 3. und 4. Spieltag Bundesliga
+LOCATION:Oberbauerschaft (NW)
+DESCRIPTION:Ort: Oberbauerschaft (NW)\nDisziplin: Scheibe\nAusrichter: DBSV
+ \nAusrichter vor Ort: SV Blau Weiß Oberbauerschaft\nQuelle: DBSV (dbsv195
+ 9.de)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f9fd5e8cd1b52b5fb889@turniertools.sbv
+DTSTAMP:20261028T000000Z
+LAST-MODIFIED:20261028T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270706
+DTEND;VALUE=DATE:20270707
+SUMMARY:DBSV: Meldeschluss für Deutsche Meisterschaften 3 D\, BmV\, BoV
+DESCRIPTION:Ausrichter: DBSV\nQuelle: DBSV (dbsv1959.de)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:10fb4d52f348a6532c0e@turniertools.sbv
+DTSTAMP:20261028T000000Z
+LAST-MODIFIED:20261028T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270727
+DTEND;VALUE=DATE:20270728
+SUMMARY:DBSV: Meldeschluss für Dt. Meisterschaften Feld/Wald\, Jugend\, Bo
+ genlaufen
+DESCRIPTION:Ausrichter: DBSV\nQuelle: DBSV (dbsv1959.de)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:35ab0b86c654cd0161e8@turniertools.sbv
+DTSTAMP:20261028T000000Z
+LAST-MODIFIED:20261028T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270814
+DTEND;VALUE=DATE:20270816
+SUMMARY:DBSV: Deutsche Meisterschaft 3D
+LOCATION:Hohegeiß (NI)
+DESCRIPTION:Ort: Hohegeiß (NI)\nDisziplin: 3D\nAusrichter: DBSV\nAusrichte
+ r vor Ort: SV Hohegeiß\nQuelle: DBSV (dbsv1959.de)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:63d2d3c6546107b4124d@turniertools.sbv
+DTSTAMP:20261028T000000Z
+LAST-MODIFIED:20261028T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270821
+DTEND;VALUE=DATE:20270823
+SUMMARY:DBSV: Deutsche Meisterschaft Damen\, Herren\, Altersklassen
+LOCATION:Magdeburg (ST)
+DESCRIPTION:Ort: Magdeburg (ST)\nDisziplin: Scheibe\nAusrichter: DBSV\nAusr
+ ichter vor Ort: PSV Magdeburg\nQuelle: DBSV (dbsv1959.de)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:33bddea7889400558f1c@turniertools.sbv
+DTSTAMP:20261028T000000Z
+LAST-MODIFIED:20261028T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270828
+DTEND;VALUE=DATE:20270830
+SUMMARY:DBSV: Deutsche Meisterschaft BoV
+LOCATION:Chemnitz
+DESCRIPTION:Ort: Chemnitz\nDisziplin: Scheibe\nAusrichter: DBSV\nAusrichter
+  vor Ort: BSC Chemnitz-Rabenstein\nQuelle: DBSV (dbsv1959.de)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e941a5a6033b3172e9f8@turniertools.sbv
+DTSTAMP:20261028T000000Z
+LAST-MODIFIED:20261028T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270904
+DTEND;VALUE=DATE:20270906
+SUMMARY:DBSV: Deutsche Meisterschaft Jugend
+LOCATION:Schefflenz (BW)
+DESCRIPTION:Ort: Schefflenz (BW)\nDisziplin: Scheibe\nAusrichter: DBSV\nAus
+ richter vor Ort: BSV Schefflenz\nQuelle: DBSV (dbsv1959.de)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:6ec6d634cfbecf04a87b@turniertools.sbv
+DTSTAMP:20261028T000000Z
+LAST-MODIFIED:20261028T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270911
+DTEND;VALUE=DATE:20270913
+SUMMARY:DBSV: Deutsche Meisterschaft Feld / Wald
+LOCATION:Torgelow (BB)
+DESCRIPTION:Ort: Torgelow (BB)\nDisziplin: Feld/Wald\nAusrichter: DBSV\nAus
+ richter vor Ort: SG Einheit Zepernick\nQuelle: DBSV (dbsv1959.de)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:57e08c31092f7a928ae3@turniertools.sbv
+DTSTAMP:20261028T000000Z
+LAST-MODIFIED:20261028T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270918
+DTEND;VALUE=DATE:20270919
+SUMMARY:DBSV: Aufstiegsturnier Bundesliga
+LOCATION:Hahnheim (RP)
+DESCRIPTION:Ort: Hahnheim (RP)\nDisziplin: Scheibe\nAusrichter: DBSV\nQuell
+ e: DBSV (dbsv1959.de)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2af2074c35069166737b@turniertools.sbv
+DTSTAMP:20261028T000000Z
+LAST-MODIFIED:20261028T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270918
+DTEND;VALUE=DATE:20270920
+SUMMARY:DBSV: Deutsche Meisterschaft Bogenlaufen
+LOCATION:Dallgow (BB)
+DESCRIPTION:Ort: Dallgow (BB)\nDisziplin: Bogenlauf\nAusrichter: DBSV\nAusr
+ ichter vor Ort: SV Dallgow 47\nQuelle: DBSV (dbsv1959.de)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:74e5e8a29631a0cd4328@turniertools.sbv
+DTSTAMP:20261028T000000Z
+LAST-MODIFIED:20261028T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20271016
+DTEND;VALUE=DATE:20271017
+SUMMARY:DBSV: Geschäftsbereichssitzungen DBSV
+LOCATION:Oberaula (HE)
+DESCRIPTION:Ort: Oberaula (HE)\nAusrichter: DBSV\nQuelle: DBSV (dbsv1959.de
+ )
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR
