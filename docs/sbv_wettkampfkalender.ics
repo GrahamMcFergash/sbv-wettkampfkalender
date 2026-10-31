@@ -1144,6 +1144,40 @@ DESCRIPTION:Ausschreibung: https://www.sachsenbogen.de/dbdata/wettkampf/Cd2
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:bf0f309a480fe15ca815@turniertools.sbv
+DTSTAMP:20261031T000000Z
+LAST-MODIFIED:20261031T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+SUMMARY:🏆 BSC Chemnitz-Rabenstein: Landesliga BoV - Liga 1 - Rückrunde
+URL:https://www.sachsenbogen.de/dbdata/wettkampf/Ccffec036625bc6a49ff8585a8
+ e7fbb43.pdf
+ATTACH;FMTTYPE=application/pdf:https://www.sachsenbogen.de/dbdata/wettkampf
+ /Ccffec036625bc6a49ff8585a8e7fbb43.pdf
+DESCRIPTION:Ausschreibung: https://www.sachsenbogen.de/dbdata/wettkampf/Ccf
+ fec036625bc6a49ff8585a8e7fbb43.pdf\nAusrichter: BSC Chemnitz-Rabenstein\nQ
+ uelle: Seite Ausschreibungen des SBV (nicht im PDF-Wettkampfkalender)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d99d422bec943a33f7b7@turniertools.sbv
+DTSTAMP:20261031T000000Z
+LAST-MODIFIED:20261031T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+SUMMARY:🏆 BSC Chemnitz-Rabenstein: Landesliga BoV - Liga 2 - Rückrunde
+URL:https://www.sachsenbogen.de/dbdata/wettkampf/C00bb1fbca351d7cedfcb8b67a
+ 67d82dd.pdf
+ATTACH;FMTTYPE=application/pdf:https://www.sachsenbogen.de/dbdata/wettkampf
+ /C00bb1fbca351d7cedfcb8b67a67d82dd.pdf
+DESCRIPTION:Ausschreibung: https://www.sachsenbogen.de/dbdata/wettkampf/C00
+ bb1fbca351d7cedfcb8b67a67d82dd.pdf\nAusrichter: BSC Chemnitz-Rabenstein\nQ
+ uelle: Seite Ausschreibungen des SBV (nicht im PDF-Wettkampfkalender)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:8c1ede9b3713e28e8147@turniertools.sbv
 DTSTAMP:20261027T000000Z
 LAST-MODIFIED:20261027T000000Z
