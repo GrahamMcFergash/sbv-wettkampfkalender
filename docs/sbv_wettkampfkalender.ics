@@ -824,21 +824,16 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a6e7efda9079d9870593@turniertools.sbv
-DTSTAMP:20261027T000000Z
-LAST-MODIFIED:20261027T000000Z
-SEQUENCE:2
+DTSTAMP:20261102T000000Z
+LAST-MODIFIED:20261102T000000Z
+SEQUENCE:3
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261026
-SUMMARY:🏆 SC Freital: Hallenwettkampf 2 x 18 m "Ins Gold Turnier"
+SUMMARY:SC Freital: Hallenwettkampf 2 x 18 m "Ins Gold Turnier"
 LOCATION:Freital
-URL:https://www.sachsenbogen.de/dbdata/wettkampf/C86a43b5089dee3ba7a4381e41
- ca7f66e.pdf
-ATTACH;FMTTYPE=application/pdf:https://www.sachsenbogen.de/dbdata/wettkampf
- /C86a43b5089dee3ba7a4381e41ca7f66e.pdf
-DESCRIPTION:Ausschreibung: https://www.sachsenbogen.de/dbdata/wettkampf/C86
- a43b5089dee3ba7a4381e41ca7f66e.pdf\nBeginn: 09:30 Uhr\nOrt: Freital\nKlass
- en/Hinweis: alle Klassen\nAusrichter: SC Freital\nRanglistenturnier\nStern
- e berechtigt\nQuelle: Wettkampfkalender des SBV (PDF auf sachsenbogen.de)
+DESCRIPTION:Ort: Freital\nKlassen/Hinweis: alle Klassen\nAusrichter: SC Fre
+ ital\nRanglistenturnier\nSterne berechtigt\nQuelle: Wettkampfkalender des 
+ SBV (PDF auf sachsenbogen.de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
