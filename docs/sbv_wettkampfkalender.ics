@@ -1073,16 +1073,22 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:477ed8128017f26f5cdb@turniertools.sbv
-DTSTAMP:20261027T000000Z
-LAST-MODIFIED:20261027T000000Z
-SEQUENCE:2
+DTSTAMP:20261105T000000Z
+LAST-MODIFIED:20261105T000000Z
+SEQUENCE:3
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
-SUMMARY:SV Koweg Görlitzz: Hallenwettkampf 2 x 18 m
+SUMMARY:🏆 SV Koweg Görlitzz: Hallenwettkampf 2 x 18 m
 LOCATION:Görlitz
-DESCRIPTION:Ort: Görlitz\nKlassen/Hinweis: alle Klassen\nAusrichter: SV Ko
- weg Görlitzz\nRanglistenturnier\nSterne berechtigt\nQuelle: Wettkampfkale
- nder des SBV (PDF auf sachsenbogen.de)
+URL:https://www.sachsenbogen.de/dbdata/wettkampf/Cfab261ee31134172c7f0dda7f
+ b992e11.pdf
+ATTACH;FMTTYPE=application/pdf:https://www.sachsenbogen.de/dbdata/wettkampf
+ /Cfab261ee31134172c7f0dda7fb992e11.pdf
+DESCRIPTION:Ausschreibung: https://www.sachsenbogen.de/dbdata/wettkampf/Cfa
+ b261ee31134172c7f0dda7fb992e11.pdf\nBeginn: 09:30 Uhr\nOrt: Görlitz\nKlas
+ sen/Hinweis: alle Klassen\nAusrichter: SV Koweg Görlitzz\nRanglistenturni
+ er\nSterne berechtigt\nQuelle: Wettkampfkalender des SBV (PDF auf sachsenb
+ ogen.de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
