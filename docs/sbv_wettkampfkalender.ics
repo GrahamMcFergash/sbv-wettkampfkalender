@@ -851,21 +851,16 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1a5ddc72956d337f87c1@turniertools.sbv
-DTSTAMP:20261108T000000Z
-LAST-MODIFIED:20261108T000000Z
-SEQUENCE:3
+DTSTAMP:20261109T000000Z
+LAST-MODIFIED:20261109T000000Z
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261102
-SUMMARY:🏆 SSV 1952 Torgau: 11. Torgauer Hallenturnier
+SUMMARY:SSV 1952 Torgau: 11. Torgauer Hallenturnier
 LOCATION:Torgau
-URL:https://www.sachsenbogen.de/dbdata/wettkampf/C5e56b07a7807209c9e67d4b30
- f7fc78f.pdf
-ATTACH;FMTTYPE=application/pdf:https://www.sachsenbogen.de/dbdata/wettkampf
- /C5e56b07a7807209c9e67d4b30f7fc78f.pdf
-DESCRIPTION:Ausschreibung: https://www.sachsenbogen.de/dbdata/wettkampf/C5e
- 56b07a7807209c9e67d4b30f7fc78f.pdf\nOrt: Torgau\nKlassen/Hinweis: alle Kla
- ssen\nAusrichter: SSV 1952 Torgau\nRanglistenturnier\nSterne berechtigt\nQ
- uelle: Wettkampfkalender des SBV (PDF auf sachsenbogen.de)
+DESCRIPTION:Ort: Torgau\nKlassen/Hinweis: alle Klassen\nAusrichter: SSV 195
+ 2 Torgau\nRanglistenturnier\nSterne berechtigt\nQuelle: Wettkampfkalender 
+ des SBV (PDF auf sachsenbogen.de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1046,6 +1041,23 @@ DESCRIPTION:Ausschreibung: https://www.sachsenbogen.de/dbdata/wettkampf/C3b
  2f3501d3769d1bb9a40f1ac470844c.pdf\nBeginn: 18:30 Uhr\nOrt: Dresden\nKlass
  en/Hinweis: alle Klassen\nAusrichter: Dresdner BV\nRanglistenturnier\nSter
  ne berechtigt\nQuelle: Wettkampfkalender des SBV (PDF auf sachsenbogen.de)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:0594f76690cb2f757a68@turniertools.sbv
+DTSTAMP:20261109T000000Z
+LAST-MODIFIED:20261109T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:🏆 SV Niederau 1891: offene Vereinsmeisterschaft
+URL:https://www.sachsenbogen.de/dbdata/wettkampf/Cf308c99d93b18896f9e24a368
+ da38af9.pdf
+ATTACH;FMTTYPE=application/pdf:https://www.sachsenbogen.de/dbdata/wettkampf
+ /Cf308c99d93b18896f9e24a368da38af9.pdf
+DESCRIPTION:Ausschreibung: https://www.sachsenbogen.de/dbdata/wettkampf/Cf3
+ 08c99d93b18896f9e24a368da38af9.pdf\nAusrichter: SV Niederau 1891\nQuelle: 
+ Seite Ausschreibungen des SBV (nicht im PDF-Wettkampfkalender)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
