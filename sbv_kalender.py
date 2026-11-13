@@ -31,7 +31,7 @@ KALENDER_NAME = "SBV Wettkampfkalender"
 MIN_TERMINE = 20  # darunter ist das Layout vermutlich ein anderes -> nichts veröffentlichen
 
 # Beginn der Spalten (x in PDF-Punkten): Ort | Wettkampf | AK | Ausrichter | Ranglistenturnier | Sterne berechtigt
-SPALTEN = [("ort", 0), ("wettkampf", 226), ("ak", 468), ("ausrichter", 610), ("rang", 735), ("sterne", 785)]
+SPALTEN = [("ort", 0), ("wettkampf", 226), ("ak", 468), ("ausrichter", 600), ("rang", 690), ("sterne", 735)]
 
 # 14.02.2026 | 27.-29.03.2026 | 28./29.03.2026 | 31.10./01.11.2026
 DATUM_RE = re.compile(r"^\d{1,2}\.(?:\d{2}\.)?\s*[-/]\s*\d{1,2}\.\d{2}\.\d{3,4}$|^\d{1,2}\.\d{2}\.\d{3,4}$")
@@ -521,6 +521,8 @@ def main():
               f"{a['datum']} {a['titel']} ({a['verein']}){'' if a['pdf'] else ' [ohne PDF]'}", file=sys.stderr)
     if len(termine) < MIN_TERMINE:
         sys.exit(f"Nur {len(termine)} Termine gefunden (erwartet mindestens {MIN_TERMINE}) – Layout geändert? Nichts geschrieben.")
+    if any(t["ausrichter"] in ("x", "X") for t in termine):
+        sys.exit("Ausrichter 'x' gelesen – Spaltenlage im PDF verschoben (SPALTEN prüfen)? Nichts geschrieben.")
     termine += termine_aus_ausschreibungen(offen)
 
     try:
