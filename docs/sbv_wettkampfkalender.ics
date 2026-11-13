@@ -260,41 +260,30 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a6e7efda9079d9870593@turniertools.sbv
-DTSTAMP:20261112T000000Z
-LAST-MODIFIED:20261112T000000Z
-SEQUENCE:4
+DTSTAMP:20261113T000000Z
+LAST-MODIFIED:20261113T000000Z
+SEQUENCE:5
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261026
-SUMMARY:x: Hallenwettkampf 2 x 18 m "Ins Gold Turnier"
+SUMMARY:SC Freital: Hallenwettkampf 2 x 18 m "Ins Gold Turnier"
 LOCATION:Freital
-DESCRIPTION:Ort: Freital\nKlassen/Hinweis: alle Klassen SC Freital\nAusrich
- ter: x\nRanglistenturnier\nQuelle: Wettkampfkalender des SBV (PDF auf sach
- senbogen.de)
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:6b1da1ba6f5526558a35@turniertools.sbv
-DTSTAMP:20261112T000000Z
-LAST-MODIFIED:20261112T000000Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261026
-SUMMARY:Wettkampfkalender 2027
-DESCRIPTION:Quelle: Wettkampfkalender des SBV (PDF auf sachsenbogen.de)
+DESCRIPTION:Ort: Freital\nKlassen/Hinweis: alle Klassen\nAusrichter: SC Fre
+ ital\nRanglistenturnier\nSterne berechtigt\nQuelle: Wettkampfkalender des 
+ SBV (PDF auf sachsenbogen.de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1a5ddc72956d337f87c1@turniertools.sbv
-DTSTAMP:20261112T000000Z
-LAST-MODIFIED:20261112T000000Z
-SEQUENCE:5
+DTSTAMP:20261113T000000Z
+LAST-MODIFIED:20261113T000000Z
+SEQUENCE:6
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261102
-SUMMARY:x: 11. Torgauer Hallenturnier
+SUMMARY:SSV 1952 Torgau: 11. Torgauer Hallenturnier
 LOCATION:Torgau
-DESCRIPTION:Ort: Torgau\nKlassen/Hinweis: alle Klassen SSV 1952 Torgau\nAus
- richter: x\nRanglistenturnier\nQuelle: Wettkampfkalender des SBV (PDF auf 
- sachsenbogen.de)
+DESCRIPTION:Ort: Torgau\nKlassen/Hinweis: alle Klassen\nAusrichter: SSV 195
+ 2 Torgau\nRanglistenturnier\nSterne berechtigt\nQuelle: Wettkampfkalender 
+ des SBV (PDF auf sachsenbogen.de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -316,26 +305,26 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f59942982c0de5506bcd@turniertools.sbv
-DTSTAMP:20261112T000000Z
-LAST-MODIFIED:20261112T000000Z
-SEQUENCE:0
+DTSTAMP:20261113T000000Z
+LAST-MODIFIED:20261113T000000Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
-SUMMARY:x: offene Vereinsmeisterschaft
+SUMMARY:Rathener Bogengi: offene Vereinsmeisterschaft
 LOCATION:Dohna
-DESCRIPTION:Ort: Dohna\nKlassen/Hinweis: alle Klassen Rathener Bogengi\, & 
- Chemie Dohna\nAusrichter: x\nRanglistenturnier\nQuelle: Wettkampfkalender 
+DESCRIPTION:Ort: Dohna\nKlassen/Hinweis: alle Klassen\nAusrichter: Rathener
+  Bogengi\nRanglistenturnier\nSterne berechtigt\nQuelle: Wettkampfkalender 
  des SBV (PDF auf sachsenbogen.de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f4d95dfa6567c0dfeeca@turniertools.sbv
-DTSTAMP:20261112T000000Z
-LAST-MODIFIED:20261112T000000Z
-SEQUENCE:0
+DTSTAMP:20261113T000000Z
+LAST-MODIFIED:20261113T000000Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261109
-SUMMARY:🏆 Chemnitz: 4. offene Vereinsmeisterschaft
+SUMMARY:🏆 BSC Chemnitz-Rabenstein: 4. offene Vereinsmeisterschaft
 LOCATION:Chemnitz
 URL:https://www.sachsenbogen.de/dbdata/wettkampf/C6c5fb9eba2b40d7c74dc61a2a
  a369bb6.pdf
@@ -346,18 +335,19 @@ ATTACH;FMTTYPE=application/pdf:https://www.sachsenbogen.de/dbdata/wettkampf
 DESCRIPTION:Ausschreibung 07./08.11.2026: https://www.sachsenbogen.de/dbdat
  a/wettkampf/C6c5fb9eba2b40d7c74dc61a2aa369bb6.pdf\nAusschreibung 07.11.202
  6: https://www.sachsenbogen.de/dbdata/wettkampf/Ca4b6db36874e40af700cbba56
- 10768a2.pdf\nOrt: Chemnitz\nKlassen/Hinweis: alle Klassen BSC Chemnitz-Rab
- enstein\nQuelle: Wettkampfkalender des SBV (PDF auf sachsenbogen.de)
+ 10768a2.pdf\nOrt: Chemnitz\nKlassen/Hinweis: alle Klassen\nAusrichter: BSC
+  Chemnitz-Rabenstein\nQuelle: Wettkampfkalender des SBV (PDF auf sachsenbo
+ gen.de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:18da2f23109ff4f8881a@turniertools.sbv
-DTSTAMP:20261112T000000Z
-LAST-MODIFIED:20261112T000000Z
-SEQUENCE:3
+DTSTAMP:20261113T000000Z
+LAST-MODIFIED:20261113T000000Z
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
-SUMMARY:🏆 x: Hallenwettkampf 2 x 18 m
+SUMMARY:🏆 SV Koweg Görlitzz: Hallenwettkampf 2 x 18 m
 LOCATION:Görlitz
 URL:https://www.sachsenbogen.de/dbdata/wettkampf/Ce03d42a65940f8cdf679cd60e
  72801df.pdf
@@ -365,8 +355,9 @@ ATTACH;FMTTYPE=application/pdf:https://www.sachsenbogen.de/dbdata/wettkampf
  /Ce03d42a65940f8cdf679cd60e72801df.pdf
 DESCRIPTION:Ausschreibung: https://www.sachsenbogen.de/dbdata/wettkampf/Ce0
  3d42a65940f8cdf679cd60e72801df.pdf\nBeginn: 09:00 Uhr\nOrt: Görlitz\nKlas
- sen/Hinweis: alle Klassen SV Koweg Görlitz\nAusrichter: x\nRanglistenturn
- ier\nQuelle: Wettkampfkalender des SBV (PDF auf sachsenbogen.de)
+ sen/Hinweis: alle Klassen\nAusrichter: SV Koweg Görlitzz\nRanglistenturni
+ er\nSterne berechtigt\nQuelle: Wettkampfkalender des SBV (PDF auf sachsenb
+ ogen.de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -433,12 +424,12 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:86eaaf8ed3782e1af481@turniertools.sbv
-DTSTAMP:20261112T000000Z
-LAST-MODIFIED:20261112T000000Z
-SEQUENCE:3
+DTSTAMP:20261113T000000Z
+LAST-MODIFIED:20261113T000000Z
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
-SUMMARY:🏆 x: Stiefelpokal Hallenwettkampf 2 x 18 m
+SUMMARY:🏆 Döbelner BS 72: Stiefelpokal Hallenwettkampf 2 x 18 m
 LOCATION:Döbeln
 URL:https://www.sachsenbogen.de/dbdata/wettkampf/C83eb448a4cdeb3b54828cb3a6
  3f37a84.pdf
@@ -446,18 +437,18 @@ ATTACH;FMTTYPE=application/pdf:https://www.sachsenbogen.de/dbdata/wettkampf
  /C83eb448a4cdeb3b54828cb3a63f37a84.pdf
 DESCRIPTION:Ausschreibung: https://www.sachsenbogen.de/dbdata/wettkampf/C83
  eb448a4cdeb3b54828cb3a63f37a84.pdf\nOrt: Döbeln\nKlassen/Hinweis: alle Kl
- assen Döbelner BS 72\nAusrichter: x\nRanglistenturnier\nQuelle: Wettkampf
- kalender des SBV (PDF auf sachsenbogen.de)
+ assen\nAusrichter: Döbelner BS 72\nRanglistenturnier\nSterne berechtigt\n
+ Quelle: Wettkampfkalender des SBV (PDF auf sachsenbogen.de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:cb1ff7ace2b8ce98d139@turniertools.sbv
-DTSTAMP:20261112T000000Z
-LAST-MODIFIED:20261112T000000Z
-SEQUENCE:3
+DTSTAMP:20261113T000000Z
+LAST-MODIFIED:20261113T000000Z
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
-SUMMARY:🏆 x: 32. Leipziger Hallenturnier 2 x 18 m
+SUMMARY:🏆 MoGoNo Leipzig: 32. Leipziger Hallenturnier 2 x 18 m
 LOCATION:Leipzig
 URL:https://www.sachsenbogen.de/dbdata/wettkampf/C0fe9614046b3e362aec3d94a9
  dc23f96.pdf
@@ -465,18 +456,19 @@ ATTACH;FMTTYPE=application/pdf:https://www.sachsenbogen.de/dbdata/wettkampf
  /C0fe9614046b3e362aec3d94a9dc23f96.pdf
 DESCRIPTION:Ausschreibung: https://www.sachsenbogen.de/dbdata/wettkampf/C0f
  e9614046b3e362aec3d94a9dc23f96.pdf\nBeginn: 10:00 Uhr\nOrt: Leipzig\nKlass
- en/Hinweis: alle Klassen MoGoNo Leipzig\nAusrichter: x\nRanglistenturnier\
- nQuelle: Wettkampfkalender des SBV (PDF auf sachsenbogen.de)
+ en/Hinweis: alle Klassen\nAusrichter: MoGoNo Leipzig\nRanglistenturnier\nS
+ terne berechtigt\nQuelle: Wettkampfkalender des SBV (PDF auf sachsenbogen.
+ de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:3219897a82c86cf5d8b9@turniertools.sbv
-DTSTAMP:20261112T000000Z
-LAST-MODIFIED:20261112T000000Z
-SEQUENCE:3
+DTSTAMP:20261113T000000Z
+LAST-MODIFIED:20261113T000000Z
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261206
-SUMMARY:🏆 x: 30. Adventswettkampf 2 x 18 m
+SUMMARY:🏆 Dresdner BV: 30. Adventswettkampf 2 x 18 m
 LOCATION:Dresden
 URL:https://www.sachsenbogen.de/dbdata/wettkampf/C3b2f3501d3769d1bb9a40f1ac
  470844c.pdf
@@ -484,18 +476,18 @@ ATTACH;FMTTYPE=application/pdf:https://www.sachsenbogen.de/dbdata/wettkampf
  /C3b2f3501d3769d1bb9a40f1ac470844c.pdf
 DESCRIPTION:Ausschreibung: https://www.sachsenbogen.de/dbdata/wettkampf/C3b
  2f3501d3769d1bb9a40f1ac470844c.pdf\nBeginn: 18:30 Uhr\nOrt: Dresden\nKlass
- en/Hinweis: alle Klassen Dresdner BV\nAusrichter: x\nRanglistenturnier\nQu
- elle: Wettkampfkalender des SBV (PDF auf sachsenbogen.de)
+ en/Hinweis: alle Klassen\nAusrichter: Dresdner BV\nRanglistenturnier\nSter
+ ne berechtigt\nQuelle: Wettkampfkalender des SBV (PDF auf sachsenbogen.de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8a9a05a00e9a17eb1f9d@turniertools.sbv
-DTSTAMP:20261112T000000Z
-LAST-MODIFIED:20261112T000000Z
-SEQUENCE:0
+DTSTAMP:20261113T000000Z
+LAST-MODIFIED:20261113T000000Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
-SUMMARY:🏆 x: Hallenwettkampf 2 x 18 m
+SUMMARY:🏆 SV Niederau: Hallenwettkampf 2 x 18 m
 LOCATION:Niederau
 URL:https://www.sachsenbogen.de/dbdata/wettkampf/Cf308c99d93b18896f9e24a368
  da38af9.pdf
@@ -503,18 +495,18 @@ ATTACH;FMTTYPE=application/pdf:https://www.sachsenbogen.de/dbdata/wettkampf
  /Cf308c99d93b18896f9e24a368da38af9.pdf
 DESCRIPTION:Ausschreibung: https://www.sachsenbogen.de/dbdata/wettkampf/Cf3
  08c99d93b18896f9e24a368da38af9.pdf\nOrt: Niederau\nKlassen/Hinweis: alle K
- lassen SV Niederau\nAusrichter: x\nRanglistenturnier\nQuelle: Wettkampfkal
- ender des SBV (PDF auf sachsenbogen.de)
+ lassen\nAusrichter: SV Niederau\nRanglistenturnier\nSterne berechtigt\nQue
+ lle: Wettkampfkalender des SBV (PDF auf sachsenbogen.de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4a14c4a239447b103839@turniertools.sbv
-DTSTAMP:20261112T000000Z
-LAST-MODIFIED:20261112T000000Z
-SEQUENCE:3
+DTSTAMP:20261113T000000Z
+LAST-MODIFIED:20261113T000000Z
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
-SUMMARY:🏆 x: 1. Runde Landesliga Halle 18m Rc
+SUMMARY:🏆 Dresden: 1. Runde Landesliga Halle 18m Rc
 LOCATION:Dresden
 URL:https://www.sachsenbogen.de/dbdata/wettkampf/C5b1ce3f82ebc428e6a096a0e6
  bf0c004.pdf
@@ -522,18 +514,18 @@ ATTACH;FMTTYPE=application/pdf:https://www.sachsenbogen.de/dbdata/wettkampf
  /C5b1ce3f82ebc428e6a096a0e6bf0c004.pdf
 DESCRIPTION:Ausschreibung: https://www.sachsenbogen.de/dbdata/wettkampf/C5b
  1ce3f82ebc428e6a096a0e6bf0c004.pdf\nBeginn: 10:00 Uhr\nOrt: Dresden\nKlass
- en/Hinweis: gemeldete Vereinsmannschaften\nAusrichter: x\nRanglistenturnie
- r\nQuelle: Wettkampfkalender des SBV (PDF auf sachsenbogen.de)
+ en/Hinweis: gemeldete Vereinsmannschaften\nRanglistenturnier\nSterne berec
+ htigt\nQuelle: Wettkampfkalender des SBV (PDF auf sachsenbogen.de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:477ed8128017f26f5cdb@turniertools.sbv
-DTSTAMP:20261112T000000Z
-LAST-MODIFIED:20261112T000000Z
-SEQUENCE:4
+DTSTAMP:20261113T000000Z
+LAST-MODIFIED:20261113T000000Z
+SEQUENCE:5
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
-SUMMARY:🏆 x: Hallenwettkampf 2 x 18 m
+SUMMARY:🏆 SV Koweg Görlitzz: Hallenwettkampf 2 x 18 m
 LOCATION:Görlitz
 URL:https://www.sachsenbogen.de/dbdata/wettkampf/Cfab261ee31134172c7f0dda7f
  b992e11.pdf
@@ -541,18 +533,19 @@ ATTACH;FMTTYPE=application/pdf:https://www.sachsenbogen.de/dbdata/wettkampf
  /Cfab261ee31134172c7f0dda7fb992e11.pdf
 DESCRIPTION:Ausschreibung: https://www.sachsenbogen.de/dbdata/wettkampf/Cfa
  b261ee31134172c7f0dda7fb992e11.pdf\nBeginn: 09:30 Uhr\nOrt: Görlitz\nKlas
- sen/Hinweis: alle Klassen SV Koweg Görlitz\nAusrichter: x\nRanglistenturn
- ier\nQuelle: Wettkampfkalender des SBV (PDF auf sachsenbogen.de)
+ sen/Hinweis: alle Klassen\nAusrichter: SV Koweg Görlitzz\nRanglistenturni
+ er\nSterne berechtigt\nQuelle: Wettkampfkalender des SBV (PDF auf sachsenb
+ ogen.de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ad2aa127636bb7743be1@turniertools.sbv
-DTSTAMP:20261112T000000Z
-LAST-MODIFIED:20261112T000000Z
-SEQUENCE:3
+DTSTAMP:20261113T000000Z
+LAST-MODIFIED:20261113T000000Z
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261214
-SUMMARY:🏆 x: 32. Weihnachtspokal 2 x 18 m
+SUMMARY:🏆 FCE Aue: 32. Weihnachtspokal 2 x 18 m
 LOCATION:Schneeberg
 URL:https://www.sachsenbogen.de/dbdata/wettkampf/C28bb46615b1494254dbc20d47
  2dfb9a3.pdf
@@ -560,32 +553,32 @@ ATTACH;FMTTYPE=application/pdf:https://www.sachsenbogen.de/dbdata/wettkampf
  /C28bb46615b1494254dbc20d472dfb9a3.pdf
 DESCRIPTION:Ausschreibung: https://www.sachsenbogen.de/dbdata/wettkampf/C28
  bb46615b1494254dbc20d472dfb9a3.pdf\nBeginn: 08:30 Uhr\nOrt: Schneeberg\nKl
- assen/Hinweis: alle Klassen FCE Aue\nAusrichter: x\nRanglistenturnier\nQue
- lle: Wettkampfkalender des SBV (PDF auf sachsenbogen.de)
+ assen/Hinweis: alle Klassen\nAusrichter: FCE Aue\nRanglistenturnier\nStern
+ e berechtigt\nQuelle: Wettkampfkalender des SBV (PDF auf sachsenbogen.de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6ebd70cb5019c11e4198@turniertools.sbv
-DTSTAMP:20261112T000000Z
-LAST-MODIFIED:20261112T000000Z
-SEQUENCE:3
+DTSTAMP:20261113T000000Z
+LAST-MODIFIED:20261113T000000Z
+SEQUENCE:4
 DTSTART;VALUE=DATE:20270108
 DTEND;VALUE=DATE:20270110
-SUMMARY:x: offene Vereinsmeisterschaft 2 x 18 m
+SUMMARY:BSC Glauchau: offene Vereinsmeisterschaft 2 x 18 m
 LOCATION:Glauchau
-DESCRIPTION:Ort: Glauchau\nKlassen/Hinweis: alle Klassen BSC Glauchau\nAusr
- ichter: x\nRanglistenturnier\nQuelle: Wettkampfkalender des SBV (PDF auf s
- achsenbogen.de)
+DESCRIPTION:Ort: Glauchau\nKlassen/Hinweis: alle Klassen\nAusrichter: BSC G
+ lauchau\nRanglistenturnier\nSterne berechtigt\nQuelle: Wettkampfkalender d
+ es SBV (PDF auf sachsenbogen.de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:08c06e0e5fdf016d089f@turniertools.sbv
-DTSTAMP:20261112T000000Z
-LAST-MODIFIED:20261112T000000Z
-SEQUENCE:3
+DTSTAMP:20261113T000000Z
+LAST-MODIFIED:20261113T000000Z
+SEQUENCE:4
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
-SUMMARY:🏆 x: Winterpokal 2 x 18 m + Finale
+SUMMARY:🏆 BSC Friedewald: Winterpokal 2 x 18 m + Finale
 LOCATION:Boxdorf
 URL:https://www.sachsenbogen.de/dbdata/wettkampf/Cd26c8cd0487a282c289c511c4
  54ab00e.pdf
@@ -593,22 +586,23 @@ ATTACH;FMTTYPE=application/pdf:https://www.sachsenbogen.de/dbdata/wettkampf
  /Cd26c8cd0487a282c289c511c454ab00e.pdf
 DESCRIPTION:Ausschreibung: https://www.sachsenbogen.de/dbdata/wettkampf/Cd2
  6c8cd0487a282c289c511c454ab00e.pdf\nBeginn: 09:00 Uhr\nOrt: Boxdorf\nKlass
- en/Hinweis: alle Klassen BSC Friedewald\nAusrichter: x\nRanglistenturnier\
- nQuelle: Wettkampfkalender des SBV (PDF auf sachsenbogen.de)
+ en/Hinweis: alle Klassen\nAusrichter: BSC Friedewald\nRanglistenturnier\nS
+ terne berechtigt\nQuelle: Wettkampfkalender des SBV (PDF auf sachsenbogen.
+ de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:7c58231b7eed2938bf11@turniertools.sbv
-DTSTAMP:20261112T000000Z
-LAST-MODIFIED:20261112T000000Z
-SEQUENCE:0
+DTSTAMP:20261113T000000Z
+LAST-MODIFIED:20261113T000000Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20270116
 DTEND;VALUE=DATE:20270117
-SUMMARY:x: Sachsenmeisterschaft Halle Erw.+Kinder – 2 x 18 m
+SUMMARY:SBV: Sachsenmeisterschaft Halle Erw.+Kinder – 2 x 18 m
 LOCATION:Döbeln
-DESCRIPTION:Ort: Döbeln\nKlassen/Hinweis: alle Klassen SBV\nAusrichter: x\
- nRanglistenturnier\nQuelle: Wettkampfkalender des SBV (PDF auf sachsenboge
- n.de)
+DESCRIPTION:Ort: Döbeln\nKlassen/Hinweis: alle Klassen\nAusrichter: SBV\nR
+ anglistenturnier\nSterne berechtigt\nQuelle: Wettkampfkalender des SBV (PD
+ F auf sachsenbogen.de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -664,14 +658,14 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d181ff181ff4f45cd82f@turniertools.sbv
-DTSTAMP:20261112T000000Z
-LAST-MODIFIED:20261112T000000Z
-SEQUENCE:0
+DTSTAMP:20261113T000000Z
+LAST-MODIFIED:20261113T000000Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20270120
 DTEND;VALUE=DATE:20270121
-SUMMARY:Meldeschluss DM Halle
-DESCRIPTION:Klassen/Hinweis: SBV\nQuelle: Wettkampfkalender des SBV (PDF au
- f sachsenbogen.de)
+SUMMARY:SBV: Meldeschluss DM Halle
+DESCRIPTION:Ausrichter: SBV\nQuelle: Wettkampfkalender des SBV (PDF auf sac
+ hsenbogen.de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -687,15 +681,15 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4365de4e0ce1b8e8d882@turniertools.sbv
-DTSTAMP:20261112T000000Z
-LAST-MODIFIED:20261112T000000Z
-SEQUENCE:0
+DTSTAMP:20261113T000000Z
+LAST-MODIFIED:20261113T000000Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20270130
 DTEND;VALUE=DATE:20270131
-SUMMARY:x: LM SSB Halle in Annaberg
+SUMMARY:zur Info: LM SSB Halle in Annaberg
 LOCATION:zur Info
-DESCRIPTION:Ort: zur Info\nAusrichter: x\nRanglistenturnier\nQuelle: Wettka
- mpfkalender des SBV (PDF auf sachsenbogen.de)
+DESCRIPTION:Ort: zur Info\nRanglistenturnier\nSterne berechtigt\nQuelle: We
+ ttkampfkalender des SBV (PDF auf sachsenbogen.de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -711,15 +705,16 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:959f534f56794d4c93f4@turniertools.sbv
-DTSTAMP:20261112T000000Z
-LAST-MODIFIED:20261112T000000Z
-SEQUENCE:0
+DTSTAMP:20261113T000000Z
+LAST-MODIFIED:20261113T000000Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20270206
 DTEND;VALUE=DATE:20270207
-SUMMARY:x: Hallenwettkampf  900er Runde (1x18m\,2x25m)
+SUMMARY:SV Koweg Görlit: Hallenwettkampf  900er Runde (1x18m\,2x25m)
 LOCATION:Görlitz
-DESCRIPTION:Ort: Görlitz\nKlassen/Hinweis: alle Klassen SV Koweg Görlit\n
- Ausrichter: x\nQuelle: Wettkampfkalender des SBV (PDF auf sachsenbogen.de)
+DESCRIPTION:Ort: Görlitz\nKlassen/Hinweis: alle Klassen\nAusrichter: SV Ko
+ weg Görlit\nRanglistenturnier\nQuelle: Wettkampfkalender des SBV (PDF auf
+  sachsenbogen.de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -769,69 +764,69 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6670aaf172b5ea1bb493@turniertools.sbv
-DTSTAMP:20261112T000000Z
-LAST-MODIFIED:20261112T000000Z
-SEQUENCE:0
+DTSTAMP:20261113T000000Z
+LAST-MODIFIED:20261113T000000Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20270227
 DTEND;VALUE=DATE:20270228
-SUMMARY:Radeberg: 3D Linienturnier
+SUMMARY:Radeberger SV: 3D Linienturnier
 LOCATION:Radeberg
-DESCRIPTION:Ort: Radeberg\nKlassen/Hinweis: Radeberger SV\nQuelle: Wettkamp
- fkalender des SBV (PDF auf sachsenbogen.de)
+DESCRIPTION:Ort: Radeberg\nAusrichter: Radeberger SV\nQuelle: Wettkampfkale
+ nder des SBV (PDF auf sachsenbogen.de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:47b9bc96c784e88014bb@turniertools.sbv
-DTSTAMP:20261112T000000Z
-LAST-MODIFIED:20261112T000000Z
-SEQUENCE:3
+DTSTAMP:20261113T000000Z
+LAST-MODIFIED:20261113T000000Z
+SEQUENCE:4
 DTSTART;VALUE=DATE:20270227
 DTEND;VALUE=DATE:20270301
-SUMMARY:x: Prozentepokal Hallenwettkampf 2x18m
+SUMMARY:SC Freital: Prozentepokal Hallenwettkampf 2x18m
 LOCATION:Freital
-DESCRIPTION:Ort: Freital\nKlassen/Hinweis: alle Klassen SC Freital\nAusrich
- ter: x\nRanglistenturnier\nQuelle: Wettkampfkalender des SBV (PDF auf sach
- senbogen.de)
+DESCRIPTION:Ort: Freital\nKlassen/Hinweis: alle Klassen\nAusrichter: SC Fre
+ ital\nRanglistenturnier\nSterne berechtigt\nQuelle: Wettkampfkalender des 
+ SBV (PDF auf sachsenbogen.de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2d2f84b9e249c04b7d84@turniertools.sbv
-DTSTAMP:20261112T000000Z
-LAST-MODIFIED:20261112T000000Z
-SEQUENCE:0
+DTSTAMP:20261113T000000Z
+LAST-MODIFIED:20261113T000000Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
-SUMMARY:Chemnitz: SBV-Verbandstag
+SUMMARY:SBV-Präsidium: SBV-Verbandstag
 LOCATION:Chemnitz
-DESCRIPTION:Ort: Chemnitz\nKlassen/Hinweis: SBV-Präsidium\nQuelle: Wettkam
- pfkalender des SBV (PDF auf sachsenbogen.de)
+DESCRIPTION:Ort: Chemnitz\nAusrichter: SBV-Präsidium\nQuelle: Wettkampfkal
+ ender des SBV (PDF auf sachsenbogen.de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e70ec6dae060f425d9da@turniertools.sbv
-DTSTAMP:20261112T000000Z
-LAST-MODIFIED:20261112T000000Z
-SEQUENCE:3
+DTSTAMP:20261113T000000Z
+LAST-MODIFIED:20261113T000000Z
+SEQUENCE:4
 DTSTART;VALUE=DATE:20270307
 DTEND;VALUE=DATE:20270308
-SUMMARY:x: Jugendpokal 2 x 18 m
+SUMMARY:SC Hoyerswerda: Jugendpokal 2 x 18 m
 LOCATION:Hoyerswerda
-DESCRIPTION:Ort: Hoyerswerda\nKlassen/Hinweis: Pokal für U10-U17 SC Hoyers
- werda\, alle BK\, Erw. wenn Platz\nAusrichter: x\nRanglistenturnier\nQuell
- e: Wettkampfkalender des SBV (PDF auf sachsenbogen.de)
+DESCRIPTION:Ort: Hoyerswerda\nKlassen/Hinweis: Pokal für U10-U17\, alle BK
+ \, Erw. wenn Platz\nAusrichter: SC Hoyerswerda\nRanglistenturnier\nSterne 
+ berechtigt\nQuelle: Wettkampfkalender des SBV (PDF auf sachsenbogen.de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2150c2ccaa4985572b28@turniertools.sbv
-DTSTAMP:20261112T000000Z
-LAST-MODIFIED:20261112T000000Z
-SEQUENCE:0
+DTSTAMP:20261113T000000Z
+LAST-MODIFIED:20261113T000000Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20270313
 DTEND;VALUE=DATE:20270314
-SUMMARY:Oberaula HE): Geschäftsbereichssitzungen
+SUMMARY:DBSV Präsidium: Geschäftsbereichssitzungen
 LOCATION:Oberaula HE)
-DESCRIPTION:Ort: Oberaula HE)\nKlassen/Hinweis: DBSV Präsidium\nQuelle: We
- ttkampfkalender des SBV (PDF auf sachsenbogen.de)
+DESCRIPTION:Ort: Oberaula HE)\nAusrichter: DBSV Präsidium\nQuelle: Wettkam
+ pfkalender des SBV (PDF auf sachsenbogen.de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -874,67 +869,67 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:0ad0ea4eea2e26db5d06@turniertools.sbv
-DTSTAMP:20261112T000000Z
-LAST-MODIFIED:20261112T000000Z
-SEQUENCE:0
+DTSTAMP:20261113T000000Z
+LAST-MODIFIED:20261113T000000Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20270402
 DTEND;VALUE=DATE:20270405
-SUMMARY:Papstdorf: Familienbogenfreizeit
+SUMMARY:SBV: Familienbogenfreizeit
 LOCATION:Papstdorf
-DESCRIPTION:Ort: Papstdorf\nKlassen/Hinweis: Meldung bis 28.02.2026 SBV\nQu
- elle: Wettkampfkalender des SBV (PDF auf sachsenbogen.de)
+DESCRIPTION:Ort: Papstdorf\nKlassen/Hinweis: Meldung bis 28.02.2026\nAusric
+ hter: SBV\nQuelle: Wettkampfkalender des SBV (PDF auf sachsenbogen.de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:9860a495467c256d2160@turniertools.sbv
-DTSTAMP:20261112T000000Z
-LAST-MODIFIED:20261112T000000Z
-SEQUENCE:0
+DTSTAMP:20261113T000000Z
+LAST-MODIFIED:20261113T000000Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20270403
 DTEND;VALUE=DATE:20270405
-SUMMARY:Papstdorf: Traineraus- und Weiterbildung Teil 1
+SUMMARY:SBV: Traineraus- und Weiterbildung Teil 1
 LOCATION:Papstdorf
-DESCRIPTION:Ort: Papstdorf\nKlassen/Hinweis: Meldung bis 28.02.2026 SBV\nQu
- elle: Wettkampfkalender des SBV (PDF auf sachsenbogen.de)
+DESCRIPTION:Ort: Papstdorf\nKlassen/Hinweis: Meldung bis 28.02.2026\nAusric
+ hter: SBV\nQuelle: Wettkampfkalender des SBV (PDF auf sachsenbogen.de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6d451b15e074b426cfa7@turniertools.sbv
-DTSTAMP:20261112T000000Z
-LAST-MODIFIED:20261112T000000Z
-SEQUENCE:0
+DTSTAMP:20261113T000000Z
+LAST-MODIFIED:20261113T000000Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20270409
 DTEND;VALUE=DATE:20270412
-SUMMARY:Papstdorf: Familienbogenfreizeit
+SUMMARY:SBV: Familienbogenfreizeit
 LOCATION:Papstdorf
-DESCRIPTION:Ort: Papstdorf\nKlassen/Hinweis: Meldung bis 28.02.2026 SBV\nQu
- elle: Wettkampfkalender des SBV (PDF auf sachsenbogen.de)
+DESCRIPTION:Ort: Papstdorf\nKlassen/Hinweis: Meldung bis 28.02.2026\nAusric
+ hter: SBV\nQuelle: Wettkampfkalender des SBV (PDF auf sachsenbogen.de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:081afd026992757e05c5@turniertools.sbv
-DTSTAMP:20261112T000000Z
-LAST-MODIFIED:20261112T000000Z
-SEQUENCE:0
+DTSTAMP:20261113T000000Z
+LAST-MODIFIED:20261113T000000Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20270410
 DTEND;VALUE=DATE:20270412
-SUMMARY:Papstdorf: Traineraus- und Weiterbildung Teil 2
+SUMMARY:SBV: Traineraus- und Weiterbildung Teil 2
 LOCATION:Papstdorf
-DESCRIPTION:Ort: Papstdorf\nKlassen/Hinweis: Meldung bis 28.02.2026 SBV\nQu
- elle: Wettkampfkalender des SBV (PDF auf sachsenbogen.de)
+DESCRIPTION:Ort: Papstdorf\nKlassen/Hinweis: Meldung bis 28.02.2026\nAusric
+ hter: SBV\nQuelle: Wettkampfkalender des SBV (PDF auf sachsenbogen.de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a6a768673ac6e206d226@turniertools.sbv
-DTSTAMP:20261112T000000Z
-LAST-MODIFIED:20261112T000000Z
-SEQUENCE:0
+DTSTAMP:20261113T000000Z
+LAST-MODIFIED:20261113T000000Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20270424
 DTEND;VALUE=DATE:20270426
-SUMMARY:Glauchau: Sand- Saga
+SUMMARY:BSC Glauchau: Sand- Saga
 LOCATION:Glauchau
-DESCRIPTION:Ort: Glauchau\nKlassen/Hinweis: BSC Glauchau\nQuelle: Wettkampf
- kalender des SBV (PDF auf sachsenbogen.de)
+DESCRIPTION:Ort: Glauchau\nAusrichter: BSC Glauchau\nQuelle: Wettkampfkalen
+ der des SBV (PDF auf sachsenbogen.de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -965,15 +960,15 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:45b74594489a4e8e7c22@turniertools.sbv
-DTSTAMP:20261112T000000Z
-LAST-MODIFIED:20261112T000000Z
-SEQUENCE:0
+DTSTAMP:20261113T000000Z
+LAST-MODIFIED:20261113T000000Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20270501
 DTEND;VALUE=DATE:20270502
-SUMMARY:Döbeln: Maipokal 2 x 70 m
+SUMMARY:Döbelner BS 72: Maipokal 2 x 70 m
 LOCATION:Döbeln
-DESCRIPTION:Ort: Döbeln\nKlassen/Hinweis: alle Klassen Döbelner BS 72\nQu
- elle: Wettkampfkalender des SBV (PDF auf sachsenbogen.de)
+DESCRIPTION:Ort: Döbeln\nKlassen/Hinweis: alle Klassen\nAusrichter: Döbel
+ ner BS 72\nQuelle: Wettkampfkalender des SBV (PDF auf sachsenbogen.de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1002,87 +997,88 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1be9f3448165bb7039bb@turniertools.sbv
-DTSTAMP:20261112T000000Z
-LAST-MODIFIED:20261112T000000Z
-SEQUENCE:0
+DTSTAMP:20261113T000000Z
+LAST-MODIFIED:20261113T000000Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20270508
 DTEND;VALUE=DATE:20270510
-SUMMARY:Chemnitz-Rabenstein: Sachsenmeisterschaft offen – 3-D + Hunterrun
- de
+SUMMARY:SBV: Sachsenmeisterschaft offen – 3-D + Hunterrunde
 LOCATION:Chemnitz-Rabenstein
-DESCRIPTION:Ort: Chemnitz-Rabenstein\nKlassen/Hinweis: alle Klassen SBV\nRa
- nglistenturnier\nQuelle: Wettkampfkalender des SBV (PDF auf sachsenbogen.d
- e)
+DESCRIPTION:Ort: Chemnitz-Rabenstein\nKlassen/Hinweis: alle Klassen\nAusric
+ hter: SBV\nSterne berechtigt\nQuelle: Wettkampfkalender des SBV (PDF auf s
+ achsenbogen.de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:7a3365291b912a856f41@turniertools.sbv
-DTSTAMP:20261112T000000Z
-LAST-MODIFIED:20261112T000000Z
-SEQUENCE:0
+DTSTAMP:20261113T000000Z
+LAST-MODIFIED:20261113T000000Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20270522
 DTEND;VALUE=DATE:20270523
-SUMMARY:x: 31. Leipziger Preisgeldturnier – 144er- Runde + Olympische Run
- de 2x36
+SUMMARY:SG MoGoNo Leipz: 31. Leipziger Preisgeldturnier – 144er- Runde + 
+ Olympische Runde 2x36
 LOCATION:Leipzig
-DESCRIPTION:Ort: Leipzig\nKlassen/Hinweis: alle Klassen SG MoGoNo Leipz\nAu
- srichter: x\nRanglistenturnier\nQuelle: Wettkampfkalender des SBV (PDF auf
-  sachsenbogen.de)
+DESCRIPTION:Ort: Leipzig\nKlassen/Hinweis: alle Klassen\nAusrichter: SG MoG
+ oNo Leipz\nRanglistenturnier\nSterne berechtigt\nQuelle: Wettkampfkalender
+  des SBV (PDF auf sachsenbogen.de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:3a41c84f7d9c8962b774@turniertools.sbv
-DTSTAMP:20261112T000000Z
-LAST-MODIFIED:20261112T000000Z
-SEQUENCE:0
+DTSTAMP:20261113T000000Z
+LAST-MODIFIED:20261113T000000Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20270522
 DTEND;VALUE=DATE:20270523
-SUMMARY:x: 36. Pokal - Wettkampf – Dresdner Bogenschütze FITA Runde
+SUMMARY:Dresdner BV: 36. Pokal - Wettkampf – Dresdner Bogenschütze FITA 
+ Runde
 LOCATION:Dresden
-DESCRIPTION:Ort: Dresden\nKlassen/Hinweis: alle Klassen Dresdner BV\nAusric
- hter: x\nRanglistenturnier\nQuelle: Wettkampfkalender des SBV (PDF auf sac
- hsenbogen.de)
+DESCRIPTION:Ort: Dresden\nKlassen/Hinweis: alle Klassen\nAusrichter: Dresdn
+ er BV\nRanglistenturnier\nSterne berechtigt\nQuelle: Wettkampfkalender des
+  SBV (PDF auf sachsenbogen.de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a60ccb2a3e57b0dc0040@turniertools.sbv
-DTSTAMP:20261112T000000Z
-LAST-MODIFIED:20261112T000000Z
-SEQUENCE:0
+DTSTAMP:20261113T000000Z
+LAST-MODIFIED:20261113T000000Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20270523
 DTEND;VALUE=DATE:20270524
-SUMMARY:Dresden: 1. Runde Landesliga\, 50m Rc
+SUMMARY:SBV: 1. Runde Landesliga\, 50m Rc
 LOCATION:Dresden
-DESCRIPTION:Ort: Dresden\nKlassen/Hinweis: Mannsch. gem Meldung SBV\nQuelle
- : Wettkampfkalender des SBV (PDF auf sachsenbogen.de)
+DESCRIPTION:Ort: Dresden\nKlassen/Hinweis: Mannsch. gem Meldung\nAusrichter
+ : SBV\nQuelle: Wettkampfkalender des SBV (PDF auf sachsenbogen.de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:7f5648640774ac0a33a1@turniertools.sbv
-DTSTAMP:20261112T000000Z
-LAST-MODIFIED:20261112T000000Z
-SEQUENCE:0
+DTSTAMP:20261113T000000Z
+LAST-MODIFIED:20261113T000000Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20270529
 DTEND;VALUE=DATE:20270530
-SUMMARY:x: 23. Kurbadpokal 144er
+SUMMARY:FCE Aue: 23. Kurbadpokal 144er
 LOCATION:Aue - Bad Schlema
-DESCRIPTION:Ort: Aue - Bad Schlema\nKlassen/Hinweis: alle Klassen FCE Aue\n
- Ausrichter: x\nRanglistenturnier\nQuelle: Wettkampfkalender des SBV (PDF a
- uf sachsenbogen.de)
+DESCRIPTION:Ort: Aue - Bad Schlema\nKlassen/Hinweis: alle Klassen\nAusricht
+ er: FCE Aue\nRanglistenturnier\nSterne berechtigt\nQuelle: Wettkampfkalend
+ er des SBV (PDF auf sachsenbogen.de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:0aaefde84c09818977b2@turniertools.sbv
-DTSTAMP:20261112T000000Z
-LAST-MODIFIED:20261112T000000Z
-SEQUENCE:0
+DTSTAMP:20261113T000000Z
+LAST-MODIFIED:20261113T000000Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20270529
 DTEND;VALUE=DATE:20270530
-SUMMARY:Dohna: Sachsenmeisterschaft offen – Feld/Wald – RC\, Cu + Böge
- n ohne Visier
+SUMMARY:SBV: Sachsenmeisterschaft offen – Feld/Wald – RC\, Cu + Bögen 
+ ohne Visier
 LOCATION:Dohna
-DESCRIPTION:Ort: Dohna\nKlassen/Hinweis: alle Klassen SBV\nRanglistenturnie
- r\nQuelle: Wettkampfkalender des SBV (PDF auf sachsenbogen.de)
+DESCRIPTION:Ort: Dohna\nKlassen/Hinweis: alle Klassen\nAusrichter: SBV\nSte
+ rne berechtigt\nQuelle: Wettkampfkalender des SBV (PDF auf sachsenbogen.de
+ )
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1113,56 +1109,57 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b55fe3d14431817d32e6@turniertools.sbv
-DTSTAMP:20261112T000000Z
-LAST-MODIFIED:20261112T000000Z
-SEQUENCE:0
+DTSTAMP:20261113T000000Z
+LAST-MODIFIED:20261113T000000Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20270605
 DTEND;VALUE=DATE:20270606
-SUMMARY:x: Dreiländereck- Pokalwettkampf 144er- Runde
+SUMMARY:OSV Zittau: Dreiländereck- Pokalwettkampf 144er- Runde
 LOCATION:Zittau
-DESCRIPTION:Ort: Zittau\nKlassen/Hinweis: alle Klassen OSV Zittau\nAusricht
- er: x\nRanglistenturnier\nQuelle: Wettkampfkalender des SBV (PDF auf sachs
- enbogen.de)
+DESCRIPTION:Ort: Zittau\nKlassen/Hinweis: alle Klassen\nAusrichter: OSV Zit
+ tau\nRanglistenturnier\nSterne berechtigt\nQuelle: Wettkampfkalender des S
+ BV (PDF auf sachsenbogen.de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:955d0609fe5120b82c30@turniertools.sbv
-DTSTAMP:20261112T000000Z
-LAST-MODIFIED:20261112T000000Z
-SEQUENCE:0
+DTSTAMP:20261113T000000Z
+LAST-MODIFIED:20261113T000000Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20270605
 DTEND;VALUE=DATE:20270606
-SUMMARY:Krobnitz: Schlossturnier 3D freies Turnier
+SUMMARY:SV Koweg Görlitzz: Schlossturnier 3D freies Turnier
 LOCATION:Krobnitz
-DESCRIPTION:Ort: Krobnitz\nKlassen/Hinweis: alle Bogenklassen SV Koweg Gör
- litzz\nQuelle: Wettkampfkalender des SBV (PDF auf sachsenbogen.de)
+DESCRIPTION:Ort: Krobnitz\nKlassen/Hinweis: alle Bogenklassen\nAusrichter: 
+ SV Koweg Görlitzz\nQuelle: Wettkampfkalender des SBV (PDF auf sachsenboge
+ n.de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:eee092d0d9ba49633eaa@turniertools.sbv
-DTSTAMP:20261112T000000Z
-LAST-MODIFIED:20261112T000000Z
-SEQUENCE:0
+DTSTAMP:20261113T000000Z
+LAST-MODIFIED:20261113T000000Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20270605
 DTEND;VALUE=DATE:20270606
-SUMMARY:x: offene Vereinsmeisterschaft/ Zwickiade
+SUMMARY:BSC Glauchau: offene Vereinsmeisterschaft/ Zwickiade
 LOCATION:Glauchau
-DESCRIPTION:Ort: Glauchau\nKlassen/Hinweis: alle Klassen BSC Glauchau\nAusr
- ichter: x\nRanglistenturnier\nQuelle: Wettkampfkalender des SBV (PDF auf s
- achsenbogen.de)
+DESCRIPTION:Ort: Glauchau\nKlassen/Hinweis: alle Klassen\nAusrichter: BSC G
+ lauchau\nRanglistenturnier\nSterne berechtigt\nQuelle: Wettkampfkalender d
+ es SBV (PDF auf sachsenbogen.de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:bcc00f5aa19be83b3d4f@turniertools.sbv
-DTSTAMP:20261112T000000Z
-LAST-MODIFIED:20261112T000000Z
-SEQUENCE:0
+DTSTAMP:20261113T000000Z
+LAST-MODIFIED:20261113T000000Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20270606
 DTEND;VALUE=DATE:20270607
-SUMMARY:Glauchau: 1. Runde Landesliga\, 30m BoV
+SUMMARY:SBV: 1. Runde Landesliga\, 30m BoV
 LOCATION:Glauchau
-DESCRIPTION:Ort: Glauchau\nKlassen/Hinweis: Mannsch. gem Meldung SBV\nQuell
- e: Wettkampfkalender des SBV (PDF auf sachsenbogen.de)
+DESCRIPTION:Ort: Glauchau\nKlassen/Hinweis: Mannsch. gem Meldung\nAusrichte
+ r: SBV\nQuelle: Wettkampfkalender des SBV (PDF auf sachsenbogen.de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1180,29 +1177,29 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:cc1ffcb3d580dbd792c5@turniertools.sbv
-DTSTAMP:20261112T000000Z
-LAST-MODIFIED:20261112T000000Z
-SEQUENCE:0
+DTSTAMP:20261113T000000Z
+LAST-MODIFIED:20261113T000000Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20270612
 DTEND;VALUE=DATE:20270613
-SUMMARY:Seifersdorf: Bogenjagd im Steegenwald
+SUMMARY:BSV Seifersdorf: Bogenjagd im Steegenwald
 LOCATION:Seifersdorf
-DESCRIPTION:Ort: Seifersdorf\nKlassen/Hinweis: alle Klassen BSV Seifersdorf
- \nQuelle: Wettkampfkalender des SBV (PDF auf sachsenbogen.de)
+DESCRIPTION:Ort: Seifersdorf\nKlassen/Hinweis: alle Klassen\nAusrichter: BS
+ V Seifersdorf\nQuelle: Wettkampfkalender des SBV (PDF auf sachsenbogen.de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:43ddd0ba9b16f1605cec@turniertools.sbv
-DTSTAMP:20261112T000000Z
-LAST-MODIFIED:20261112T000000Z
-SEQUENCE:0
+DTSTAMP:20261113T000000Z
+LAST-MODIFIED:20261113T000000Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20270612
 DTEND;VALUE=DATE:20270613
-SUMMARY:x: Chemnitz Masters 144er
+SUMMARY:BSC Chemnitz-Rabenstein: Chemnitz Masters 144er
 LOCATION:Chemnitz-Rabenstein
-DESCRIPTION:Ort: Chemnitz-Rabenstein\nKlassen/Hinweis: alle Klassen BSC Che
- mnitz-Ra\nAusrichter: x\nRanglistenturnier\nQuelle: Wettkampfkalender des 
- SBV (PDF auf sachsenbogen.de)
+DESCRIPTION:Ort: Chemnitz-Rabenstein\nKlassen/Hinweis: alle Klassen\nAusric
+ hter: BSC Chemnitz-Rabenstein\nRanglistenturnier\nSterne berechtigt\nQuell
+ e: Wettkampfkalender des SBV (PDF auf sachsenbogen.de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1221,54 +1218,54 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e496db51881531f459f1@turniertools.sbv
-DTSTAMP:20261112T000000Z
-LAST-MODIFIED:20261112T000000Z
-SEQUENCE:0
+DTSTAMP:20261113T000000Z
+LAST-MODIFIED:20261113T000000Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20270613
 DTEND;VALUE=DATE:20270614
-SUMMARY:Chemnitz-Rabenstein: Bogenlauf Cup
+SUMMARY:BSC Chemnitz-Rabenstein: Bogenlauf Cup
 LOCATION:Chemnitz-Rabenstein
-DESCRIPTION:Ort: Chemnitz-Rabenstein\nKlassen/Hinweis: BSC Chemnitz-Rabenst
- ein\nQuelle: Wettkampfkalender des SBV (PDF auf sachsenbogen.de)
+DESCRIPTION:Ort: Chemnitz-Rabenstein\nAusrichter: BSC Chemnitz-Rabenstein\n
+ Quelle: Wettkampfkalender des SBV (PDF auf sachsenbogen.de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a803abea346f20a4b18d@turniertools.sbv
-DTSTAMP:20261112T000000Z
-LAST-MODIFIED:20261112T000000Z
-SEQUENCE:0
+DTSTAMP:20261113T000000Z
+LAST-MODIFIED:20261113T000000Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20270613
 DTEND;VALUE=DATE:20270614
-SUMMARY:x: Sachsenmeisterschaft – WA - Runde
+SUMMARY:SBV: Sachsenmeisterschaft – WA - Runde
 LOCATION:Chemnitz-Rabenstein
-DESCRIPTION:Ort: Chemnitz-Rabenstein\nKlassen/Hinweis: alle AK SBV\, alle B
- ogenklassen\nAusrichter: x\nRanglistenturnier\nQuelle: Wettkampfkalender d
- es SBV (PDF auf sachsenbogen.de)
+DESCRIPTION:Ort: Chemnitz-Rabenstein\nKlassen/Hinweis: alle AK\, alle Bogen
+ klassen\nAusrichter: SBV\nRanglistenturnier\nSterne berechtigt\nQuelle: We
+ ttkampfkalender des SBV (PDF auf sachsenbogen.de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:cd5d906cdb6822085c8c@turniertools.sbv
-DTSTAMP:20261112T000000Z
-LAST-MODIFIED:20261112T000000Z
-SEQUENCE:0
+DTSTAMP:20261113T000000Z
+LAST-MODIFIED:20261113T000000Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20270622
 DTEND;VALUE=DATE:20270623
-SUMMARY:Meldeschluss für alle Deutschen Meisterschaften
-DESCRIPTION:Klassen/Hinweis: SBV\nQuelle: Wettkampfkalender des SBV (PDF au
- f sachsenbogen.de)
+SUMMARY:SBV: Meldeschluss für alle Deutschen Meisterschaften
+DESCRIPTION:Ausrichter: SBV\nQuelle: Wettkampfkalender des SBV (PDF auf sac
+ hsenbogen.de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b7466cc5a8d37a523626@turniertools.sbv
-DTSTAMP:20261112T000000Z
-LAST-MODIFIED:20261112T000000Z
-SEQUENCE:0
+DTSTAMP:20261113T000000Z
+LAST-MODIFIED:20261113T000000Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20270627
 DTEND;VALUE=DATE:20270628
-SUMMARY:Werdau: 2. Runde Landesliga\, Rc
+SUMMARY:SBV: 2. Runde Landesliga\, Rc
 LOCATION:Werdau
-DESCRIPTION:Ort: Werdau\nKlassen/Hinweis: Mannsch. gem Meldung SBV\nQuelle:
-  Wettkampfkalender des SBV (PDF auf sachsenbogen.de)
+DESCRIPTION:Ort: Werdau\nKlassen/Hinweis: Mannsch. gem Meldung\nAusrichter:
+  SBV\nQuelle: Wettkampfkalender des SBV (PDF auf sachsenbogen.de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1286,28 +1283,28 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:28a383c88840257ff864@turniertools.sbv
-DTSTAMP:20261112T000000Z
-LAST-MODIFIED:20261112T000000Z
-SEQUENCE:0
+DTSTAMP:20261113T000000Z
+LAST-MODIFIED:20261113T000000Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20270703
 DTEND;VALUE=DATE:20270704
-SUMMARY:Freital: Windbergturnier lt. Ausschreibung
+SUMMARY:SC Freital: Windbergturnier lt. Ausschreibung
 LOCATION:Freital
-DESCRIPTION:Ort: Freital\nKlassen/Hinweis: alle Klassen SC Freital\nQuelle:
-  Wettkampfkalender des SBV (PDF auf sachsenbogen.de)
+DESCRIPTION:Ort: Freital\nKlassen/Hinweis: alle Klassen\nAusrichter: SC Fre
+ ital\nQuelle: Wettkampfkalender des SBV (PDF auf sachsenbogen.de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:7189dbb2805e11a7d4e6@turniertools.sbv
-DTSTAMP:20261112T000000Z
-LAST-MODIFIED:20261112T000000Z
-SEQUENCE:0
+DTSTAMP:20261113T000000Z
+LAST-MODIFIED:20261113T000000Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20270704
 DTEND;VALUE=DATE:20270705
-SUMMARY:Plauen: 16. Plauener 900er Runde
+SUMMARY:BSV Plauen: 16. Plauener 900er Runde
 LOCATION:Plauen
-DESCRIPTION:Ort: Plauen\nKlassen/Hinweis: alle Klassen BSV Plauen\nQuelle: 
- Wettkampfkalender des SBV (PDF auf sachsenbogen.de)
+DESCRIPTION:Ort: Plauen\nKlassen/Hinweis: alle Klassen\nAusrichter: BSV Pla
+ uen\nQuelle: Wettkampfkalender des SBV (PDF auf sachsenbogen.de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1323,28 +1320,28 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:039abc3f65748037c100@turniertools.sbv
-DTSTAMP:20261112T000000Z
-LAST-MODIFIED:20261112T000000Z
-SEQUENCE:0
+DTSTAMP:20261113T000000Z
+LAST-MODIFIED:20261113T000000Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20270709
 DTEND;VALUE=DATE:20270712
-SUMMARY:Papstdorf: Traineraus- und -fortbildung
+SUMMARY:SBV: Traineraus- und -fortbildung
 LOCATION:Papstdorf
-DESCRIPTION:Ort: Papstdorf\nKlassen/Hinweis: Meldung bis 01.05.2026 SBV\nQu
- elle: Wettkampfkalender des SBV (PDF auf sachsenbogen.de)
+DESCRIPTION:Ort: Papstdorf\nKlassen/Hinweis: Meldung bis 01.05.2026\nAusric
+ hter: SBV\nQuelle: Wettkampfkalender des SBV (PDF auf sachsenbogen.de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c131e4c97ecc9939a3c1@turniertools.sbv
-DTSTAMP:20261112T000000Z
-LAST-MODIFIED:20261112T000000Z
-SEQUENCE:0
+DTSTAMP:20261113T000000Z
+LAST-MODIFIED:20261113T000000Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20270709
 DTEND;VALUE=DATE:20270713
-SUMMARY:Papstdorf: Trainingslager des SBV U12-U18
+SUMMARY:SBV: Trainingslager des SBV U12-U18
 LOCATION:Papstdorf
-DESCRIPTION:Ort: Papstdorf\nKlassen/Hinweis: Meldung bis 01.05.2026 SBV\nQu
- elle: Wettkampfkalender des SBV (PDF auf sachsenbogen.de)
+DESCRIPTION:Ort: Papstdorf\nKlassen/Hinweis: Meldung bis 01.05.2026\nAusric
+ hter: SBV\nQuelle: Wettkampfkalender des SBV (PDF auf sachsenbogen.de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1425,20 +1422,6 @@ DESCRIPTION:Ort: Schefflenz (BW)\nDisziplin: Scheibe\nAusrichter: DBSV\nAus
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:faa649ba8459027804fa@turniertools.sbv
-DTSTAMP:20261112T000000Z
-LAST-MODIFIED:20261112T000000Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20270911
-DTEND;VALUE=DATE:20270913
-SUMMARY:Torgelow (BB): Deutsche Feld- und Waldmeisterschaft
-LOCATION:Torgelow (BB)
-DESCRIPTION:Ort: Torgelow (BB)\nKlassen/Hinweis: alle Klassen\, DBSV\, nach
-  Nominierung\nRanglistenturnier\nQuelle: Wettkampfkalender des SBV (PDF au
- f sachsenbogen.de)
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:6ec6d634cfbecf04a87b@turniertools.sbv
 DTSTAMP:20261028T000000Z
 LAST-MODIFIED:20261028T000000Z
@@ -1453,15 +1436,15 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:83af9a7882479dad817c@turniertools.sbv
-DTSTAMP:20261112T000000Z
-LAST-MODIFIED:20261112T000000Z
-SEQUENCE:0
+DTSTAMP:20261113T000000Z
+LAST-MODIFIED:20261113T000000Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20270917
 DTEND;VALUE=DATE:20270920
-SUMMARY:Papstdorf: Familienbogenfreizeit
+SUMMARY:SBV: Familienbogenfreizeit
 LOCATION:Papstdorf
-DESCRIPTION:Ort: Papstdorf\nKlassen/Hinweis: Meldung bis 31.07.2026 SBV\nQu
- elle: Wettkampfkalender des SBV (PDF auf sachsenbogen.de)
+DESCRIPTION:Ort: Papstdorf\nKlassen/Hinweis: Meldung bis 31.07.2026\nAusric
+ hter: SBV\nQuelle: Wettkampfkalender des SBV (PDF auf sachsenbogen.de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1492,42 +1475,42 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:9db892cda54b43db3d77@turniertools.sbv
-DTSTAMP:20261112T000000Z
-LAST-MODIFIED:20261112T000000Z
-SEQUENCE:0
+DTSTAMP:20261113T000000Z
+LAST-MODIFIED:20261113T000000Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20270918
 DTEND;VALUE=DATE:20270920
-SUMMARY:Chemnitz-Rabenstein: Rabensteiner Bogenjagd nach IFAA
+SUMMARY:BSC Chemnitz-Rabenstein: Rabensteiner Bogenjagd nach IFAA
 LOCATION:Chemnitz-Rabenstein
-DESCRIPTION:Ort: Chemnitz-Rabenstein\nKlassen/Hinweis: alle Klassen BSC Che
- mnitz-Rabenstein\nRanglistenturnier\nQuelle: Wettkampfkalender des SBV (PD
- F auf sachsenbogen.de)
+DESCRIPTION:Ort: Chemnitz-Rabenstein\nKlassen/Hinweis: alle Klassen\nAusric
+ hter: BSC Chemnitz-Rabenstein\nSterne berechtigt\nQuelle: Wettkampfkalende
+ r des SBV (PDF auf sachsenbogen.de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:94b7f58984981cfecb43@turniertools.sbv
-DTSTAMP:20261112T000000Z
-LAST-MODIFIED:20261112T000000Z
-SEQUENCE:0
+DTSTAMP:20261113T000000Z
+LAST-MODIFIED:20261113T000000Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20270918
 DTEND;VALUE=DATE:20270920
-SUMMARY:Papstdorf: Traineraus- und Weiterbildung Teil 3 mit Prüfung
+SUMMARY:SBV: Traineraus- und Weiterbildung Teil 3 mit Prüfung
 LOCATION:Papstdorf
-DESCRIPTION:Ort: Papstdorf\nKlassen/Hinweis: Meldung bis 31.07.2026 SBV\nQu
- elle: Wettkampfkalender des SBV (PDF auf sachsenbogen.de)
+DESCRIPTION:Ort: Papstdorf\nKlassen/Hinweis: Meldung bis 31.07.2026\nAusric
+ hter: SBV\nQuelle: Wettkampfkalender des SBV (PDF auf sachsenbogen.de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:019cc974ba3820389c92@turniertools.sbv
-DTSTAMP:20261112T000000Z
-LAST-MODIFIED:20261112T000000Z
-SEQUENCE:0
+DTSTAMP:20261113T000000Z
+LAST-MODIFIED:20261113T000000Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20270924
 DTEND;VALUE=DATE:20270926
-SUMMARY:Glauchau: 25h Jubiläums- Mannschaftsturnier
+SUMMARY:BSC Glauchau: 25h Jubiläums- Mannschaftsturnier
 LOCATION:Glauchau
-DESCRIPTION:Ort: Glauchau\nKlassen/Hinweis: BSC Glauchau\nQuelle: Wettkampf
- kalender des SBV (PDF auf sachsenbogen.de)
+DESCRIPTION:Ort: Glauchau\nAusrichter: BSC Glauchau\nQuelle: Wettkampfkalen
+ der des SBV (PDF auf sachsenbogen.de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1568,99 +1551,99 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8854ce69229f104e563b@turniertools.sbv
-DTSTAMP:20261112T000000Z
-LAST-MODIFIED:20261112T000000Z
-SEQUENCE:0
+DTSTAMP:20261113T000000Z
+LAST-MODIFIED:20261113T000000Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20271024
 DTEND;VALUE=DATE:20271025
-SUMMARY:Chemnitz: Kalenderkonferenz – Präsidiumssitzung
+SUMMARY:SBV: Kalenderkonferenz – Präsidiumssitzung
 LOCATION:Chemnitz
-DESCRIPTION:Ort: Chemnitz\nKlassen/Hinweis: SBV\nQuelle: Wettkampfkalender 
- des SBV (PDF auf sachsenbogen.de)
+DESCRIPTION:Ort: Chemnitz\nAusrichter: SBV\nQuelle: Wettkampfkalender des S
+ BV (PDF auf sachsenbogen.de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:bf7b37bd0505ac991d82@turniertools.sbv
-DTSTAMP:20261112T000000Z
-LAST-MODIFIED:20261112T000000Z
-SEQUENCE:0
+DTSTAMP:20261113T000000Z
+LAST-MODIFIED:20261113T000000Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20271030
 DTEND;VALUE=DATE:20271101
-SUMMARY:x: Hallenwettkampf 2 x 18 m "Ins Gold Turnier"
+SUMMARY:SC Freital: Hallenwettkampf 2 x 18 m "Ins Gold Turnier"
 LOCATION:Freital
-DESCRIPTION:Ort: Freital\nKlassen/Hinweis: alle Klassen SC Freital\nAusrich
- ter: x\nRanglistenturnier\nQuelle: Wettkampfkalender des SBV (PDF auf sach
- senbogen.de)
+DESCRIPTION:Ort: Freital\nKlassen/Hinweis: alle Klassen\nAusrichter: SC Fre
+ ital\nRanglistenturnier\nSterne berechtigt\nQuelle: Wettkampfkalender des 
+ SBV (PDF auf sachsenbogen.de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b8dd82bf25e7f2b42bbf@turniertools.sbv
-DTSTAMP:20261112T000000Z
-LAST-MODIFIED:20261112T000000Z
-SEQUENCE:0
+DTSTAMP:20261113T000000Z
+LAST-MODIFIED:20261113T000000Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20271106
 DTEND;VALUE=DATE:20271108
-SUMMARY:x: 12. Torgauer Hallenturnier
+SUMMARY:SSV 1952 Torgau: 12. Torgauer Hallenturnier
 LOCATION:Torgau
-DESCRIPTION:Ort: Torgau\nKlassen/Hinweis: alle Klassen SSV 1952 Torgau\nAus
- richter: x\nRanglistenturnier\nQuelle: Wettkampfkalender des SBV (PDF auf 
- sachsenbogen.de)
+DESCRIPTION:Ort: Torgau\nKlassen/Hinweis: alle Klassen\nAusrichter: SSV 195
+ 2 Torgau\nRanglistenturnier\nSterne berechtigt\nQuelle: Wettkampfkalender 
+ des SBV (PDF auf sachsenbogen.de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4b00123939aaf797d2ee@turniertools.sbv
-DTSTAMP:20261112T000000Z
-LAST-MODIFIED:20261112T000000Z
-SEQUENCE:0
+DTSTAMP:20261113T000000Z
+LAST-MODIFIED:20261113T000000Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20271113
 DTEND;VALUE=DATE:20271114
-SUMMARY:x: Hallenwettkampf 2 x 18 m
+SUMMARY:SV Koweg Görlitzz: Hallenwettkampf 2 x 18 m
 LOCATION:Görlitz
-DESCRIPTION:Ort: Görlitz\nKlassen/Hinweis: alle Klassen SV Koweg Görlitz\
- nAusrichter: x\nRanglistenturnier\nQuelle: Wettkampfkalender des SBV (PDF 
- auf sachsenbogen.de)
+DESCRIPTION:Ort: Görlitz\nKlassen/Hinweis: alle Klassen\nAusrichter: SV Ko
+ weg Görlitzz\nRanglistenturnier\nSterne berechtigt\nQuelle: Wettkampfkale
+ nder des SBV (PDF auf sachsenbogen.de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:5f63f4d93e9cbd837c8c@turniertools.sbv
-DTSTAMP:20261112T000000Z
-LAST-MODIFIED:20261112T000000Z
-SEQUENCE:0
+DTSTAMP:20261113T000000Z
+LAST-MODIFIED:20261113T000000Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20271113
 DTEND;VALUE=DATE:20271115
-SUMMARY:x: offene Vereinsmeisterschaft
+SUMMARY:BSC Chemnitz-Rabenstein: offene Vereinsmeisterschaft
 LOCATION:Chemnitz
-DESCRIPTION:Ort: Chemnitz\nKlassen/Hinweis: alle Klassen BSC Chemnitz-Ra\nA
- usrichter: x\nRanglistenturnier\nQuelle: Wettkampfkalender des SBV (PDF au
- f sachsenbogen.de)
+DESCRIPTION:Ort: Chemnitz\nKlassen/Hinweis: alle Klassen\nAusrichter: BSC C
+ hemnitz-Rabenstein\nRanglistenturnier\nSterne berechtigt\nQuelle: Wettkamp
+ fkalender des SBV (PDF auf sachsenbogen.de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:56825d428bad78386484@turniertools.sbv
-DTSTAMP:20261112T000000Z
-LAST-MODIFIED:20261112T000000Z
-SEQUENCE:0
+DTSTAMP:20261113T000000Z
+LAST-MODIFIED:20261113T000000Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20271121
 DTEND;VALUE=DATE:20271122
-SUMMARY:x: Stiefelpokal Hallenwettkampf 2 x 18 m
+SUMMARY:Döbelner BS 72: Stiefelpokal Hallenwettkampf 2 x 18 m
 LOCATION:Döbeln
-DESCRIPTION:Ort: Döbeln\nKlassen/Hinweis: alle Klassen Döbelner BS 72\nAu
- srichter: x\nRanglistenturnier\nQuelle: Wettkampfkalender des SBV (PDF auf
-  sachsenbogen.de)
+DESCRIPTION:Ort: Döbeln\nKlassen/Hinweis: alle Klassen\nAusrichter: Döbel
+ ner BS 72\nRanglistenturnier\nSterne berechtigt\nQuelle: Wettkampfkalender
+  des SBV (PDF auf sachsenbogen.de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6ddea2fdb652acc9f086@turniertools.sbv
-DTSTAMP:20261112T000000Z
-LAST-MODIFIED:20261112T000000Z
-SEQUENCE:0
+DTSTAMP:20261113T000000Z
+LAST-MODIFIED:20261113T000000Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20271127
 DTEND;VALUE=DATE:20271128
-SUMMARY:x: 33. Leipziger Hallenturnier 2 x 18 m
+SUMMARY:MoGoNo Leipzig: 33. Leipziger Hallenturnier 2 x 18 m
 LOCATION:Leipzig
-DESCRIPTION:Ort: Leipzig\nKlassen/Hinweis: alle Klassen MoGoNo Leipzig\nAus
- richter: x\nRanglistenturnier\nQuelle: Wettkampfkalender des SBV (PDF auf 
- sachsenbogen.de)
+DESCRIPTION:Ort: Leipzig\nKlassen/Hinweis: alle Klassen\nAusrichter: MoGoNo
+  Leipzig\nRanglistenturnier\nSterne berechtigt\nQuelle: Wettkampfkalender 
+ des SBV (PDF auf sachsenbogen.de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1691,16 +1674,16 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6e6b4bbb54613f46dc28@turniertools.sbv
-DTSTAMP:20261112T000000Z
-LAST-MODIFIED:20261112T000000Z
-SEQUENCE:0
+DTSTAMP:20261113T000000Z
+LAST-MODIFIED:20261113T000000Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20271203
 DTEND;VALUE=DATE:20271205
-SUMMARY:x: 32. Adventswettkampf 2 x 18 m
+SUMMARY:Dresdner BV: 32. Adventswettkampf 2 x 18 m
 LOCATION:Dresden
-DESCRIPTION:Ort: Dresden\nKlassen/Hinweis: alle Klassen Dresdner BV\nAusric
- hter: x\nRanglistenturnier\nQuelle: Wettkampfkalender des SBV (PDF auf sac
- hsenbogen.de)
+DESCRIPTION:Ort: Dresden\nKlassen/Hinweis: alle Klassen\nAusrichter: Dresdn
+ er BV\nRanglistenturnier\nSterne berechtigt\nQuelle: Wettkampfkalender des
+  SBV (PDF auf sachsenbogen.de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1718,102 +1701,102 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f64ad1c2cbbcba7193b1@turniertools.sbv
-DTSTAMP:20261112T000000Z
-LAST-MODIFIED:20261112T000000Z
-SEQUENCE:0
+DTSTAMP:20261113T000000Z
+LAST-MODIFIED:20261113T000000Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20271211
 DTEND;VALUE=DATE:20271212
-SUMMARY:x: Hallenwettkampf 2 x 18 m
+SUMMARY:SV Koweg Görlitzz: Hallenwettkampf 2 x 18 m
 LOCATION:Görlitz
-DESCRIPTION:Ort: Görlitz\nKlassen/Hinweis: alle Klassen SV Koweg Görlitz\
- nAusrichter: x\nRanglistenturnier\nQuelle: Wettkampfkalender des SBV (PDF 
- auf sachsenbogen.de)
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:cc851f0d1a7211542faa@turniertools.sbv
-DTSTAMP:20261112T000000Z
-LAST-MODIFIED:20261112T000000Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20271211
-DTEND;VALUE=DATE:20271213
-SUMMARY:x: 33. Weihnachtsturnier 2 x 18 m
-LOCATION:Schneeberg
-DESCRIPTION:Ort: Schneeberg\nKlassen/Hinweis: alle Klassen FCE Aue\nAusrich
- ter: x\nRanglistenturnier\nQuelle: Wettkampfkalender des SBV (PDF auf sach
- senbogen.de)
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:73d77e10a55eefdfe066@turniertools.sbv
-DTSTAMP:20261112T000000Z
-LAST-MODIFIED:20261112T000000Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20280107
-DTEND;VALUE=DATE:20280109
-SUMMARY:x: offene Vereinsmeisterschaft 2 x 18 m
-LOCATION:Glauchau
-DESCRIPTION:Ort: Glauchau\nKlassen/Hinweis: alle Klassen BSC Glauchau\nAusr
- ichter: x\nRanglistenturnier\nQuelle: Wettkampfkalender des SBV (PDF auf s
- achsenbogen.de)
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:eeeebdafde7d90aca5a0@turniertools.sbv
-DTSTAMP:20261112T000000Z
-LAST-MODIFIED:20261112T000000Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20280109
-DTEND;VALUE=DATE:20280110
-SUMMARY:x: Winterpokal 2 x 18 m + Finale – 2 x 18 m – 2. Runde Landesli
- ga Halle 18m Rc – 2. Runde 1. Landesliga Halle 18m BoV – 2. Runde 2. L
- andesliga Halle 18m BoV
-LOCATION:Boxdorf
-DESCRIPTION:Ort: Boxdorf\nKlassen/Hinweis: alle Klassen BSC Friedewald\, ge
- meldete Vereinsmannschaften\, gemeldete Vereinsmannschaften\, gemeldete Ve
- reinsmannschaften\nAusrichter: x\nRanglistenturnier\nQuelle: Wettkampfkale
+DESCRIPTION:Ort: Görlitz\nKlassen/Hinweis: alle Klassen\nAusrichter: SV Ko
+ weg Görlitzz\nRanglistenturnier\nSterne berechtigt\nQuelle: Wettkampfkale
  nder des SBV (PDF auf sachsenbogen.de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:cc851f0d1a7211542faa@turniertools.sbv
+DTSTAMP:20261113T000000Z
+LAST-MODIFIED:20261113T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20271211
+DTEND;VALUE=DATE:20271213
+SUMMARY:FCE Aue: 33. Weihnachtsturnier 2 x 18 m
+LOCATION:Schneeberg
+DESCRIPTION:Ort: Schneeberg\nKlassen/Hinweis: alle Klassen\nAusrichter: FCE
+  Aue\nRanglistenturnier\nSterne berechtigt\nQuelle: Wettkampfkalender des 
+ SBV (PDF auf sachsenbogen.de)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:73d77e10a55eefdfe066@turniertools.sbv
+DTSTAMP:20261113T000000Z
+LAST-MODIFIED:20261113T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20280107
+DTEND;VALUE=DATE:20280109
+SUMMARY:BSC Glauchau: offene Vereinsmeisterschaft 2 x 18 m
+LOCATION:Glauchau
+DESCRIPTION:Ort: Glauchau\nKlassen/Hinweis: alle Klassen\nAusrichter: BSC G
+ lauchau\nRanglistenturnier\nSterne berechtigt\nQuelle: Wettkampfkalender d
+ es SBV (PDF auf sachsenbogen.de)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:eeeebdafde7d90aca5a0@turniertools.sbv
+DTSTAMP:20261113T000000Z
+LAST-MODIFIED:20261113T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20280109
+DTEND;VALUE=DATE:20280110
+SUMMARY:BSC Friedewald: Winterpokal 2 x 18 m + Finale – 2 x 18 m – 2. R
+ unde Landesliga Halle 18m Rc – 2. Runde 1. Landesliga Halle 18m BoV – 
+ 2. Runde 2. Landesliga Halle 18m BoV
+LOCATION:Boxdorf
+DESCRIPTION:Ort: Boxdorf\nKlassen/Hinweis: alle Klassen\, gemeldete Vereins
+ mannschaften\, gemeldete Vereinsmannschaften\, gemeldete Vereinsmannschaft
+ en\nAusrichter: BSC Friedewald\nRanglistenturnier\nSterne berechtigt\nQuel
+ le: Wettkampfkalender des SBV (PDF auf sachsenbogen.de)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:5d949d8ac9411fd2e21b@turniertools.sbv
-DTSTAMP:20261112T000000Z
-LAST-MODIFIED:20261112T000000Z
-SEQUENCE:0
+DTSTAMP:20261113T000000Z
+LAST-MODIFIED:20261113T000000Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20280226
 DTEND;VALUE=DATE:20280228
-SUMMARY:x: Prozentepokal Hallenwettkampf 2x18m
+SUMMARY:Freital: Prozentepokal Hallenwettkampf 2x18m
 LOCATION:Freital
-DESCRIPTION:Ort: Freital\nKlassen/Hinweis: alle Klassen\nAusrichter: x\nRan
- glistenturnier\nQuelle: Wettkampfkalender des SBV (PDF auf sachsenbogen.de
- )
+DESCRIPTION:Ort: Freital\nKlassen/Hinweis: alle Klassen\nRanglistenturnier\
+ nSterne berechtigt\nQuelle: Wettkampfkalender des SBV (PDF auf sachsenboge
+ n.de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:886d0e1220154f6cc48e@turniertools.sbv
-DTSTAMP:20261112T000000Z
-LAST-MODIFIED:20261112T000000Z
-SEQUENCE:0
+DTSTAMP:20261113T000000Z
+LAST-MODIFIED:20261113T000000Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20280227
 DTEND;VALUE=DATE:20280228
-SUMMARY:Chemnitz: SBV-Verbandstag
+SUMMARY:SBV-Präsidium: SBV-Verbandstag
 LOCATION:Chemnitz
-DESCRIPTION:Ort: Chemnitz\nKlassen/Hinweis: SBV-Präsidium\nQuelle: Wettkam
- pfkalender des SBV (PDF auf sachsenbogen.de)
+DESCRIPTION:Ort: Chemnitz\nAusrichter: SBV-Präsidium\nQuelle: Wettkampfkal
+ ender des SBV (PDF auf sachsenbogen.de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4f8bea01170820f094f3@turniertools.sbv
-DTSTAMP:20261112T000000Z
-LAST-MODIFIED:20261112T000000Z
-SEQUENCE:0
+DTSTAMP:20261113T000000Z
+LAST-MODIFIED:20261113T000000Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20280305
 DTEND;VALUE=DATE:20280306
-SUMMARY:x: Jugendpokal 2 x 18 m
+SUMMARY:SC Hoyerswerda: Jugendpokal 2 x 18 m
 LOCATION:Hoyerswerda
-DESCRIPTION:Ort: Hoyerswerda\nKlassen/Hinweis: Pokal für U10-U17 SC Hoyers
- werda\, alle BK\, Erw. wenn Platz\nAusrichter: x\nRanglistenturnier\nQuell
- e: Wettkampfkalender des SBV (PDF auf sachsenbogen.de)
+DESCRIPTION:Ort: Hoyerswerda\nKlassen/Hinweis: Pokal für U10-U17\, alle BK
+ \, Erw. wenn Platz\nAusrichter: SC Hoyerswerda\nRanglistenturnier\nSterne 
+ berechtigt\nQuelle: Wettkampfkalender des SBV (PDF auf sachsenbogen.de)
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR
