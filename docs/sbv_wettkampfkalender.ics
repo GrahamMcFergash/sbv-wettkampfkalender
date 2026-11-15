@@ -287,23 +287,6 @@ DESCRIPTION:Ort: Torgau\nKlassen/Hinweis: alle Klassen\nAusrichter: SSV 195
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:764580ac519a5cf8d2ca@turniertools.sbv
-DTSTAMP:20261027T000000Z
-LAST-MODIFIED:20261027T000000Z
-SEQUENCE:1
-DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20261108
-SUMMARY:🏆 SBV: Hallenturnier
-URL:https://www.sachsenbogen.de/dbdata/wettkampf/C211e16978fa629b9f54ef4097
- f5a7a3e.pdf
-ATTACH;FMTTYPE=application/pdf:https://www.sachsenbogen.de/dbdata/wettkampf
- /C211e16978fa629b9f54ef4097f5a7a3e.pdf
-DESCRIPTION:Ausschreibung: https://www.sachsenbogen.de/dbdata/wettkampf/C21
- 1e16978fa629b9f54ef4097f5a7a3e.pdf\nBeginn: 8:00 Uhr\nAusrichter: SBV\nQue
- lle: Seite Ausschreibungen des SBV (nicht im PDF-Wettkampfkalender)
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:f59942982c0de5506bcd@turniertools.sbv
 DTSTAMP:20261113T000000Z
 LAST-MODIFIED:20261113T000000Z
@@ -319,9 +302,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f4d95dfa6567c0dfeeca@turniertools.sbv
-DTSTAMP:20261113T000000Z
-LAST-MODIFIED:20261113T000000Z
-SEQUENCE:1
+DTSTAMP:20261115T000000Z
+LAST-MODIFIED:20261115T000000Z
+SEQUENCE:2
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261109
 SUMMARY:🏆 BSC Chemnitz-Rabenstein: 4. offene Vereinsmeisterschaft
@@ -330,14 +313,10 @@ URL:https://www.sachsenbogen.de/dbdata/wettkampf/C6c5fb9eba2b40d7c74dc61a2a
  a369bb6.pdf
 ATTACH;FMTTYPE=application/pdf:https://www.sachsenbogen.de/dbdata/wettkampf
  /C6c5fb9eba2b40d7c74dc61a2aa369bb6.pdf
-ATTACH;FMTTYPE=application/pdf:https://www.sachsenbogen.de/dbdata/wettkampf
- /Ca4b6db36874e40af700cbba5610768a2.pdf
-DESCRIPTION:Ausschreibung 07./08.11.2026: https://www.sachsenbogen.de/dbdat
- a/wettkampf/C6c5fb9eba2b40d7c74dc61a2aa369bb6.pdf\nAusschreibung 07.11.202
- 6: https://www.sachsenbogen.de/dbdata/wettkampf/Ca4b6db36874e40af700cbba56
- 10768a2.pdf\nOrt: Chemnitz\nKlassen/Hinweis: alle Klassen\nAusrichter: BSC
-  Chemnitz-Rabenstein\nQuelle: Wettkampfkalender des SBV (PDF auf sachsenbo
- gen.de)
+DESCRIPTION:Ausschreibung: https://www.sachsenbogen.de/dbdata/wettkampf/C6c
+ 5fb9eba2b40d7c74dc61a2aa369bb6.pdf\nOrt: Chemnitz\nKlassen/Hinweis: alle K
+ lassen\nAusrichter: BSC Chemnitz-Rabenstein\nQuelle: Wettkampfkalender des
+  SBV (PDF auf sachsenbogen.de)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
